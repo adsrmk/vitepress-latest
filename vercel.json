@@ -3,7 +3,6 @@
     "outputDirectory": "docs/.vitepress/dist",
     "framework": "vitepress",
     "installCommand": "pnpm install",
-    "nodeVersion": "22.x",
     "headers": [
       {
         "source": "/assets/(.*)",
