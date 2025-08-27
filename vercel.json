@@ -1,5 +1,5 @@
 {
-    "buildCommand": "pnpm docs:build && pnpm docs:lunaria:build",
+    "buildCommand": "pnpm -F docs build && pnpm -F docs lunaria:build",
     "outputDirectory": "docs/.vitepress/dist",
     "framework": "vitepress",
     "installCommand": "pnpm install",
