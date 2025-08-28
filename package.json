@@ -77,7 +77,7 @@
     "docs": "pnpm --stream '/^(docs:)?dev$/'",
   "docs:dev": "vitepress dev docs",
     "docs:debug": "NODE_OPTIONS='--inspect-brk' pnpm docs:dev",
-    "docs:build": "vitepress build docs",
+  "docs:build": "vitepress build docs && pnpm -F docs lunaria:build && cp -r docs/.vitepress/dist/_translations/* docs/.vitepress/dist/",
     "docs:build:only": "pnpm -F=docs build",
     "docs:preview": "vitepress preview docs",
     "docs:lunaria:build": "pnpm -F=docs lunaria:build",
