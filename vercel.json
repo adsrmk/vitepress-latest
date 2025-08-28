@@ -1,33 +1,33 @@
 {
-    "buildCommand": "pnpm -F docs build && pnpm -F docs lunaria:build",
-    "outputDirectory": "docs/.vitepress/dist",
-    "framework": "vitepress",
-    "installCommand": "pnpm install",
-    "headers": [
+  "buildCommand": "npm run docs:build",
+  "outputDirectory": "docs/.vitepress/dist",
+  "framework": "vitepress",
+  "installCommand": "pnpm install",
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
         {
-            "source": "/assets/(.*)",
-            "headers": [
-                {
-                    "key": "cache-control",
-                    "value": "max-age=31536000, immutable"
-                }
-            ]
-        },
-        {
-            "source": "/_translations/(.*)",
-            "headers": [
-                {
-                    "key": "x-robots-tag",
-                    "value": "noindex"
-                }
-            ]
+          "key": "cache-control",
+          "value": "max-age=31536000, immutable"
         }
-    ],
-    "redirects": [
+      ]
+    },
+    {
+      "source": "/_translations/(.*)",
+      "headers": [
         {
-            "source": "/old-path/:splat",
-            "destination": "https://vitepress.dev/:splat",
-            "permanent": true
+          "key": "x-robots-tag",
+          "value": "noindex"
         }
-    ]
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/old-path/:splat",
+      "destination": "https://vitepress.dev/:splat",
+      "permanent": true
+    }
+  ]
 }
