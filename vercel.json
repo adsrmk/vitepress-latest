@@ -1,7 +1,6 @@
 {
-"buildCommand": "vitepress build docs && pnpm -F docs lunaria:build && cp -r docs/.vitepress/dist/_translations/* docs/.vitepress/dist/",  "outputDirectory": "./docs/.vitepress/dist",
-  "framework": "vitepress",
-  "installCommand": "pnpm install",
+  "buildCommand": "pnpm docs:build && pnpm docs:lunaria:build",
+  "outputDirectory": "docs/.vitepress/dist",
   "headers": [
     {
       "source": "/assets/(.*)",
@@ -24,8 +23,23 @@
   ],
   "redirects": [
     {
-      "source": "/old-path/:splat",
-      "destination": "https://vitepress.dev/:splat",
+      "source": "https://vitepress.vuejs.org/(.*)",
+      "destination": "https://vitepress.dev/$1",
+      "permanent": true
+    },
+    {
+      "source": "/guide/",
+      "destination": "/guide/getting-started",
+      "permanent": false
+    },
+    {
+      "source": "/llms.md",
+      "destination": "/llms.txt",
+      "permanent": true
+    },
+    {
+      "source": "/llms-full.md",
+      "destination": "/llms-full.txt",
       "permanent": true
     }
   ]
