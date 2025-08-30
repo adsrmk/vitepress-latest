@@ -3,7 +3,7 @@
 Envision Cloud is a high-performance hosting platform engineered for fast, content-driven WordPress websites. With an intuitive management panel, EVC provides seamless control over domains, databases, and core infrastructure — empowering businesses to focus on growth while we handle the technology.
 
 <div class="tip custom-block" style="padding-top: 8px"> 
-New to Envision Cloud? Start with our [Quick Start Guide](./getting-started) to launch your first site in minutes. 
+New to Envision Cloud? Start with our [Quick Start Guide](/getting-started) to launch your first site in minutes. 
 </div>
 
 ## Use Cases
