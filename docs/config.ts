@@ -65,6 +65,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'What is VitePress?', link: 'what-is-vitepress' },
         { text: 'Getting Started', link: 'getting-started' },
         { text: 'Routing', link: 'routing' },
+        { text: 'Domain', link: 'domain' },
         { text: 'Deploy', link: 'deploy' }
       ]
     },

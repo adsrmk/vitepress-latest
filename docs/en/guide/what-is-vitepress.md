@@ -1,11 +1,9 @@
-# What is VitePress?
+# What is EVCloud?
 
-VitePress is a [Static Site Generator](https://en.wikipedia.org/wiki/Static_site_generator) (SSG) designed for building fast, content-centric websites. In a nutshell, VitePress takes your source content written in [Markdown](https://en.wikipedia.org/wiki/Markdown), applies a theme to it, and generates static HTML pages that can be easily deployed anywhere.
+Envision Cloud is a high-performance hosting platform engineered for fast, content-driven WordPress websites. With an intuitive management panel, EVC provides seamless control over domains, databases, and core infrastructure — empowering businesses to focus on growth while we handle the technology.
 
-<div class="tip custom-block" style="padding-top: 8px">
-
-Just want to try it out? Skip to the [Quickstart](./getting-started).
-
+<div class="tip custom-block" style="padding-top: 8px"> 
+New to Envision Cloud? Start with our [Quick Start Guide](/getting-started) to launch your first site in minutes. 
 </div>
 
 ## Use Cases
