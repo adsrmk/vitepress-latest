@@ -1,11 +1,12 @@
-# Using Vue in Markdown
+# 400 Bad Request
 
-In VitePress, each Markdown file is compiled into HTML and then processed as a [Vue Single-File Component](https://vuejs.org/guide/scaling-up/sfc.html). This means you can use any Vue features inside the Markdown, including dynamic templating, using Vue components, or arbitrary in-page Vue component logic by adding a `<script>` tag.
+A 400 Bad Request error normally means that the server cannot process your request because it is invalid. 
+If ModSecurity is enabled on your website, it can trigger a 400 Bad Request error if it thinks the request is unsafe or violates one of its rules. 
+This means that some pages are unaccessable on the back-end, plugins cannot be uploaded 
 
-It's worth noting that VitePress leverages Vue's compiler to automatically detect and optimize the purely static parts of the Markdown content. Static contents are optimized into single placeholder nodes and eliminated from the page's JavaScript payload for initial visits. They are also skipped during client-side hydration. In short, you only pay for the dynamic parts on any given page.
 
-::: tip SSR Compatibility
-All Vue usage needs to be SSR-compatible. See [SSR Compatibility](./ssr-compat) for details and common workarounds.
+::: tip How to resolve
+If you are still developing your website, it is recommended to *temporarily disable ModSecurity*, as it can block certain legitimate requests and cause errors. 
 :::
 
 ## Templating
