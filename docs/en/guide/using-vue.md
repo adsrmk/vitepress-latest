@@ -5,5 +5,5 @@ A 400 Bad Request error occurs when the server cannot process a request because 
 ::: tip How to resolve
 If you are still developing your website, it is recommended to *temporarily disable ModSecurity*. To do this; Go to your website in the hosting control panel, click Advanced, select Security, and toggle ModSecurity off.
 :::
-
+<br>
 If the issue persists, please contact our support team for assistance.
