@@ -1,21 +1,13 @@
 # 400 Bad Request
 
-A 400 Bad Request error normally means that the server cannot process your request because it is invalid. 
-If ModSecurity is enabled on your website, it can trigger a 400 Bad Request error if it thinks the request is unsafe or violates one of its rules. 
-This means that some pages are unaccessable on the back-end, plugins cannot be uploaded 
+A 400 Bad Request error occurs when the server cannot process a request because it is invalid. This can result in certain pages being inaccessible through the back-end, and it may prevent plugins or other files from being uploaded.
 
 
 ::: tip How to resolve
-If you are still developing your website, it is recommended to *temporarily disable ModSecurity*, as it can block certain legitimate requests and cause errors. 
+If you are still developing your website, it is recommended to *temporarily disable ModSecurity*, as it can block certain legitimate requests and cause errors. To do this; Go to your website in the hosting control panel, click Advanced, select Security, and toggle ModSecurity off.
 :::
 
-## Templating
 
-### Interpolation
-
-Each Markdown file is first compiled into HTML and then passed on as a Vue component to the Vite process pipeline. This means you can use Vue-style interpolation in text:
-
-**Input**
 
 ```md
 {{ 1 + 1 }}
