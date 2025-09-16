@@ -20,7 +20,7 @@ Solution: temporarily disable ModSecurity as described [here](#) and try again.
 <br>
 
 
-### 2. Error 404: Unauthorized
+### 2. Error 403: Unauthorized
 ```
 Failed to issue a Let's Encrypt certificate for example.site.com: LetsEncrypt challenge failed for example.site.com: Some(ServerError { type: Some("urn:ietf:params:acme:error:unauthorized"), title: None, status: Some(403), detail: Some("2a01:4f2:1c1e:51c7::1: Invalid response from http://example.site.com/.well-known/acme-challenge/ybh4LsRVboU-qkGSJE3s3ElIYu1_5kFT78c9cL3LKuY: 404") })
 ```
