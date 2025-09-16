@@ -28,11 +28,11 @@ Failed to issue a Let's Encrypt certificate for example.site.com: LetsEncrypt ch
 This error commonly occurs shortly after adding a domain to the panel and updating nameservers or DNS records. In most cases, the issue is related to DNS propagation and will resolve automatically within approximately one hour.
 
 If the problem persists after this period:
-	1.	Select your domain.
-	2.	Open the **Security** tab
-	3.	Try disabling Force HTTPS.
-	4.	Attempt to provision a new SSL certificate.
 
+1. Select your domain.
+2. Open the **Security** tab
+3. Try disabling Force HTTPS.
+	
 
 <br>
 
