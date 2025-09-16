@@ -74,7 +74,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: 'Markdown Extensions', link: 'markdown' },
-        { text: 'Asset Handling', link: 'asset-handling' },
+        { text: '502: Bad Gateway', link: '502' },
         { text: 'Frontmatter', link: 'frontmatter' },
         { text: '400: Bad Request', link: '400' },
         { text: 'Internationalization', link: 'i18n' }
