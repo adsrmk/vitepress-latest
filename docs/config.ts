@@ -70,13 +70,13 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       ]
     },
     {
-      text: 'Writing',
+      text: 'Issues',
       collapsed: false,
       items: [
         { text: 'Markdown Extensions', link: 'markdown' },
         { text: 'Asset Handling', link: 'asset-handling' },
         { text: 'Frontmatter', link: 'frontmatter' },
-        { text: 'Using Vue in Markdown', link: 'using-vue' },
+        { text: '400: Bad Request', link: '400' },
         { text: 'Internationalization', link: 'i18n' }
       ]
     },
