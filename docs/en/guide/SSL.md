@@ -15,9 +15,8 @@ title: None, status: Some(400), detail: Some("91.98.61.44: Fetching http://examp
 Timeout during connect (likely firewall problem)") })
 ```
 
-Occurs because firewall (ModSec) is most likely active. It cannot get past the WAF to fulfill the request. It shares the same status code as bad request (400)
-The solution is to turn of ModSec, just as described [here](#hello).
-
+This error typically occurs when the firewall (ModSecurity) is active, preventing the request from passing through the WAF. It shares the same status code as a Bad Request (400).
+Solution: temporarily disable ModSecurity as described [here](#) and try again.
 <br>
 
 
