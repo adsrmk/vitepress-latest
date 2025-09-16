@@ -50,7 +50,7 @@ if (carbonOptions) {
 </script>
 
 <template>
-  <div class="VPCarbonAds" ref="container" />
+<p></p>
 </template>
 
 <style scoped>
