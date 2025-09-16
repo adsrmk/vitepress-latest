@@ -10,6 +10,6 @@ defineProps<{
 </script>
 
 <template>
-  <div class="VPDocAsideCarbonAds">
+  <div >
   </div>
 </template>
