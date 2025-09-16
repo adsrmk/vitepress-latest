@@ -75,6 +75,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       items: [
         { text: 'Markdown Extensions', link: 'markdown' },
         { text: '502: Bad Gateway', link: '502' },
+       { text: 'SSL Certs', link: 'SSL' },
         { text: 'Frontmatter', link: 'frontmatter' },
         { text: '400: Bad Request', link: '400' },
         { text: 'Internationalization', link: 'i18n' }
