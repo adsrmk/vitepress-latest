@@ -1,9 +1,9 @@
 # Requesting SSL Certificates
 
-We noticed some customers having issues when requesting their SSL certificate for their website(s). 
-This mostly happens shortly after they transferred their domain or changed name servers/dns records.
+Some customers may experience issues when requesting an SSL certificate for their website. This most often occurs shortly after transferring a domain or updating nameservers/DNS records.
 
-We've listed common causes and how to fix these below
+Below, we have outlined the most common causes and their respective solutions.
+
 
 ## Troubleshoot
 
@@ -44,4 +44,10 @@ Failed to issue a Let's Encrypt certificate for example.site.com: SSL error: Ser
 
 If you have requested more then 3+ certificates in a short amount of time. You get rate limited (429). it means Let’s Encrypt has temporarily blocked further certificate requests from your domain or server because you’ve hit their rate limits. Try again in a few hours.
 
+
+<br>
+
+::: tip
+If you encounter a different error status code, please contact us. This allows us to resolve the issue and update our support documentation to assist others in the future.
+:::
 
