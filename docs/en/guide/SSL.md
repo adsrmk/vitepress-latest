@@ -8,7 +8,7 @@ Below, we have outlined the most common causes and their respective solutions.
 ## Troubleshoot
 
 
-### 1. 400: Timeout during connect
+### 1. Error 400: Timeout during connect
 ```
 Failed to issue a Let's Encrypt certificate for example.site.com: LetsEncrypt challenge failed for example.site.com: Some(ServerError { type: Some("urn:ietf:params:acme:error:connection"),
 title: None, status: Some(400), detail: Some("91.98.61.44: Fetching http://example.site.com/.well-known/acme-challenge/S2MRYRq83Hi7ADEzBii1fko-ZGuNzp-I73BLyzFYJ28:
@@ -21,7 +21,7 @@ The solution is to turn of ModSec, just as described [here](#hello).
 <br>
 
 
-### 2. 404: Unauthorized
+### 2. Error 404: Unauthorized
 ```
 Failed to issue a Let's Encrypt certificate for example.site.com: LetsEncrypt challenge failed for example.site.com: Some(ServerError { type: Some("urn:ietf:params:acme:error:unauthorized"), title: None, status: Some(403), detail: Some("2a01:4f2:1c1e:51c7::1: Invalid response from http://example.site.com/.well-known/acme-challenge/ybh4LsRVboU-qkGSJE3s3ElIYu1_5kFT78c9cL3LKuY: 404") })
 ```
@@ -37,12 +37,12 @@ If the problem persists after this period:
 <br>
 
 
-### 3. 429: Rate limited
+### 3. Error 429: Rate limited
 ```
 Failed to issue a Let's Encrypt certificate for example.site.com: SSL error: Server(ServerError { type: Some("urn:ietf:params:acme:error:rateLimited"), title: None, status: Some(429), detail: Some("too many certificates (5) already issued for this exact set of identifiers in the last 168h0m0s, retry after 2025-09-18 09:13:16 UTC: see https://letsencrypt.org/docs/rate-limits/#new-certificates-per-exact-set-of-identifiers") })
 ```
 
-If you have requested more then 3+ certificates in a short amount of time. You get rate limited (429). it means Let’s Encrypt has temporarily blocked further certificate requests from your domain or server because you’ve hit their rate limits. Try again in a few hours.
+If you request more than three certificates within a short period, you may encounter a rate limit error (429). This means Let’s Encrypt has temporarily blocked further certificate requests for your domain or server due to rate limits. The restriction is temporary and will usually lift after a few hours.
 
 
 <br>
