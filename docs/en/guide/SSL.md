@@ -17,6 +17,8 @@ Timeout during connect (likely firewall problem)") })
 
 This error typically occurs when the firewall (ModSecurity) is active, preventing the request from passing through the WAF. It shares the same status code as a Bad Request (400).
 Solution: temporarily disable ModSecurity as described [here](#) and try again.
+
+
 <br>
 
 
