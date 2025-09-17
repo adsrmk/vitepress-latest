@@ -76,7 +76,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'Markdown Extensions', link: 'markdown' },
         { text: '502: Bad Gateway', link: '502' },
        { text: 'SSL Certs', link: 'SSL' },
-        { text: 'Frontmatter', link: 'frontmatter' },
+        { text: 'Unable to access FTP', link: 'SFTP' },
         { text: '400: Bad Request', link: '400' },
         { text: 'Internationalization', link: 'i18n' }
       ]
