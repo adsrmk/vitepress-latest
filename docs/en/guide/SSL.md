@@ -2,11 +2,11 @@
 
 Some customers may experience issues when requesting an SSL certificate for their website. This most often occurs shortly after transferring a domain or updating nameservers/DNS records.
 
-Below, we have outlined the most common causes and their respective solutions.
 
 
 ## Troubleshoot
 
+we have outlined the most common causes and their respective solutions.
 
 ### 1. Error 400: Timeout during connect
 ```
