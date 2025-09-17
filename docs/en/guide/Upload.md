@@ -15,7 +15,7 @@ the file is uploaded to the server, an attachment record is generated, and the P
 2. If that didn't work, try uploading a image of lower dimensions then 2560 pixels in width or height.
 3. Increase memory limit on Wordpress - The error message suggests that your server may not have enough resources. So we need to increase our PHP memory limit on the website. This can be achieved by adding the following line of code to your wp-config.php file:
 
-4. ```html [public_html/wp-config.php]
+```html [public_html/wp-config.php]
 define( 'WP_MEMORY_LIMIT', '256M' );
 ```
 
