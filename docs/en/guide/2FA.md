@@ -1,4 +1,4 @@
-#2FA 
+# 2FA
 
 Two-factor authentication helps protect your account by adding an extra layer of security. 
 Once enabled, you'll need both your password and a time-sensitive code to access your account.
