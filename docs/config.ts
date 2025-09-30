@@ -69,10 +69,15 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'Deploy', link: 'deploy' }
       ]
     },
+
+    
     {
       text: 'Issues',
       collapsed: false,
       items: [
+         { text: 'ERR_CONNECTION_REFUSED', link: 'ERR_CONNECTION_REFUSED.md' },
+        { text: 'ERR_NAME_NOT_RESOLVED.md', link: 'ERR_NAME_NOT_RESOLVED.md' },
+       { text: 'ERR_SSL_PROTOCOL_ERROR.md', link: 'ERR_SSL_PROTOCOL_ERROR.md' },
         { text: 'Markdown Extensions', link: 'markdown' },
         { text: '502: Bad Gateway', link: '502' },
        { text: 'SSL Certs', link: 'SSL' },
@@ -82,6 +87,24 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'Internationalization', link: 'i18n' }
       ]
     },
+
+
+    {
+      text: 'Email(s)',
+      collapsed: false,
+      items: [
+        { text: 'Block e-mails', link: 'block_emails.md' },
+        { text: 'Create an email account', link: 'email_account.md' },
+        { text: 'Change e-mail password', link: 'email_password.md' },
+        { text: 'Setup SMTP functions', link: 'email_smtp.md' },
+        { text: 'Email forwarding', link: 'forwarding.md' },
+        { text: 'File attachments', link: 'file_attachment.md' }
+      ]
+    },
+
+
+
+    
     {
       text: 'Customization',
       collapsed: false,
