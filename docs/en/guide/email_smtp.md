@@ -7,11 +7,13 @@ Begin by installing the Easy WP SMTP plugin on your WordPress site. Once install
 
 1. Choose Your SMTP Mailer
 Select Other SMTP in the bottom-right corner.
+
+::: tip Note
 We use Mailgun's SMTP relay services. If this setup doesn’t work, contact us for a sending API key, and we’ll configure it for you.
+:::
 
 
-
-2. Configure Values
+3. Configure Values
 Input the values from the Email Client Settings available in your EVC panel.
 
 | Variable        |      Value      |
