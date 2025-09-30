@@ -14,32 +14,24 @@ We use Mailgun's SMTP relay services. If this setup doesn’t work, contact us f
 2. Configure Values
 Input the values from the Email Client Settings available in your EVC panel.
 
-SMTP host
-
-mail.yourdomain.com
-
-Encryption
-
-TLS (Port 587) is recommended
-
-SMTP Auth.
-
-Enabled
-
-SMTP Username
-
-Your email address
-
-SMTP Password
-
-Your password
+| Variable        |      Value      |
+| ------------- | :-----------: |
+| SMTP host    | mail.yourdomain.com |
+| Encryption   |   TLS (Port 587)   |  
+| SMTP Auth |   Enabled    |  
+| SMTP Username |  Your email address   |  
+| SMTP Password |  Your password   |  
 
 
 In the final two input fields (name and email), specify how you'd like your customers to receive and interact with the emails you send.
 
 
 
-Finish setup and send test mail
 
-You can skip steps 3, 4, and 5 unless you want additional features like weekly reports, detailed logs, or alerts (pro version). If not, simply click next or skip. To confirm everything is working, send a test email once you've completed the setup.
+3. Finish setup and send test mail
+
+If you want additional features like weekly reports, detailed logs, or alerts (pro version), you can select so. 
+If not, simply click next or skip. To confirm everything is working, send a test email once you've completed the setup.
+
+
 
