@@ -10,6 +10,11 @@ Creating or deleting accounts is quick and straightforward, typically taking onl
 4. Select an Account Type
 5. Set a mailbox size (max: 1GB)
 6. Create a name and password for your mailbox
-   
 
-In most cases, a 1GB mailbox provides ample storage for thousands of emails without attachments. The Essential Plan includes 3 email accounts, with additional accounts available on higher plans. If your business frequently sends and receives large files, we recommend upgrading to Google Workspace or ProtonMail for increased storage and advanced functionality
+
+::: tip Note
+
+In most cases, a 1GB mailbox provides sufficient storage for thousands of emails without attachments. The Essential Plan includes 3 email accounts, with additional accounts available on higher plans. If your business frequently sends and receives large files, we recommend upgrading to Google Workspace or ProtonMail for increased storage and advanced functionality
+
+
+:::   
