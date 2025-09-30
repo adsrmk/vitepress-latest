@@ -1,4 +1,4 @@
-# How to block unwanted emails
+# How to block unwanted emails  <Badge type="warning" text="experimental" />
 
 Blocking emails from unwanted sources helps keep your inbox organized, reduce spam, and protect against potential security threats. 
 It ensures you only receive relevant and trusted messages, saving time and preventing distractions.
