@@ -1,4 +1,4 @@
-# setup SMTP
+# Setup SMTP email
 
 
 To use SMTP for sending emails on your WordPress website, you'll need a plugin. We recommend the Easy WP SMTP plugin, as it's easy to set up and work with.
@@ -29,7 +29,6 @@ In the final two input fields (name and email), specify how you'd like your cust
 
 
 3. Finish setup and send test mail
-
 If you want additional features like weekly reports, detailed logs, or alerts (pro version), you can select so. 
 If not, simply click next or skip. To confirm everything is working, send a test email once you've completed the setup.
 
