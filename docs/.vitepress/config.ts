@@ -104,7 +104,13 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    logo: { src: '/vitepress-logo-mini.svg', width: 18, height: 18 },
+  logo: {
+    light: '/vitepress-logo-mini.svg',   // logo for light theme
+    dark: '/vitepress-logo-mini-dark.svg', // logo for dark theme
+    width: 18,
+    height: 18
+  },
+    
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
