@@ -103,12 +103,16 @@ export default defineConfig({
     ]
   ],
 
-  themeConfig: {
-    logo: { src: '/vitepress-logo-mini.svg', width: 24, height: 24 },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ],
+    themeConfig: {
+  logo: {
+    light: '/evemblem.svg',   // logo for light theme
+    dark: '/evemblem_dark.svg', // logo for dark theme
+    width: 18,
+    height: 18
+  },
+},
+
 
     search: {
       provider: 'algolia',
