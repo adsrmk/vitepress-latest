@@ -103,12 +103,9 @@ export default defineConfig({
     ]
   ],
 
-themeConfig: {
-  logo: {
-    light: '/vitepress-logo-mini.svg',
-    dark: '/vitepress-logo-mini-dark.svg'
-  }
-},
+
+  themeConfig: {
+    logo: { src: '/vitepress-logo-mini.svg', width: 24, height: 24 },
 
     search: {
       provider: 'algolia',
