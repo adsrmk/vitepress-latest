@@ -13,7 +13,7 @@ import llmstxt from 'vitepress-plugin-llms'
 const prod = !!process.env.NETLIFY
 
 export default defineConfig({
-  title: 'Envision Support',
+  title: 'Support',
 
   rewrites: {
     'en/:rest*': ':rest*'
