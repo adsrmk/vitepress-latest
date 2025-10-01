@@ -75,9 +75,9 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       text: 'Issues',
       collapsed: false,
       items: [
-         { text: 'ERR_CONNECTION_REFUSED', link: 'ERR_CONNECTION_REFUSED.md' },
-        { text: 'ERR_NAME_NOT_RESOLVED.md', link: 'ERR_NAME_NOT_RESOLVED.md' },
-       { text: 'ERR_SSL_PROTOCOL_ERROR.md', link: 'ERR_SSL_PROTOCOL_ERROR.md' },
+         { text: 'ERR_CONN_REFUSED', link: 'ERR_CONNECTION_REFUSED.md' },
+        { text: 'ERR_NOT_RESOLVED', link: 'ERR_NAME_NOT_RESOLVED.md' },
+       { text: 'ERR_SSL_PROTOCOL', link: 'ERR_SSL_PROTOCOL_ERROR.md' },
         { text: 'Markdown Extensions', link: 'markdown' },
         { text: '502: Bad Gateway', link: '502' },
        { text: 'SSL Certs', link: 'SSL' },
