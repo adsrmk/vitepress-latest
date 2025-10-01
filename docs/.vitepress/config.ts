@@ -13,7 +13,7 @@ import llmstxt from 'vitepress-plugin-llms'
 const prod = !!process.env.NETLIFY
 
 export default defineConfig({
-  title: 'Support',
+  title: 'VitePress',
 
   rewrites: {
     'en/:rest*': ':rest*'
@@ -79,7 +79,7 @@ export default defineConfig({
     ],
     [
       'link',
-      { rel: 'icon', type: 'image/png', href: '/vitepress-logo-mini.svg' }
+      { rel: 'icon', type: 'image/png', href: '/vitepress-logo-mini.png' }
     ],
     ['meta', { name: 'theme-color', content: '#5f67ee' }],
     ['meta', { property: 'og:type', content: 'website' }],
@@ -104,9 +104,11 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    logo: { src: '/vitepress-logo-mini.svg', width: 20, height: 20 },
+    logo: { src: '/vitepress-logo-mini.svg', width: 24, height: 24 },
 
-
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    ],
 
     search: {
       provider: 'algolia',
@@ -122,13 +124,13 @@ export default defineConfig({
   },
 
   locales: {
-    root: { label: 'English' },
-    zh: { label: '简体中文' },
-    pt: { label: 'Português' },
-    ru: { label: 'Русский' },
-    es: { label: 'Español' },
-    ko: { label: '한국어' },
-    fa: { label: 'فارسی' }
+    root: { label: 'English', lang: 'en-US', dir: 'ltr' },
+    zh: { label: '简体中文', lang: 'zh-Hans', dir: 'ltr' },
+    pt: { label: 'Português', lang: 'pt-BR', dir: 'ltr' },
+    ru: { label: 'Русский', lang: 'ru-RU', dir: 'ltr' },
+    es: { label: 'Español', lang: 'es', dir: 'ltr' },
+    ko: { label: '한국어', lang: 'ko-KR', dir: 'ltr' },
+    fa: { label: 'فارسی', lang: 'fa-IR', dir: 'rtl' }
   },
 
   vite: {
