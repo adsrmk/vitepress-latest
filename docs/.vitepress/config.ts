@@ -106,8 +106,8 @@ export default defineConfig({
 
   themeConfig: {
     logo: {
-      light: '/vitepress-logo-light.svg',
-      dark: '/vitepress-logo-dark.svg'
+      light: '/evemblem.svg',
+      dark: '/evemblem_dark.svg'
     },
 
     
