@@ -110,7 +110,7 @@ themeConfig: {
     dark: '/dark.svg', // logo for dark theme
     width: 18,
     height: 18,
-  },
+  }
 },
 
     
