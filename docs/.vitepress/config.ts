@@ -13,7 +13,7 @@ import llmstxt from 'vitepress-plugin-llms'
 const prod = !!process.env.NETLIFY
 
 export default defineConfig({
-  title: 'VitePress',
+  title: '&nbsp;Support',
 
   rewrites: {
     'en/:rest*': ':rest*'
@@ -104,7 +104,7 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    logo: { src: '/vitepress-logo-mini.svg', width: 24, height: 24 },
+    logo: { src: '/vitepress-logo-mini.svg', width: 20, height: 20 },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
