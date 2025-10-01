@@ -75,7 +75,7 @@ export default defineConfig({
   head: [
     [
       'link',
-      { rel: 'icon', type: 'image/svg+xml', href: '/evemblem.svg' }
+      { rel: 'icon', type: 'image/svg+xml', href: '/evemblem.png' }
     ],
     [
       'link',
@@ -104,7 +104,7 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    logo: { src: 'evemblem.png', width: 24, height: 24 },
+    logo: { src: '/evemblem.png', width: 24, height: 24 },
 
 
 
