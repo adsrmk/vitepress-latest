@@ -103,11 +103,10 @@ export default defineConfig({
     ]
   ],
 
-
 themeConfig: {
   logo: {
-    light: { src: '/vitepress-logo-mini.svg', width: 24, height: 24 },
-    dark:  { src: '/vitepress-logo-mini-dark.svg', width: 24, height: 24 }
+    light: '/vitepress-logo-mini.svg',
+    dark: '/vitepress-logo-mini-dark.svg'
   }
 },
 
