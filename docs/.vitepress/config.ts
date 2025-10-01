@@ -75,11 +75,11 @@ export default defineConfig({
   head: [
     [
       'link',
-      { rel: 'icon', type: 'image/svg+xml', href: '/evemblem.png' }
+      { rel: 'icon', type: 'image/svg+xml', href: '/vitepress-logo-mini.svg' }
     ],
     [
       'link',
-      { rel: 'icon', type: 'image/png', href: '/evemblem.png' }
+      { rel: 'icon', type: 'image/png', href: '/vitepress-logo-mini.svg' }
     ],
     ['meta', { name: 'theme-color', content: '#5f67ee' }],
     ['meta', { property: 'og:type', content: 'website' }],
@@ -104,7 +104,7 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    logo: { src: '/evemblem.png', width: 24, height: 24 },
+    logo: { src: '/vitepress-logo-mini.svg', width: 24, height: 24 },
 
 
 
