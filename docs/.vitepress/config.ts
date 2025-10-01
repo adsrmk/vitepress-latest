@@ -13,7 +13,7 @@ import llmstxt from 'vitepress-plugin-llms'
 const prod = !!process.env.NETLIFY
 
 export default defineConfig({
-  title: 'VitePress',
+  title: 'Envision Support',
 
   rewrites: {
     'en/:rest*': ':rest*'
@@ -106,9 +106,7 @@ export default defineConfig({
   themeConfig: {
     logo: { src: '/vitepress-logo-mini.svg', width: 24, height: 24 },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ],
+
 
     search: {
       provider: 'algolia',
