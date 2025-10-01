@@ -120,7 +120,6 @@ export default defineConfig({
       }
     },
 
-    carbonAds: { code: 'CEBDT27Y', placement: 'vuejsorg' }
   },
 
   locales: {
