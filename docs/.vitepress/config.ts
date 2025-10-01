@@ -75,11 +75,11 @@ export default defineConfig({
   head: [
     [
       'link',
-      { rel: 'icon', type: 'image/svg+xml', href: '/vitepress-logo-mini.svg' }
+      { rel: 'icon', type: 'image/svg+xml', href: '/evemblem.svg' }
     ],
     [
       'link',
-      { rel: 'icon', type: 'image/png', href: '/vitepress-logo-mini.png' }
+      { rel: 'icon', type: 'image/png', href: '/evemblem.png' }
     ],
     ['meta', { name: 'theme-color', content: '#5f67ee' }],
     ['meta', { property: 'og:type', content: 'website' }],
