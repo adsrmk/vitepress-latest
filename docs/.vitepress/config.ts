@@ -107,7 +107,7 @@ export default defineConfig({
 themeConfig: {
 logo: {
   light: '/vitepress-logo-light.svg',
-  dark: '/vitepress-logo-dark.svg'
+  dark: '/vitepress-logo-dark.svg',
 }
 },
   
