@@ -107,7 +107,9 @@ export default defineConfig({
   themeConfig: {
     logo: {
       light: '/evemblem.svg',
-      dark: '/evemblem_dark.svg'
+      dark: '/evemblem_dark.svg',
+      width: 18,
+    height: 18 
     },
 
     
