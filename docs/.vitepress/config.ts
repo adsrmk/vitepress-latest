@@ -104,13 +104,13 @@ export default defineConfig({
   ],
 
 
-themeConfig: {
-logo: {
-  light: '/vitepress-logo-light.svg',
-  dark: '/vitepress-logo-dark.svg',
-}
-},
-  
+  themeConfig: {
+    logo: {
+      light: '/vitepress-logo-light.svg',
+      dark: '/vitepress-logo-dark.svg'
+    },
+
+    
     search: {
       provider: 'algolia',
       options: {
