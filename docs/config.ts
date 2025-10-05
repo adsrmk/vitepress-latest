@@ -93,10 +93,10 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       text: 'Email(s)',
       collapsed: false,
       items: [
+        { text: 'Setup email', link: 'email_smtp.md' },
         { text: 'Block e-mails', link: 'block_emails.md' },
         { text: 'Create an email account', link: 'email_account.md' },
         { text: 'Change e-mail password', link: 'email_password.md' },
-        { text: 'Setup SMTP functions', link: 'email_smtp.md' },
         { text: 'Email forwarding', link: 'forwarding.md' },
         { text: 'File attachments', link: 'file_attachment.md' }
       ]
