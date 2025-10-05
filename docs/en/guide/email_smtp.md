@@ -14,7 +14,7 @@ Input the values from the Email Client Settings available in your EVC panel.
 
 | Variable        |      Value      |
 | ------------- | :-----------: |
-| SMTP host    | mail.yourdomain.com |
+| SMTP host    | mail.'yourdomain'.com |
 | Encryption   |   TLS (Port 587)   |  
 | SMTP Auth |   Enabled    |  
 | SMTP Username |  Your email address   |  
