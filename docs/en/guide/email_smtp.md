@@ -5,8 +5,7 @@ Several plugins make this process easy. In this guide, we’ll use [Easy WP SMTP
 <br>
 
 ## Why SMTP is Important
-By default, WordPress uses the PHP `mail()` function to send emails. Many providers block or limit this function, which can cause delivery issues.  
-Using SMTP allows your website to send emails through a trusted mail server — improving deliverability and ensuring that messages are properly authenticated.
+By default, WordPress uses the PHP `mail()` function to send emails. Many providers block or limit this function, which can cause delivery issues. Using SMTP allows your website to send emails through a trusted mail server — improving deliverability and ensuring that messages are properly authenticated.
 
 ## Install
 
@@ -18,8 +17,7 @@ This option allows you to manually enter your email provider’s SMTP details.
 <br>
 
 2. Configure SMTP Settings
-Next, enter the SMTP details from your **Email Client Settings** in the **EVC Panel**.  
-These values ensure your website connects securely to your mail server. Make sure to replace `yourdomain.com` with your actual domain name.
+Next, enter the SMTP details from your **Email Client Settings** in the **EVC Panel**. These values ensure your website connects securely to your mail server. Make sure to replace `yourdomain.com` with your actual domain name.
 
 | Variable | Value |
 |-----------|:-----------:|
