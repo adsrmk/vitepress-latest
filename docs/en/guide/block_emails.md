@@ -2,10 +2,7 @@
 
 Blocking emails from unwanted sources helps keep your inbox organized, reduce spam, and protect against potential security threats. 
 It ensures you only receive relevant and trusted messages, saving time and preventing distractions.
-
-::: tip warning
-This feature is in BETA and has not been thoroughly tested.
-:::
+<br>
 
 1. Add email address to blocklist
 2. Navigate to the [Emails↗](https://cloud.envision.nl/emails) section.
