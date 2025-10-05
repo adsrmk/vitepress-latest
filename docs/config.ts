@@ -70,6 +70,18 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       ]
     },
 
+
+    
+    {
+      text: 'Account',
+      collapsed: false,
+      items: [
+         { text: 'Setup 2FA', link: '2FA.md' }
+      ]
+    },
+
+
+    
     
     {
       text: 'Issues',
@@ -82,7 +94,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'Markdown Extensions', link: 'markdown' },
         { text: '502: Bad Gateway', link: '502.md' },
        { text: 'SSL Certs', link: 'SSL.md' },
-        { text: 'Elementor 500', link: 'elementor_500' },
+        { text: 'Elementor 500', link: 'elementor_500.md' },
         { text: 'Unable to access FTP', link: 'SFTP.md' },
         { text: '400: Bad Request', link: '400.md' },
         { text: 'Internationalization', link: 'i18n' }
