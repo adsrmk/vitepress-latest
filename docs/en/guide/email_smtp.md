@@ -6,7 +6,7 @@ To use SMTP for sending emails on your WordPress website, you'll need a plugin. 
 <br>
 
 1. Choose Your SMTP Mailer
-Once installed, select Other SMTP in the bottom-right corner.
+   Once installed, select Other SMTP in the bottom-right corner.
 
 
 2. Configure Values
