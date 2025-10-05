@@ -9,15 +9,13 @@ By default, WordPress uses the PHP `mail()` function to send emails. Many provid
 
 ## Install
 
-1. Choose Your SMTP Mailer
-After installing and activating the plugin, go to **WP Mail SMTP → Settings** in your WordPress dashboard.  
+1. After installing and activating the plugin, go to **WP Mail SMTP → Settings** in your WordPress dashboard.  
 Scroll down to the **Mailer** section and select **Other SMTP** (bottom-right corner).  
 This option allows you to manually enter your email provider’s SMTP details.
 
 <br>
 
-2. Configure SMTP Settings
-Next, enter the SMTP details from your **Email Client Settings** in the **EVC Panel**. These values ensure your website connects securely to your mail server. Make sure to replace `yourdomain.com` with your actual domain name.
+2. Next, enter the SMTP details from your **Email Client Settings** in the **EVC Panel**. These values ensure your website connects securely to your mail server. Make sure to replace `yourdomain.com` with your actual domain name.
 
 | Variable | Value |
 |-----------|:-----------:|
