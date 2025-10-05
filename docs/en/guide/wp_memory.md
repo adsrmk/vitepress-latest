@@ -13,7 +13,7 @@ In some cases, you'll see details about what memory was being used or requested,
 Other times, the issue might simply be that your site needs more memory to function properly. We always recommend that you run your site using the latest supported version of PHP, along with the latest version of WordPress and any theme and plug-ins.
 
 
-
+## Guide
 
 From version 5.0 of WordPress, there's a useful Site Health tool built into WordPress so you can see what memory limits are set.
 You can find the Site Health under the Tools menu in the WordPress dashboard. Click the Info tab a the top.
