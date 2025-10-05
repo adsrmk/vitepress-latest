@@ -80,11 +80,11 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
        { text: 'ERR_SSL_PROTOCOL', link: 'ERR_SSL_PROTOCOL_ERROR.md' },
         { text: 'Image upload error', link: 'Upload.md' },
         { text: 'Markdown Extensions', link: 'markdown' },
-        { text: '502: Bad Gateway', link: '502' },
-       { text: 'SSL Certs', link: 'SSL' },
+        { text: '502: Bad Gateway', link: '502.md' },
+       { text: 'SSL Certs', link: 'SSL.md' },
         { text: 'Elementor 500', link: 'elementor_500' },
-        { text: 'Unable to access FTP', link: 'SFTP' },
-        { text: '400: Bad Request', link: '400' },
+        { text: 'Unable to access FTP', link: 'SFTP.md' },
+        { text: '400: Bad Request', link: '400.md' },
         { text: 'Internationalization', link: 'i18n' }
       ]
     },
