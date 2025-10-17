@@ -1,10 +1,10 @@
 # Configuring Redis
 
-Redis is a powerful open-source in-memory database that is excellent for applications such as caching, session management and speeding up data processing. Our servers make full use of Redis software to improve performance, and this technology can also be easily integrated with your WordPress website. Activating Redis requires only a few simple steps and can be completed within minutes.
+Redis is a open-source in-memory database that is excellent for caching, session management and speeding up data processing. Our servers make use of Redis software to improve performance, and this technology can also be easily integrated with your WordPress website. Activating Redis requires only a few simple steps and can be completed within minutes.
 
 
 1. Make sure Redis is enabled in the cloud panel. Go to **Advanced → Developer Tools** and activate (toggle) the last option, Redis.
-2. Log in to WordPress and go to Plugins. In the library, search for Redis and install it.
+2. Install the [Redis plugin](https://wordpress.org/plugins/redis-cache/) 
 3. In WordPress, go to Settings → Redis and click on **Enable Object Cache.**
 
 
