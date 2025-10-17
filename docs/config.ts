@@ -86,7 +86,8 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
          { text: 'Increase WP memory limit', link: 'wp_memory.md' },
-        { text: 'Configure Redis', link: 'redis.md' }
+        { text: 'Configure Redis', link: 'redis.md' },
+         { text: 'Reinstall WP core using cli', link: 'wp-cli.md' }
       ]
     },
 
