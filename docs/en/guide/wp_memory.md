@@ -24,8 +24,8 @@ You can find the Site Health under the Tools menu in the WordPress dashboard. Cl
 3. Expand the WordPress constants section on the Site Health page to see its value. You'll see two WordPress memory limits.
 
 
-'WP_MEMORY_LIMIT' - This setting controls the PHP memory limit for the front-end of your site. It’s typically the adjustment you’ll need to make if your site is experiencing fatal errors due to memory limitations.
-​'WP_MAX_MEMORY_LIMIT' - Sets the PHP memory limit for the admin area of your site. It can be adjusted higher or lower than the WP_MEMORY_LIMIT, as certain admin functions—like using third-party page builders—may require more memory than what’s needed to serve the site to visitors.
+`WP_MEMORY_LIMIT` - This setting controls the PHP memory limit for the front-end of your site. It’s typically the adjustment you’ll need to make if your site is experiencing fatal errors due to memory limitations.
+​`WP_MAX_MEMORY_LIMIT` - Sets the PHP memory limit for the admin area of your site. It can be adjusted higher or lower than the WP_MEMORY_LIMIT, as certain admin functions—like using third-party page builders—may require more memory than what’s needed to serve the site to visitors.
 
 
 
@@ -41,8 +41,8 @@ Check your wp-config.php for either of the following lines:
 
 
 
-define( 'WP_MEMORY_LIMIT', 'xxxM' );
-​define( 'WP_MAX_MEMORY_LIMIT', 'xxxM' );
+define( `WP_MEMORY_LIMIT`, 'xxxM' );
+​define( `WP_MAX_MEMORY_LIMIT`, 'xxxM' );
 
 
 
