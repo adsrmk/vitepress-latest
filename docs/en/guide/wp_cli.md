@@ -23,14 +23,14 @@ rm -rf wp-admin
    
 ```ssh
 wp core download --force
-```ssh
+```
 
 
 5. Update database if needed.
 
 ```ssh
 wp core update-db
-```ssh
+```
 
 
 
