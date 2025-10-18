@@ -1,4 +1,4 @@
-# Create website backup
+#  Save or restore website data
 
 All-in-One WP Migration is a WordPress plugin that enables you to easily export and back up your site's content, media, plugins, and themes into a single file. 
 You can then upload this file to a local or cloud storage location with just one click. 
