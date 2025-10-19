@@ -83,7 +83,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
 
 
         {
-      text: 'Application',
+      text: 'Wordpress appcd',
       collapsed: false,
       items: [
          { text: 'Increase WP memory limit', link: 'wp_memory.md' },
