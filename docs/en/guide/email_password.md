@@ -2,7 +2,7 @@
 
 <br>
 
-::: Tip
+::: warning
 If your email is set up on other devices, such as a phone or tablet, make sure to update the password there as well. Otherwise, you may stop receiving new emails.
 :::
 
