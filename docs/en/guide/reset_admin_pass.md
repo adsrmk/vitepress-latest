@@ -1,4 +1,4 @@
-# Reset admin password
+# Reset WP admin password
 
 If you don’t use SSO (Single Sign-On) or have simply forgotten your password, you can easily reset it through the EV Cloud Panel.
 
