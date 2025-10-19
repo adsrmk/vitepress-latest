@@ -59,12 +59,13 @@ function nav(): DefaultTheme.NavItem[] {
 function sidebarGuide(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: 'Introduction',
+      text: 'Getting started',
       collapsed: false,
       items: [
-        { text: 'What is VitePress?', link: 'what-is-vitepress' },
-        { text: 'Getting Started', link: 'getting-started' },
-        { text: 'Routing', link: 'routing' },
+        { text: 'What is EVCloud?', link: 'what-is-vitepress' },
+        { text: 'Onboarding', link: 'what-is-vitepress' },
+        { text: 'Add domain/website', link: 'routing' },
+        { text: 'Setup DNS records', link: 'getting-started' },
         { text: 'Domain', link: 'domain' },
         { text: 'Deploy', link: 'deploy' }
       ]
