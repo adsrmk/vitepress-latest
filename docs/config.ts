@@ -70,10 +70,9 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       items: [
         { text: 'What is EVCloud?', link: 'what-is-vitepress' },
         { text: 'Onboarding', link: 'what-is-vitepress' },
-        { text: 'Add domain/website', link: 'routing' },
+        { text: 'Deploy domain', link: 'routing' },
         { text: 'Setup DNS records', link: 'setup_dns.md' },
-        { text: 'Domain', link: 'domain' },
-        { text: 'Deploy', link: 'deploy' }
+        { text: 'Setup Mail DNS', link: 'email_dns.md' }
       ]
     },
 
