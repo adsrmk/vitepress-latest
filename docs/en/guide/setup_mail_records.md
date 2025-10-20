@@ -68,7 +68,10 @@ It works alongside **SPF and DKIM** to improve email security and ensure that on
 
 DMARC uses three key tags:
 - v – Specifies the DMARC version (always DMARC1, at the moment there's no other)
-- p – Defines the policy for failed emails: **none** (*no action taken for failed messages*), **quarantine** (*messages that fail DMARC checks are sent to the spam/junk folder.*) or **reject** (*blocks delivery and never reaches the recipient*).
+- p – Defines the policy for failed emails:
+   - **none** (*no action taken for failed messages*),
+   - **quarantine** (*messages that fail DMARC checks are sent to the spam/junk folder*)
+   - or **reject** (*blocks delivery and never reaches the recipient*)
 - rua – The email address where DMARC reports are sent (e.g., your DNS registrar or business/personal email address).
 
 
