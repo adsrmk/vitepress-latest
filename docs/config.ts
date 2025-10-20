@@ -41,6 +41,10 @@ function nav(): DefaultTheme.NavItem[] {
       link: '/reference/site-config',
       activeMatch: '/reference/'
     },
+      {
+      text: 'Status',
+      link: 'https://evcloud.hyperping.app/'
+    },
     {
       text: pkg.version,
       items: [
@@ -48,6 +52,7 @@ function nav(): DefaultTheme.NavItem[] {
           text: 'Changelog',
           link: 'https://github.com/vuejs/vitepress/blob/main/CHANGELOG.md'
         },
+        
         {
           text: 'Contributing',
           link: 'https://github.com/vuejs/vitepress/blob/main/.github/contributing.md'
