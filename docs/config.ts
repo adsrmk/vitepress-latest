@@ -75,10 +75,11 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
 
     
     {
-      text: 'Account',
+      text: 'Security',
       collapsed: false,
       items: [
-         { text: 'Setup 2FA', link: '2FA.md' }
+         { text: 'Setup 2FA', link: '2FA.md' },
+         { text: 'DNSSEC', link: 'dnssec.md' }
       ]
     },
 
