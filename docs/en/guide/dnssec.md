@@ -8,7 +8,7 @@ DNSSEC does this by using digital signatures, allowing DNS resolvers to verify t
 <br>
 
 ::: info
-Enabling DNSSEC must be enabled and supported by your registrar 
+Please note that DNSSEC must be supported by your registrar and requires additional configuration before it can be enabled.
 :::
 
 
