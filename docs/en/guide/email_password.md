@@ -3,7 +3,7 @@
 <br>
 
 <div class="warning custom-block" style="padding-top: 8px">
-If your email is set up on other devices, such as a phone or tablet, make sure to update the password there as well. Otherwise, you may stop receiving new emails.
+**Reminder:** If your email is set up on other devices, such as a phone or tablet, make sure to update the password there as well. Otherwise, you may stop receiving new emails.
 </div>
 
 <br>
