@@ -1,15 +1,80 @@
 # Setup Mail DNS
 
-Email DNS records ensure that your email communication is delivered correctly and securely. Just as you configure records for your website, it’s equally important to configure them for your email services.
-E-Mail systems rely on several important records — including **SPF, DKIM, DMARC, and MX.** If these are not configured correctly, your emails may not be delivered or could be marked as spam by other mail providers.
+Email DNS records ensure that your messages are delivered correctly, securely, and reliably.
+Just like with your website, it’s essential to configure the proper DNS records for your email services.
+
+Email systems rely on several key records — **SPF, DKIM, DMARC, and MX.**
+If these are not set up correctly, your emails may fail to deliver or be flagged as spam by other mail providers.
 
 
 ## Adding records
 
-Make sure to set the correct IPv4 to ensure access to your webmail. Let's start with A record (IPV4)
-For hostname change the **"youdomain.com"** and for search your email IP under the cloud panel in the main dashboard "At a glance" 
+To ensure proper access to your webmail, make sure you configure the correct IPv4 address.
+
+Start by creating an A record for your mail service.
+Replace yourdomain.com with your actual domain name, and find your email server IP in the Cloud Panel under the “At a glance” section of your dashboard.
 
 | Variable | Hostname | Value |
 |-----------|:-----------:|:-----------|
 | A | mail.`yourdomain.com` | See **IP mail server** in cloud panel |
 | AAAA | Input `IPv6` from the cloud panel | Points domain to IPv6 address |
+
+
+
+### SPF
+
+SPF (*Sender Policy Framework*) specifies which mail servers are allowed to send emails on behalf of your domain.
+It helps prevent spoofing and improves your email deliverability. We use [Mailgun](https://www.mailgun.com/) API and SMTP relay services to send and receive emails. So it is important to mark them as whitelisted.
+
+
+| Variable | Hostname | Value |
+|-----------|:-----------:|:-----------|
+| A | @ | v=spf1 include:mailgun.org ~all |
+
+
+
+
+### DKIM
+
+DKIM (DomainKeys Identified Mail) is an authentication method that uses cryptographic signatures to verify the sender’s identity and ensure that emails haven’t been tampered with during delivery. DKIM is stored as a TXT record.
+
+To enable DKIM for a domain:
+
+	1.	Go to Websites in the left sidebar.
+	2.	Select the website you wish to configure.
+	3.	Open Domains in the top menu and select the domain to enable DKIM for.
+	4.	Scroll to Email Authentication and toggle DKIM to On.
+	5.	If you are using EV Cloud nameservers, wait for validation.
+  
+If your DNS is hosted elsewhere, follow the on-screen instructions. 
+Your record wil look something like this.
+
+| Variable | Hostname | Value |
+|-----------|:-----------:|:-----------|
+| TXT | hostingcp._domainkey | Paste the generated DKIM |
+
+
+
+
+### DMARC
+
+DMARC (*Domain-based Message Authentication, Reporting, and Conformance*) is a protocol that protects your domain from email phishing and spoofing.
+It works alongside **SPF and DKIM** to improve email security and ensure that only authorized servers send emails on your behalf.
+
+| Variable | Hostname | Value |
+|-----------|:-----------:|:-----------|
+| TXT | _dmarc |  v=DMARC1; p=none; rua=mailto:example@yourdomain.com |
+
+
+DMARC uses three key tags:
+	•	v – Specifies the DMARC version (always DMARC1, at the moment there's no other)
+	•	p – Defines the policy for failed emails: **none** (*no action taken for failed messages*), **quarantine** (*messages that fail DMARC checks are sent to the spam/junk folder.*) or **reject** (*blocks delivery and never reaches the recipient*).
+	•	rua – The email address where DMARC reports are sent (e.g., your DNS registrar or business/personal email address).
+
+
+<div class="tip custom-block" style="padding-top: 8px">
+You can configure these values to control what happens with emails that fail authentication checks. But be cautious with 'too strict' policies, as they may block legitimate emails.
+</div>
+
+
+
