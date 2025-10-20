@@ -19,7 +19,6 @@ Replace **yourdomain.com** with your actual domain name, and find your email ser
 | Variable | Hostname | Value |
 |-----------|:-----------:|:-----------|
 | A | mail.`yourdomain.com` | See **IP mail server** in cloud panel |
-| AAAA | Input `IPv6` from the cloud panel | Points domain to IPv6 address |
 
 
 
