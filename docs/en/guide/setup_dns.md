@@ -39,7 +39,7 @@ Each customer’s website runs in an isolated container within our clustered hos
 1. Login to your DNS registrar
 2. Under your domain, search for DNS records or settings
 3. Add the following records
-4. 
+
 
 | Variable | Value |
 |-----------|:-----------:|
