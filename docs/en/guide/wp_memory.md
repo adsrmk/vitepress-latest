@@ -4,8 +4,8 @@
 WordPress can sometimes run out of memory, but this doesn’t happen often. It usually occurs on sites with lots of traffic, features, or plugins. 
 Memory issues can also happen if there’s a problem with the code in a theme or plugin.
 
-::: details Error
-Allowed memory size of xxxxxx bytes exhausted.
+::: details Show error
+Allowed memory size of 19242411 (or X amount) bytes exhausted.
 :::
 
 
