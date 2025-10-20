@@ -6,7 +6,7 @@ You can then upload this file to a local or cloud storage location with just one
 
 ## Create backup
 
-1. Install the “All-In-One WP Migration” plugin and activate it.
+1. Install the [All-In-One WP Migration](https://wordpress.org/plugins/all-in-one-wp-migration/) plugin and activate it.
 2. On the **Dashboard**, in the left sidebar click on All in One WP Migration, and then click Backups
 3. Select **Create Backup** 
 4. Download the backup to your local device and save it (for ex. online drive storage)
