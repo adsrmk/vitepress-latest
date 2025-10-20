@@ -25,8 +25,8 @@ Replace **yourdomain.com** with your actual domain name, and find your email ser
 
 ### SPF
 
-SPF (*Sender Policy Framework*) specifies which mail servers are allowed to send emails on behalf of your domain.
-It helps prevent spoofing and improves your email deliverability. We use [Mailgun](https://www.mailgun.com/) API and SMTP relay services to send and receive emails. So it is important to mark them as whitelisted.
+SPF (*Sender Policy Framework*) specifies which mail servers are authorized to send emails on behalf of your domain. It helps prevent email spoofing and improves deliverability.
+At EVCloud, we use [Mailgun](https://www.mailgun.com/) API and SMTP relay services to send and receive emails. To ensure your emails are delivered reliably, it is important to include Mailgun in your SPF record as an authorized sender.
 
 
 | Variable | Hostname | Value |
