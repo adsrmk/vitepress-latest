@@ -20,6 +20,7 @@ Replace **yourdomain.com** with your actual domain name, and find your email ser
 |-----------|:-----------:|:-----------|
 | A | mail.`yourdomain.com` | See **mail server IP** in cloud panel |
 
+<br>
 
 
 ### SPF
@@ -32,8 +33,7 @@ It helps prevent spoofing and improves your email deliverability. We use [Mailgu
 |-----------|:-----------:|:-----------|
 | A | @ | v=spf1 include:mailgun.org ~all |
 
-
-
+<br>
 
 ### DKIM
 
@@ -54,8 +54,7 @@ Your record wil look something like this.
 |-----------|:-----------:|:-----------|
 | TXT | hostingcp._domainkey | Paste the generated DKIM |
 
-
-
+<br>
 
 ### DMARC
 
