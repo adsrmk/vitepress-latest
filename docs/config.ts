@@ -16,6 +16,10 @@ export default defineAdditionalConfig({
       '/reference/': { base: '/reference/', items: sidebarReference() }
     },
 
+        editLink: {
+      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+      text: 'Edit this page on GitHub'
+    },
    
 
     footer: {
