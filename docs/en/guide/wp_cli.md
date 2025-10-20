@@ -1,8 +1,10 @@
 # Reinstall Wordpress Core using CLI
 
-::: tip 
+
+<div class="tip custom-block" style="padding-top: 8px">
 We recommend creating a back-up of your website before proceeding.
-:::
+</div>
+
 
 <br>
 
