@@ -40,11 +40,11 @@ DKIM (DomainKeys Identified Mail) is an authentication method that uses cryptogr
 
 To enable DKIM for a domain:
 
-	1.	Go to Websites in the left sidebar.
-	2.	Select the website you wish to configure.
-	3.	Open Domains in the top menu and select the domain to enable DKIM for.
-	4.	Scroll to Email Authentication and toggle DKIM to On.
-	5.	If you are using EV Cloud nameservers, wait for validation.
+1. Go to Websites in the left sidebar.
+2. Select the website you wish to configure.
+3. Open Domains in the top menu and select the domain to enable DKIM for.
+4. Scroll to Email Authentication and toggle DKIM to On.
+5. If you are using EV Cloud nameservers, wait for validation.
   
 If your DNS is hosted elsewhere, follow the on-screen instructions. 
 Your record wil look something like this.
@@ -67,9 +67,9 @@ It works alongside **SPF and DKIM** to improve email security and ensure that on
 
 
 DMARC uses three key tags:
-	•	v – Specifies the DMARC version (always DMARC1, at the moment there's no other)
-	•	p – Defines the policy for failed emails: **none** (*no action taken for failed messages*), **quarantine** (*messages that fail DMARC checks are sent to the spam/junk folder.*) or **reject** (*blocks delivery and never reaches the recipient*).
-	•	rua – The email address where DMARC reports are sent (e.g., your DNS registrar or business/personal email address).
+- v – Specifies the DMARC version (always DMARC1, at the moment there's no other)
+- p – Defines the policy for failed emails: **none** (*no action taken for failed messages*), **quarantine** (*messages that fail DMARC checks are sent to the spam/junk folder.*) or **reject** (*blocks delivery and never reaches the recipient*).
+- rua – The email address where DMARC reports are sent (e.g., your DNS registrar or business/personal email address).
 
 
 <div class="tip custom-block" style="padding-top: 8px">
