@@ -3,16 +3,18 @@
 Email DNS records ensure that your messages are delivered correctly, securely, and reliably.
 Just like with your website, it’s essential to configure the proper DNS records for your email services.
 
+
+## Adding records
+
 Email systems rely on several key records — **SPF, DKIM, DMARC, and MX.**
 If these are not set up correctly, your emails may fail to deliver or be flagged as spam by other mail providers.
 
-
-## Adding records
+### A record (IPv4)
 
 To ensure proper access to your webmail, make sure you configure the correct IPv4 address.
 
 Start by creating an A record for your mail service.
-Replace yourdomain.com with your actual domain name, and find your email server IP in the Cloud Panel under the “At a glance” section of your dashboard.
+Replace **yourdomain.com** with your actual domain name, and find your email server IP in the Cloud Panel under the **“At a glance”** section of your dashboard or under domain settings.
 
 | Variable | Hostname | Value |
 |-----------|:-----------:|:-----------|
