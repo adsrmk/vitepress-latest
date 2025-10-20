@@ -7,9 +7,12 @@ DNSSEC does this by using digital signatures, allowing DNS resolvers to verify t
 
 <br>
 
-::: info
+
+<div class="info custom-block" style="padding-top: 8px">
 Please note that DNSSEC must be supported by your registrar and requires additional configuration before it can be enabled.
-:::
+</div>
+
+
 
 
 1. Go to your desired website and locate the **Domains** section in the upper navigation.
