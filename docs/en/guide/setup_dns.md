@@ -34,7 +34,7 @@ Typically, there are four input fields for nameserver information, but you only 
 DNS records are individual entries that define how your domain behaves.
 For example, if you wish to keep your nameservers with your registrar, you’ll need to add a DNS record to route traffic correctly.
 
-Each customer’s website runs in an isolated container within our clustered hosting environment, which means every site has its own unique IP address. The following records must be added for website routing: A (IPv4) and AAAA (IPv6) You can find these IP's under your website’s **“At a glance”** section in the EV Cloud panel. 
+Each customer’s website runs in an isolated container within our clustered hosting environment, which means every site has its own unique IP address. The following records must be added for website routing: A (IPv4) and AAAA (IPv6). You can find these IP's under your website’s **“At a glance”** section in the EV Cloud panel. 
 
 1. Login to your DNS registrar
 2. Under your domain, search for DNS records or settings
@@ -43,8 +43,8 @@ Each customer’s website runs in an isolated container within our clustered hos
 
 | Variable | Value |
 |-----------|:-----------:|
-| A | Input IPv4 from the cloud panel |
-| AAAA | Input IPv6 from the cloud panel |
+| A | Input `IPv4` from the cloud panel |
+| AAAA | Input `IPv6` from the cloud panel |
 
 
 
