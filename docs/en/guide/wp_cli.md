@@ -18,6 +18,7 @@ cd public_html
   
 ```ssh
 rm -rf wp-admin
+rm -rf wp-includes
 ```
 
 4. Reinstall WordPress Core Files by executing the following command.
