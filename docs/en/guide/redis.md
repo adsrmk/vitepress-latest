@@ -9,10 +9,14 @@ Redis is a open-source in-memory database that is excellent for caching, session
 
 <br>
 
-::: warning
-You may get a 502: Bad Gateway error after activating Redis. This is usually caused because the Redis configuration is not yet correctly connected to the application server. 
+
+<div class="warning custom-block" style="padding-top: 8px">
+Note: You may get a 502: Bad Gateway error after activating Redis. This is usually caused because the Redis configuration is not yet correctly connected to the application server. 
 This is easily solved by **restarting your PHP container**. In Advanced → Developer Tools, select the first Restart button under .PHP 
-:::
+</div>
+
+
+
 
 If all the previous steps have been performed correctly, you can check that the client has successfully connected to the server. Redis is now active.
 
