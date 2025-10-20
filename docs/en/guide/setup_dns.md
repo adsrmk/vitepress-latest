@@ -1,18 +1,17 @@
 # Setup DNS records
 
-Every domain name relies on DNS (Domain Name System) to connect visitors to the right server. When you register a domain, it initially points to the nameservers of your domain registrar. To make your domain function properly with our services, you need to change the nameservers to ours or setup dns records. This ensures that all web traffic is directed correctly to our servers, enabling your website and email services to operate properly.
+Every domain name relies on the Domain Name System (DNS) to connect visitors to the correct server. It acts as the internet’s address book, translating your domain name into the location of your website. When you register a domain, it initially points to the nameservers of your registrar. To make a domain fully functional with our services, you can either update the nameservers or configure DNS records manually. Doing so ensures that all web (and email) traffic is routed correctly to our infrastructure, allowing your website and related services to operate smoothly.
 
 
 
-When connecting your domain you have **2 options.**
+When connecting your domain to EV Cloud, you have **two options** depending on how you prefer to manage your DNS settings.
 
-1. **Change Nameservers Completely**. If you want everything (website, mail, subdomains) to work automatically with our system.
-EV Cloud will handle all DNS records for you — fully managed and ready to go. 
-2. **Manage DNS Separately**. Ideal if you want more control: for example, you use email services from another provider (like Google Workspace or Microsoft 365) but still want to host your website with EV Cloud.
+1. **Change Nameservers Completely**. Choose this option if you want everything — your website, email, and subdomains — to work automatically with our system.
+EV Cloud will manage all DNS records for you, ensuring a fully configured setup.
+2. **Manage DNS Separately**. This option is ideal if you prefer more control over your DNS configuration. For example, you may want to keep your email services with another provider (such as Google Workspace or Microsoft 365) while hosting your website with EV Cloud. In this case, you’ll manually add the necessary DNS records to route traffic correctly.
 
 
-
-## Op. 1: Nameservers
+## Option 1: Nameservers
 
 
 1. Login and search for the DNS settings at your registrar.
@@ -29,7 +28,7 @@ Typically, there are four input fields for nameserver information, but you only 
 <br>
 
 
-## Op. 2: DNS records
+## Option 2: DNS records
 
 DNS records are individual entries that define how your domain behaves.
 For example, if you wish to keep your nameservers with your registrar, you’ll need to add a DNS record to route traffic correctly.
