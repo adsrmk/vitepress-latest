@@ -24,9 +24,10 @@ ns1.envision.nl
 ns2.envision.nl
 ```
 
-::: tip info
+<div class="tip custom-block" style="padding-top: 8px">
 Typically, there are four input fields for nameserver information, but you only need to fill in two of them. This is sufficient for proper configuration.
-:::
+</div>
+
 <br>
 
 
