@@ -17,7 +17,7 @@ EV Cloud will manage all DNS records for you, ensuring a fully configured setup.
 
 
 1. Login and search for the DNS settings at your registrar.
-2. Find nameservers and update them to the following:
+2. Find **nameservers** and update them to the following:
    
  ```
 ns1.envision.nl
