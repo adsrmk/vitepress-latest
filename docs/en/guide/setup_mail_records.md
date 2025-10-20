@@ -18,7 +18,7 @@ Replace **yourdomain.com** with your actual domain name, and find your email ser
 
 | Variable | Hostname | Value |
 |-----------|:-----------:|:-----------|
-| A | mail.`yourdomain.com` | See **IP mail server** in cloud panel |
+| A | mail.`yourdomain.com` | See **mail server IP** in cloud panel |
 
 
 
