@@ -5,6 +5,7 @@ Every domain name relies on the Domain Name System (DNS) to connect visitors to 
 
 
 When connecting your domain to EV Cloud, you have **two options** depending on how you prefer to manage your DNS settings.
+<br>
 
 1. **Change Nameservers Completely**. Choose this option if you want everything — your website, email, and subdomains — to work automatically with our system.
 EV Cloud will manage all DNS records for you, ensuring a fully configured setup.
