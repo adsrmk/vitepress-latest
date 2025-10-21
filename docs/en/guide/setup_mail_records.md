@@ -48,14 +48,15 @@ To enable DKIM for a domain:
 5. If you are using EV Cloud nameservers, wait for validation.
 
 <div class="info custom-block" style="padding-top: 8px">
-If your DNS is hosted elsewhere, follow the on-screen instructions. 
+If your DNS is hosted elsewhere, follow the on-screen instructions and paste the generated DKIM key.
 Your record wil look something like this.
 </div>
 
+<br>
 
 | Variable | Hostname | Value |
 |-----------|:-----------:|:-----------|
-| TXT | hostingcp._domainkey | Paste the generated DKIM |
+| TXT | hostingcp._domainkey | *generated DKIM* |
 
 <br>
 
