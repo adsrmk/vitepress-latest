@@ -3,8 +3,9 @@
 Every domain name relies on the Domain Name System (DNS) to connect visitors to the correct server. It acts as the internet’s address book, translating your domain name into the location of your website. When you register a domain, it initially points to the nameservers of your registrar. To make a domain fully functional with our services, you can either update the nameservers or configure DNS records manually. Doing so ensures that all web (and email) traffic is routed correctly to our infrastructure, allowing your website and related services to operate smoothly.
 
 
-
+<div class="tip custom-block" style="padding-top: 8px">
 When connecting your domain to EV Cloud, you have **two options** depending on how you prefer to manage your DNS settings.
+</div>
 
 <br>
 
@@ -24,9 +25,9 @@ ns1.envision.nl
 ns2.envision.nl
 ```
 
-<div class="tip custom-block" style="padding-top: 8px">
+
 Typically, there are four input fields for nameserver information, but you only need to fill in two of them. This is sufficient for proper configuration.
-</div>
+
 
 <br>
 
