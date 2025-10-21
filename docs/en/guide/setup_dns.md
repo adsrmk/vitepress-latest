@@ -16,6 +16,8 @@ EV Cloud will manage all DNS records for you, ensuring a fully configured setup.
 
 ## Option 1: Nameservers
 
+The easiest and recommended option is to change your nameservers.
+This automatically maps all DNS records to the EV Cloud infrastructure, ensuring your domain, website, and mail services work out of the box.
 
 1. Login and search for the DNS settings at your registrar.
 2. Find **nameservers** and update them to the following:
