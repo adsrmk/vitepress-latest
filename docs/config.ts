@@ -77,13 +77,24 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
     },
 
 
+        {
+      text: 'Platform',
+      collapsed: false,
+      items: [
+         { text: 'Users', link: 'users.md' },
+         { text: 'Redirects', link: 'redirect.md' }
+      ]
+    },
+
+    
     
     {
       text: 'Security',
       collapsed: false,
       items: [
          { text: 'Setup 2FA', link: '2FA.md' },
-         { text: 'DNSSEC', link: 'dnssec.md' }
+         { text: 'DNSSEC', link: 'dnssec.md' },
+         { text: 'ModSec', link: 'modsec.md' }
       ]
     },
 
