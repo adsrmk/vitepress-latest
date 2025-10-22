@@ -11,5 +11,5 @@ Adding a domain is straightforward and takes less than a minute. Make sure your 
 - **Clone website (business plan only)** → Clones a existing website with a new database. Make sure **"Perform a WordPress search and replace"** is *enabled*
   
 4. Fill in your domain and follow the configured steps to complete the process
-(5). *For business customers or agencies using managed cloud services:* you can choose where to deploy a website on a specific server.
+5. *For business customers or agencies using managed cloud services:* you can choose where to deploy a website on a specific server.
 This allows you to balance load and prevent high resource usage on a single server, ensuring stability.
