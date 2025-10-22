@@ -9,7 +9,7 @@ Just like with your website, it’s essential to configure the proper DNS record
 Email systems rely on several key records — **SPF, DKIM, DMARC, and MX.**
 If these are not set up correctly, your emails may fail to deliver or be flagged as spam by other mail providers.
 
-<div class="info custom-block" style="padding-top: 8px">
+<div class="tip custom-block" style="padding-top: 8px">
 If you are using Envision’s nameservers, you may skip these steps. However, for improved email deliverability, we recommend enabling DKIM and adding a DMARC record.
 </div>
 
