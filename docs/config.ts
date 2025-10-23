@@ -92,39 +92,23 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
     },
 
 
-    
-    {
-  text: 'Level 1',
-  items: [
-    {
-      text: '',
-      items: [
-         { text: 'Users', link: 'users.md' },
-    { text: 'Redirects', link: 'redirect.md' },
-      ]
-    }
-  ]
-},
-    
-
-
-
-
-
 
 
 {
   text: 'Platform',
   collapsed: false,
   items: [
-    { text: 'Setup 2FA', link: '2FA.md' },
-    { text: 'DNSSEC', link: 'dnssec.md' },
-    { text: 'ModSec', link: 'modsec.md' },
+     { text: 'Users', link: 'users.md' },
+      { text: 'Redirects', link: 'redirect.md' },
     {
-      text: 'Level 1',
+      text: 'Email',
       items: [
-        { text: 'Users', link: 'users.md' },
-        { text: 'Redirects', link: 'redirect.md' }
+        { text: 'Setup email', link: 'email_smtp.md' },
+        { text: 'Block e-mails', link: 'block_emails.md' },
+        { text: 'Create an email account', link: 'email_account.md' },
+        { text: 'Change e-mail password', link: 'email_password.md' },
+        { text: 'Email forwarding', link: 'forwarding.md' },
+        { text: 'File attachments', link: 'file_attachment.md' }
       ]
     }
   ]
@@ -176,20 +160,6 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'Unable to access FTP', link: 'SFTP.md' },
         { text: '400: Bad Request', link: '400.md' },
         { text: 'Internationalization', link: 'i18n' }
-      ]
-    },
-
-
-    {
-      text: 'Email(s)',
-      collapsed: false,
-      items: [
-        { text: 'Setup email', link: 'email_smtp.md' },
-        { text: 'Block e-mails', link: 'block_emails.md' },
-        { text: 'Create an email account', link: 'email_account.md' },
-        { text: 'Change e-mail password', link: 'email_password.md' },
-        { text: 'Email forwarding', link: 'forwarding.md' },
-        { text: 'File attachments', link: 'file_attachment.md' }
       ]
     },
 
