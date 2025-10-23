@@ -36,6 +36,11 @@ function nav(): DefaultTheme.NavItem[] {
       link: '/guide/what-is-vitepress',
       activeMatch: '/guide/'
     },
+     {
+      text: 'test',
+      link: '/email/',
+      activeMatch: '/email/'
+    },
     {
       text: 'Reference',
       link: '/reference/site-config',
