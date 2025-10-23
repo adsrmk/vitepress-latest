@@ -93,7 +93,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
 
           {
           text: 'Default Theme',
-          base: '/reference/default-theme-',
+          base: '/guide/email-',
           items: [
             { text: 'Overview', link: 'config' },
             { text: 'Nav', link: 'nav' },
