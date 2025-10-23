@@ -95,9 +95,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
 {
   text: 'Level 1',
   items: [
-    {
-      text: 'Level 2',
-      items: [
+   
         {
           text: 'Level 3',
           items: [
@@ -106,7 +104,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
           ]
         }
       ]
-    }
+    
   ]
 },
     
