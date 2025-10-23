@@ -81,17 +81,6 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
     },
 
 
-        {
-      text: 'Platform',
-      collapsed: false,
-      items: [
-         { text: 'Users', link: 'users.md' },
-         { text: 'Redirects', link: 'redirect.md' }
-      ]
-    },
-
-
-
 
 {
   text: 'Platform',
@@ -113,10 +102,6 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
   ]
 },
 
-
-    
-
-    
     
     {
       text: 'Security',
