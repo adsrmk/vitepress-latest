@@ -103,7 +103,6 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
     {
       text: 'Email',
       items: [
-        { text: 'Setup email', link: 'email_smtp.md' },
         { text: 'Block e-mails', link: 'block_emails.md' },
         { text: 'Create an email account', link: 'email_account.md' },
         { text: 'Change e-mail password', link: 'email_password.md' },
@@ -136,6 +135,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       items: [
          { text: 'Increase WP memory limit', link: 'wp_memory.md' },
          { text: 'Configure Redis', link: 'redis.md' },
+        { text: 'Setup WP mail', link: 'wp_mail.md' },
          { text: 'Reinstall WP core using cli', link: 'wp_cli.md' },
          { text: 'Reset WP password', link: 'reset_admin_pass.md' },   
          { text: 'Create or restore backup', link: 'ai1wm.md' }
