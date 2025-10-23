@@ -113,15 +113,13 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
 
 
 
-
-
-    {
+{
   text: 'Platform',
   collapsed: false,
   items: [
-     { text: 'Setup 2FA', link: '2FA.md' },
-         { text: 'DNSSEC', link: 'dnssec.md' },
-         { text: 'ModSec', link: 'modsec.md' }
+    { text: 'Setup 2FA', link: '2FA.md' },
+    { text: 'DNSSEC', link: 'dnssec.md' },
+    { text: 'ModSec', link: 'modsec.md' },
     {
       text: 'Level 1',
       items: [
@@ -131,7 +129,6 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
     }
   ]
 },
-
 
 
     
