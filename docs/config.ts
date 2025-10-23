@@ -127,7 +127,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       ]
     }
   ]
-}
+},
 
 
 
