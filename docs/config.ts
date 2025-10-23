@@ -92,6 +92,29 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
     },
 
 
+
+      {
+        text: 'Level 1',
+        items: [
+           { text: 'Users', link: 'users.md' },
+         { text: 'Redirects', link: 'redirect.md' }
+          {
+            text: 'Level 2',
+            items: [
+              {
+                text: 'Level 3',
+                items: [
+                  ...
+                ]
+              }
+            ]
+          }
+        ]
+      },
+  
+    
+
+
     
     
     {
