@@ -95,6 +95,9 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
           text: 'Default Theme',
           base: '/guide/email-',
           items: [
+
+           
+           { text: 'Email', link: 'setup_mail_records' },
             { text: 'Overview', link: 'config' },
             { text: 'Nav', link: 'nav' },
             { text: 'Sidebar', link: 'sidebar' },
