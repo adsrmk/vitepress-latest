@@ -76,8 +76,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'What is EVCloud?', link: 'what-is-vitepress' },
         { text: 'Onboarding', link: 'what-is-vitepress' },
         { text: 'Add Domain', link: 'add_domain.md' },
-        { text: 'Setup DNS records', link: 'setup_dns.md' },
-        { text: 'Setup Mail DNS', link: 'setup_mail_records.md' }
+        { text: 'Setup DNS records', link: 'setup_dns.md' }
       ]
     },
 
@@ -103,8 +102,9 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
     {
       text: 'Email',
       items: [
-        { text: 'Block e-mails', link: 'block_emails.md' },
+        { text: 'Setup Mail DNS', link: 'setup_mail_records.md' },
         { text: 'Create an email account', link: 'email_account.md' },
+        { text: 'Block e-mails', link: 'block_emails.md' },
         { text: 'Change e-mail password', link: 'email_password.md' },
         { text: 'Email forwarding', link: 'forwarding.md' },
         { text: 'File attachments', link: 'file_attachment.md' }
