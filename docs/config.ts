@@ -94,6 +94,9 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
              {
         text: 'Level 1',
         items: [
+                { text: 'What is EVCloud?', link: 'what-is-vitepress' },
+        { text: 'Onboarding', link: 'what-is-vitepress' },
+        { text: 'Add Domain', link: 'add_domain.md' }
           {
             text: 'Level 2',
             items: [
