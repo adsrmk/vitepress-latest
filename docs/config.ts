@@ -92,10 +92,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
     },
 
 
-
-
-
-
+    
     {
   text: 'Level 1',
   items: [
@@ -108,6 +105,30 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
     }
   ]
 },
+    
+
+
+
+
+
+
+
+
+
+    {
+  text: 'Platform',
+  collapsed: false,
+  items: [
+    {
+      text: 'Level 1',
+      items: [
+        { text: 'Users', link: 'users.md' },
+        { text: 'Redirects', link: 'redirect.md' }
+      ]
+    }
+  ]
+}
+
 
 
     
