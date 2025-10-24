@@ -89,6 +89,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
      { text: 'Users', link: 'users.md' },
       { text: 'Redirects', link: 'redirect.md' },
       { text: 'Backups', link: 'backups.md' },
+          { text: 'Database', link: 'database.md' },
     
     {
       text: 'Email',
