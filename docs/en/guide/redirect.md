@@ -1,6 +1,4 @@
-
 # Redirect
-description: Managing website redirections  
 
 
 A **redirect** is a method used to automatically send visitors from one web address to another.  
