@@ -28,7 +28,8 @@ If you have installed Wordpress, then a new database will be automatically creat
 
 To access your database, return to the main page, select the desired database, and click the <b>PhpmyAdmin</b> button at the top-right of the page. Note that <i>PhpmyAdmin is an advanced MySQL database management tool</i> and is recommended only for experienced users.
 
-<Note>Only access your database if you are confident in what you are doing, as incorrect settings may damage your website or business. If you encounter any issues, use the backup feature to restore your database. <i>Please make sure your website was functioning correctly within the last 24 hours.</i></Note>
+<div class="warning custom-block" style="padding-top: 8px">
+Only access your database if you are confident in what you are doing, as incorrect settings may damage your website or business. If you encounter any issues, use the backup feature to restore your database. <i>Please make sure your website was functioning correctly within the last 24 hours.</i></div>
 
 
 ### Users
