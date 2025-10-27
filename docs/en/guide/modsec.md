@@ -8,3 +8,7 @@ Our servers include ModSecurity by default, but it must be manually enabled in y
 <div class="warning custom-block" style="padding-top: 8px">
 ⚠️ Note: Enabling ModSecurity is not recommended for websites still under development. It may block backend requests or cause certain pages to load incorrectly.
 </div>
+
+<br>
+
+To enable ModSec, go to the **Security section** in the top navigation of your website’s dashboard, then use the **toggle** switch to activate it.
