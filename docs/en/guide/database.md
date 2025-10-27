@@ -1,5 +1,3 @@
-
-
 # Databases
 
 A database is a structured system used to store and organize information, enabling fast and efficient data retrieval.
@@ -9,7 +7,6 @@ MariaDB Server is an open-source relational database that provides an SQL-compat
 
 
 
----
 
 ## Create a database
 
@@ -25,7 +22,6 @@ If you have installed Wordpress, then a new database will be automatically creat
 4. Press **"Add"**, and the database will be created and listed.
 
 
----
 
 
 ## Manage an database
@@ -58,7 +54,6 @@ Similarly to importing, you can export the database to save all its data. The ex
 
 1. Click the <b>Download</b> button to export an sql.gz file for your database.
 
----
 
 ## Database users
 
@@ -81,9 +76,7 @@ Database users can interact with data, and their access levels and rights vary d
 5. Uncheck <b>All database privileges</b> and select only the specific permissions you wish to grant the user.
 
 
----
-
-## Delete database or users
+### Delete database or users
 
 if you wish to delete a database or users you can do simply so by clicking on the desired user or db and then scroll to the bottom of the page - then click <b>Delete</b>
 
