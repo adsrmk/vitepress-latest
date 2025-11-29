@@ -1,7 +1,8 @@
 ---
-meta:
-  - http-equiv: refresh
-    content: "0; url=/guide/what-is-vitepress/"
+layout: null
 ---
 
-Redirecting...
+<script>
+  // Redirect immediately to your page
+  window.location.href = '/support/';
+</script>
