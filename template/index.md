@@ -23,6 +23,6 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 <% } else { %>---
-home: true
+home: false
 ---
 <% } %>
