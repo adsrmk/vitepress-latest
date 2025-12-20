@@ -20,7 +20,7 @@ If you use our automated WordPress installer, a database will be created and con
 3. **Optional:** You may create a new database user or assign existing users and permissions during this step.
 4. Click **Add** to finalize the creation. Your new database will now appear in the list.
 
----
+<br>
 
 ## Managing a Database
 
