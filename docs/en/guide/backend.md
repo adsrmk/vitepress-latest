@@ -1,4 +1,4 @@
-# Change back-end login
+# Secure back-end login
 
 Securing the /wp-login.php page is a effective step you can take to protect a WordPress website. 
 Because it is the default "front door" for every WordPress site, it is also the primary target for hackers and automated bots.
@@ -6,7 +6,7 @@ Because it is the default "front door" for every WordPress site, it is also the 
 
 ## Why secure the wp-login.php page?
 
-By default, the WordPress login page is publicly accessible at 'yourdomain.com/wp-login.php' or 'yourdomain.com/login'. This makes it vulnerable to two specific threats
+By default, the WordPress login page is publicly accessible at `yourdomain.com/wp-login.php` or `yourdomain.com/login` This makes it vulnerable to two specific threats:
 
 - **Brute Force Attacks:** Automated bots attempt thousands of username and password combinations per minute to gain unauthorized access.
 - **Server Resource Exhaustion:** Even if the bots fail to log in, every login attempt triggers a *PHP process.* A heavy attack can spike resource usage, slowing down your site or crashing the server.
