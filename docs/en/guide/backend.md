@@ -20,6 +20,8 @@ The most effective way to stop "blind" bots is to move the door. Instead of the 
 **How:** Use a lightweight plugin like [WPS Hide Login](https://nl.wordpress.org/plugins/wps-hide-login/).
 **The Benefit:** It’s simple and requires no technical knowledge. Once changed, any bot trying to reach the old wp-login.php will receive a 404 "Not Found" error.
 
+<br>
+
 
 ## Method 2 - Use a Web Application Firewall (WAF)
 
@@ -28,7 +30,7 @@ A firewall acts as a filter between your site and the rest of the internet. Serv
 **Cloudflare:** You can set a "Page Rule" to force a JavaScript challenge (managed challenge) for anyone visiting wp-login.php
 **Wordfence:** This plugin maintains a global database of malicious IP addresses and blocks them automatically if they show "bot-like" behavior.
 
-
+<br>
 
 ## Method 3 - Restrict Access by IP
 
@@ -46,3 +48,4 @@ if (strpos($_SERVER['REQUEST_URI'], 'wp-login.php') !== false) {
     }
 }
 ```
+<br>
