@@ -36,6 +36,7 @@ Now that the internal trigger is disabled, you must tell the server to run the s
 4. Select **Add Cron Job**.
 5. Input the Execution Type and Interval, then save.
 
+<br>
 
 **Important:** Please monitor your site's functionality after this setup to ensure tasks are triggered as expected. If you need to change the frequency, you can adjust the schedule at any time within the Cron Job management area of your control panel.
 
