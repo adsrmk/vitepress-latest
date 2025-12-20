@@ -1,91 +1,101 @@
 # Databases
 
-A database is a structured system used to store and organize information, enabling fast and efficient data retrieval.
-WordPress depends on such a system to manage your website’s content — including posts, pages, comments, and other data. While WordPress traditionally uses MySQL, a widely adopted open-source database management system, our servers operate on the latest stable release of MariaDB (version 11+), a fork of MySQL.
+Databases are structured systems designed to store, organize, and retrieve information efficiently. WordPress relies on a database to manage your website’s core architecture—including posts, pages, comments, metadata, and user configurations. 
 
-MariaDB Server is an open-source relational database that provides an SQL-compatible interface for data access and management. Initially developed as a fully compatible, drop-in replacement for MySQL, MariaDB has since expanded with advanced capabilities such as GIS and JSON support. Renowned for its speed, scalability, and reliability, MariaDB offers a rich ecosystem of storage engines, plugins, and tools—making it an ideal choice for a wide range of web and enterprise applications.
+While WordPress traditionally utilizes MySQL, our infrastructure operates on the latest stable release of **MariaDB**. MariaDB is a highly optimized, open-source relational database developed as a performance-oriented alternative to MySQL. It is renowned for its speed, scalability, and advanced features such as enhanced GIS and JSON support.
+
+<br>
 
 
+## Creating a Database
 
+A database must be initialized before it can store or maintain data.
 
-## Create a database
-
-To store and maintain data, you need to create a database first.
-
-<div class="info custom-block" style="padding-top: 8px">
-If you have installed Wordpress, then a new database will be automatically created and linked to your site.
+<div class="tip custom-block" style="padding-top: 8px">
+If you use our automated WordPress installer, a database will be created and configured for your site automatically.
 </div>
 
-1. Click on the **"Add Database"** button located at the top right of the page.
-2. Enter your desired database name.
-3. <i>Optionally</i>, you can create or add additional users, adjust permissions, or skip this step entirely.
-4. Press **"Add"**, and the database will be created and listed.
+1. Click the **Add Database** button located in the top-right corner of the panel.
+2. Enter a unique name for your database.
+3. **Optional:** You may create a new database user or assign existing users and permissions during this step.
+4. Click **Add** to finalize the creation. Your new database will now appear in the list.
 
+---
 
+## Managing a Database
 
-
-## Manage an database
-
-To access your database, return to the main page, select the desired database, and click the <b>PhpmyAdmin</b> button at the top-right of the page. Note that <i>PhpmyAdmin is an advanced MySQL database management tool</i> and is recommended only for experienced users.
+To manage your data directly, navigate to the database list, select your target database, and click the **phpMyAdmin** button. 
 
 <div class="warning custom-block" style="padding-top: 8px">
-Only access your database if you are confident in what you are doing, as incorrect settings may damage your website or business. If you encounter any issues, use the backup feature to restore your database. <i>Please make sure your website was functioning correctly within the last 24 hours.</i></div>
+phpMyAdmin is an advanced administrative tool. Direct database manipulation is recommended for experienced users only. Incorrect configurations can cause critical site failures. We strongly recommend verifying that your website has been functioning correctly within the last 24 hours before making changes. If a manual error occurs, utilize the backup feature to restore your database. 
+</div>
+
+<br>
+
+### Managing Users
+To grant specific individuals or applications access to your database:
+
+1. Select your database from the list.
+2. Under the **Database Users** section, click **Add Database User**.
+3. Select an existing user from the dropdown or create a new profile.
+4. Define the specific database privileges or grant **Full Access**.
+
+<br>
 
 
-### Users
+### Importing an SQL File
+Importing is essential for site migrations. Supported formats include uncompressed `.sql` files or compressed `.gz` and `.zip` archives. The maximum upload limit is **500MB**.
 
-If you want users to access your database, you can add them or create one at once.
+1. Click the **Upload** icon.
+2. Browse your local files, select the desired SQL archive, and confirm the upload.
+
+<br>
+
+### Exporting an SQL File
+Exporting creates a comprehensive backup of your data, downloaded as a compressed `.sql.gz` file. 
 
 1. Select your database.
-2. Under "Database users" - Click <b>Add database user</b>
-3. Select a existing user or create a new one.
-4. Set database priviliges or grant full access.
+2. Click the **Download** button to generate and save the export.
+*Periodic manual exports are recommended as a secondary safety measure alongside automated backups.*
+
+<br>
 
 
-### Import SQL file
+## Database User Management
 
-You can import an SQL file directly into the database, which is useful for when you've migrated your website. The file must be either a compressed format (.gz or .zip) or an uncompressed .sql file, and it should be 500MB or less in size.
+Database users interact with your data based on defined "privileges." As the administrator, you can control whether a user can only read data or if they have the authority to insert, modify, or delete records.
 
-1. Click the <b>upload button</b>
-2. Browse and select the desired file - Then upload
+<br>
 
-### Export SQL file
+### Adding a New User
 
-Similarly to importing, you can export the database to save all its data. The export will be downloaded as a .sql.gz file. While not strictly necessary, it is recommended to periodically download a backup of your database. This practice ensures you have a reliable data backup and recovery option in case of data loss or corruption, providing essential protection for your information. 
+1. In the top-right corner of the Users section, click **Add User**.
+2. Provide a secure username and password.
+3. Under **Database Access**, define the user's scope. You can grant access to all databases or restrict the user to a specific one.
+4. Refine permissions by toggling **All Database Privileges** or selecting specific roles.
+5. Click **Add** to save the user profile.
 
-1. Click the <b>Download</b> button to export an sql.gz file for your database.
+<br>
 
+### Modifying Privileges or Revoking Access
 
-## Database users
+1. Navigate to the **Users** tab.
+2. Locate the target user and click the **three vertical dots** (kebab menu) on the right side of their row.
+3. Select **Edit Privileges** to adjust permissions or **Revoke Access** to remove the user from a specific database.
+4. If editing, uncheck **All Database Privileges** to manually select specific rights (e.g., SELECT, INSERT, UPDATE).
 
-Database users can interact with data, and their access levels and rights vary depending on their roles and tasks. As the owner, you can configure these rights, including permissions to create, insert, or delete data. 
+<br>
 
-### Add a user
+### Deleting Databases or Users
 
-1. At the top-right corner; click <b>Add user.</b>
-2. Fill in the username and password for the new user.
-3. At the bottom of the form, you’ll find the "Database Access" section. Here, you can specify the user’s privileges and permissions. You can assign these rights to a specific database and define roles by unchecking "All Database Privileges," or you can simply grant all privileges if needed.
-4. When finished click the <b>Add</b> button. 
+To permanently remove a database or user:
 
+1. Select the desired database or user profile.
+2. Scroll to the bottom of the management page.
+3. Click the **Delete** button.
 
-### Change priviliges or revoke access
+<div class="warning custom-block" style="padding-top: 8px">
+This action is irreversible. Once deleted, all associated data is permanently purged from the server.
+</div>
 
-1. Switch to the <b>Users</b> tab.
-2. Click on the user you wish to delete or edit.
-3. Locate the user in the "Database Users" section, and click the three vertical dots on the right side of their row.
-4. Select <b>Edit priviliges</b> from the dropdown menu or <b>Revoke access</b>
-5. Uncheck <b>All database privileges</b> and select only the specific permissions you wish to grant the user.
-
-
-### Delete database or users
-
-if you wish to delete a database or users you can do simply so by clicking on the desired user or db and then scroll to the bottom of the page - then click <b>Delete</b>
-
-<Note>This action is inreversivle and once deleted, all data is lost </Note>
-
-
-
-
-
-
-
+<br>
