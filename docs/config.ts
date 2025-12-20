@@ -112,7 +112,8 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       items: [
          { text: 'Setup 2FA', link: '2FA.md' },
          { text: 'DNSSEC', link: 'dnssec.md' },
-         { text: 'ModSec', link: 'modsec.md' }
+         { text: 'ModSec', link: 'modsec.md' },
+        { text: 'Backend', link: 'backend.md' }
       ]
     },
 
