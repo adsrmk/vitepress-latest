@@ -89,7 +89,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
      { text: 'Users', link: 'users.md' },
       { text: 'Redirects', link: 'redirect.md' },
       { text: 'Backups', link: 'backups.md' },
-          { text: 'Database', link: 'database.md' },
+      { text: 'Database', link: 'database.md' },
     
     {
       text: 'Email',
@@ -113,13 +113,13 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
          { text: 'Setup 2FA', link: '2FA.md' },
          { text: 'DNSSEC', link: 'dnssec.md' },
          { text: 'ModSec', link: 'modsec.md' },
-        { text: 'Backend', link: 'backend.md' }
+         { text: 'Backend', link: 'backend.md' }
       ]
     },
 
 
         {
-      text: 'Wordpress appcd',
+      text: 'Wordpress app',
       collapsed: false,
       items: [
          { text: 'Increase WP memory limit', link: 'wp_memory.md' },
@@ -128,6 +128,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
          { text: 'Reinstall WP core using cli', link: 'wp_cli.md' },
          { text: 'Reset WP password', link: 'reset_admin_pass.md' },   
          { text: 'Create or restore backup', link: 'ai1wm.md' }
+         { text: 'Disable Cron jobs', link: 'cron_jobs.md' }
       ]
     },
 
