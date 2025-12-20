@@ -29,13 +29,14 @@ A firewall acts as a filter between your site and the rest of the internet. Serv
 **Wordfence:** This plugin maintains a global database of malicious IP addresses and blocks them automatically if they show "bot-like" behavior.
 
 
+
 ## Method 3 - Restrict Access by IP
 
 If you have a consistent IP address, you can restrict access to wp-login.php directly within your wp-config.php file. Please note that this will block any IP address that does not match your specific input. This is an ideal security setup for customers using our Cloud Panel SSO, as you can still bypass the login screen via the dashboard while keeping the site locked down against brute-force attacks.
 
 To enable this, add this code at the top of wp-config.php
 
-<code>
+```php [.public_html/wp-config.php]
 // Security: Restrict wp-login.php to specific IPs
 if (strpos($_SERVER['REQUEST_URI'], 'wp-login.php') !== false) {
     $allowed_ips = ['123.456.789.000', '111.222.333.444']; // Add your IPs here
@@ -44,4 +45,4 @@ if (strpos($_SERVER['REQUEST_URI'], 'wp-login.php') !== false) {
         die('Access Denied: Your IP address is not authorized.');
     }
 }
-</code>
+```
