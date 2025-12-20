@@ -127,7 +127,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'Setup WP mail', link: 'wp_mail.md' },
          { text: 'Reinstall WP core using cli', link: 'wp_cli.md' },
          { text: 'Reset WP password', link: 'reset_admin_pass.md' },   
-         { text: 'Create or restore backup', link: 'ai1wm.md' }
+         { text: 'Create or restore backup', link: 'ai1wm.md' },
          { text: 'Disable Cron jobs', link: 'cronjobs.md' }
       ]
     },
