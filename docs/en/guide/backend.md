@@ -17,7 +17,9 @@ There are several methods you can do to secure your site.
 ## Method 1 - Change the Login URL
 
 The most effective way to stop "blind" bots is to move the door. Instead of the standard URL, you choose something unique like /private-access or /my-secret-entry.
+
 **How:** Use a lightweight plugin like [WPS Hide Login](https://nl.wordpress.org/plugins/wps-hide-login/).
+
 **The Benefit:** It’s simple and requires no technical knowledge. Once changed, any bot trying to reach the old wp-login.php will receive a 404 "Not Found" error.
 
 <br>
