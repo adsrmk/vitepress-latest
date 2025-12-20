@@ -16,7 +16,21 @@ To stop WordPress from running the cron script on every page load, you need to e
 3. Find the wp-config.php file, right-click it, and select Edit.
 4. Scroll down to the bottom of the file and find the line that says: /* That's all, stop editing! Happy blogging. */
 5. Just above that line, paste the following code:
-   
+```php [/public_html/wp-config.php]
+  define('DISABLE_WP_CRON', true);
+```
+6. Click Save Changes
+
+
+### Setup cron-jobs trough system
+
+Now that the internal trigger is disabled, you must tell the server to run the script manually on a fixed schedule.
+
+1. Return to the Cloud Panel dashboard.
+2. Select your site and go to **Advanced > Developer Tools**.
+3. Click **Cron Jobs** in the left-hand sidebar.
+4. Select **Add Cron Job**.
+5. Input the Execution Type and Interval, then save.
+
 
    
-`
