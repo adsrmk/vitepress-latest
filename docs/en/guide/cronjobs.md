@@ -6,6 +6,8 @@ On low-traffic sites, scheduled tasks might be missed entirely if no one visits 
 
 The solution is to disable the internal WordPress cron and replace it with a system-based cron job.
 
+<br>
+
 
 ## Guide
 
@@ -20,6 +22,8 @@ To stop WordPress from running the cron script on every page load, you need to e
   define('DISABLE_WP_CRON', true);
 ```
 6. Click Save Changes
+
+<br>
 
 
 ### Setup cron-jobs trough system
