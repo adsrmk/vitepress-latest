@@ -4,6 +4,8 @@ By default, WordPress handles scheduled tasks (like checking for updates or publ
 While convenient, this "pseudo-cron" system only runs when someone visits your website. On high-traffic sites, this can waste server resources by firing on every page load. 
 On low-traffic sites, scheduled tasks might be missed entirely if no one visits the site at the right time.
 
+Additionally, if a site uses Full Page Caching (like Varnish or Cloudflare), a visitor might see a cached version of the page without ever "hitting" WordPress. In this case, wp-cron.php won't trigger at all, making a system-level cron job even more essential.
+
 The solution is to disable the internal WordPress cron and replace it with a system-based cron job.
 
 <br>
