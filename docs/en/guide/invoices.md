@@ -12,15 +12,8 @@ Annual subscription holders receive one primary invoice per year. Any add-ons or
 1. Access the **[Billing Portal](https://billing.stripe.com/p/login/9AQ4gz7EabVXc7eaEE)**. You can also find this link in the bottom-left of the cloud dashboard.
 2. Locate your history - Scroll down the right-hand pane to the invoice history section to view all past transactions.
 3. View and download: Select a specific invoice to view its details or download a PDF copy for your records.
+   
+<br>
 
-
-
-### Automatic billing charges
-We support Credit Card and SEPA Direct Debit for all automated subscription renewals. Once a payment method is established, the applicable fees will be deducted automatically on each billing date to ensure uninterrupted service continuity.
-
-This automated billing cycle applies to both monthly and annual subscription plans. Please note that all recurring charges are processed on the **first day of each month.**
-
-
-### Pay invoices
-We support Credit Card, SEPA Direct Debit, and iDEAL for the settlement of all invoices. Any outstanding balances or pending payments can be managed and viewed directly through your Stripe Billing Portal.
-
+## Pay invoices
+All outstanding balances and pending payments can be managed directly through the Stripe Billing Portal, where you can choose from various payment methods. We kindly ask that you settle invoices promptly; maintaining an up-to-date account ensures your services remain active and prevents any potential interruptions to your business
