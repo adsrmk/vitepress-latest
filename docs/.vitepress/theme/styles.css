@@ -2,10 +2,10 @@
 color: #fff;
 }
 .VPSidebarItem.level-0.has-active > .item > .text[data-v-03c5b0e3], .VPSidebarItem.level-1.has-active > .item > .text[data-v-03c5b0e3], .VPSidebarItem.level-2.has-active > .item > .text[data-v-03c5b0e3], .VPSidebarItem.level-3.has-active > .item > .text[data-v-03c5b0e3], .VPSidebarItem.level-4.has-active > .item > .text[data-v-03c5b0e3], .VPSidebarItem.level-5.has-active > .item > .text[data-v-03c5b0e3], .VPSidebarItem.level-0.has-active > .item > .link > .text[data-v-03c5b0e3], .VPSidebarItem.level-1.has-active > .item > .link > .text[data-v-03c5b0e3], .VPSidebarItem.level-2.has-active > .item > .link > .text[data-v-03c5b0e3], .VPSidebarItem.level-3.has-active > .item > .link > .text[data-v-03c5b0e3], .VPSidebarItem.level-4.has-active > .item > .link > .text[data-v-03c5b0e3], .VPSidebarItem.level-5.has-active > .item > .link > .text[data-v-03c5b0e3] {
-color: #E3FF48;
+color: #fafafa;
 }
 .VPSidebarItem.level-1 .text[data-v-03c5b0e3], .VPSidebarItem.level-2 .text[data-v-03c5b0e3], .VPSidebarItem.level-3 .text[data-v-03c5b0e3], .VPSidebarItem.level-4 .text[data-v-03c5b0e3], .VPSidebarItem.level-5 .text[data-v-03c5b0e3] {
-color: #fdfdfd;
+color: #E3FF48;
 }
 .VPSidebarItem.level-0.is-active > .item .link > .text[data-v-03c5b0e3], .VPSidebarItem.level-1.is-active > .item .link > .text[data-v-03c5b0e3], .VPSidebarItem.level-2.is-active > .item .link > .text[data-v-03c5b0e3], .VPSidebarItem.level-3.is-active > .item .link > .text[data-v-03c5b0e3], .VPSidebarItem.level-4.is-active > .item .link > .text[data-v-03c5b0e3], .VPSidebarItem.level-5.is-active > .item .link > .text[data-v-03c5b0e3] {
 color: #fff;
