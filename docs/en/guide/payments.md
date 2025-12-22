@@ -13,7 +13,9 @@ Once a primary payment method is established, applicable fees will be deducted a
 ## Add payment method
 
 1. Simply login to the [billing portal](https://billing.stripe.com/p/login/9AQ4gz7EabVXc7eaEE)
-2. <img width="1475" height="502" alt="image" src="https://github.com/user-attachments/assets/ca4281ce-b59f-4236-bfb9-1b7bb9bed37b" />
+<img width="1475" height="502" alt="image" src="https://github.com/user-attachments/assets/ca4281ce-b59f-4236-bfb9-1b7bb9bed37b" />
+
+2. 
 
 
 
