@@ -15,9 +15,11 @@ Once a primary payment method is established, applicable fees will be deducted a
 1. Login to the [billing portal](https://billing.stripe.com/p/login/9AQ4gz7EabVXc7eaEE)
 2. Select add payment method.
 <img width="1468" height="505" alt="image" src="https://github.com/user-attachments/assets/5365e440-6186-48ea-b61d-9f6a237ec889" />
+<br>
 
 3. Select add debit/credit card or SEPA direct debit. 
 <img width="1479" height="747" alt="image" src="https://github.com/user-attachments/assets/ea8eac53-1e0c-4a2c-978b-7df1338f46a5" />
+<br>
 
 
 
