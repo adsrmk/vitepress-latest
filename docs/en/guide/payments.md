@@ -15,7 +15,7 @@ Once a primary payment method is established, applicable fees are deducted autom
 <img width="1468" height="505" alt="image" src="https://github.com/user-attachments/assets/5365e440-6186-48ea-b61d-9f6a237ec889" />
 <br>
 3. Choose Credit/Debit or SEPA direct.
-4. Enter the necessary details as prompted 
+4. Enter the necessary details as prompted
 5. Click Save to update your billing profile.
 
 
