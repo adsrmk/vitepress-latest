@@ -14,3 +14,13 @@ Annual subscription holders receive one primary invoice per year. Any add-ons or
 3. View and download: Select a specific invoice to view its details or download a PDF copy for your records.
 
 
+
+### Automatic billing charges
+We support Credit Card and SEPA Direct Debit for all automated subscription renewals. Once a payment method is established, the applicable fees will be deducted automatically on each billing date to ensure uninterrupted service continuity.
+
+This automated billing cycle applies to both monthly and annual subscription plans. Please note that all recurring charges are processed on the **first day of each month.**
+
+
+### Pay invoices
+We support Credit Card, SEPA Direct Debit, and iDEAL for the settlement of all invoices. Any outstanding balances or pending payments can be managed and viewed directly through your Stripe Billing Portal.
+
