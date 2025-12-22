@@ -13,7 +13,7 @@ export default defineAdditionalConfig({
 
     sidebar: {
       '/guide/': { base: '/guide/', items: sidebarGuide() },
-      '/reference/': { base: '/reference/', items: sidebarRefere  { text: 'Invoices', link: 'invoices.md' }invoicnce() }
+      '/reference/': { base: '/reference/', items: sidebarReference() }
     },
 
         editLink: {
