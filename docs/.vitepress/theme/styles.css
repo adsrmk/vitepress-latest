@@ -6,6 +6,9 @@
 color: #fff;
 }
 
+.VPSidebarItem.is-active > .item .link > .text[data-v-03c5b0e3] {
+color: #E3FF48;
+}
 
 :root:where(:lang(fa)) {
   --vp-font-family-base:
