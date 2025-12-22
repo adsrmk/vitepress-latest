@@ -17,4 +17,5 @@ Annual subscription holders receive one primary invoice per year. Any add-ons or
 
 ## Pay invoices
 You can pay outstanding debts through various [payment methods]() provided. To pay a invoice; simply select one and scroll down to the payment area.
+
 <img width="439" height="380" alt="image" src="https://github.com/user-attachments/assets/a19885eb-08a3-48d7-9dd8-284432c306b6" />
