@@ -1,12 +1,16 @@
 # Invoices
 
-Your invoices are always available through your account dashboard. 
-These documents contain the amount charged, service period, payment status, and issuance date. We use **Stripe** to provide a secure and transparent billing environment.
+All invoices are accessible at any time via your account dashboard. These documents provide a comprehensive record of charges, including the service period, payment status, and issuance date.
+We utilize Stripe to ensure a secure, transparent, and industry-compliant billing experience. This allows for management of your financial records and simplified tax reporting.
+
+Annual subscription holders receive one primary invoice per year. Any add-ons or variable surcharges are processed independently and invoiced according to actual consumption.
+
+<br>
 
 ## View, print and download
 
-1. Access the **[Billing Portal](https://billing.stripe.com/p/login/9AQ4gz7EabVXc7eaEE)** Log in via our Billing Portal. You can also find this link in the bottom-left corner of the cloud dashboard.
-2. Locate Your History: Scroll down the right-hand pane to the invoice history section to view all past transactions.
-3. View and Download: Select a specific invoice to view its details or download a PDF copy for your records.
+1. Access the **[Billing Portal](https://billing.stripe.com/p/login/9AQ4gz7EabVXc7eaEE)**. You can also find this link in the bottom-left of the cloud dashboard.
+2. Locate your history - Scroll down the right-hand pane to the invoice history section to view all past transactions.
+3. View and download: Select a specific invoice to view its details or download a PDF copy for your records.
 
 
