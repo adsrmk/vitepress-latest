@@ -1,9 +1,5 @@
-.VPSidebarItem.level-1 .text[data-v-03c5b0e3], 
-.VPSidebarItem.level-2 .text[data-v-03c5b0e3], 
-.VPSidebarItem.level-3 .text[data-v-03c5b0e3], 
-.VPSidebarItem.level-4 .text[data-v-03c5b0e3], 
-.VPSidebarItem.level-5 .text[data-v-03c5b0e3] {
-color: #fff;
+.VPSidebarItem.level-1 .text[data-v-03c5b0e3], .VPSidebarItem.level-2 .text[data-v-03c5b0e3], .VPSidebarItem.level-3 .text[data-v-03c5b0e3], .VPSidebarItem.level-4 .text[data-v-03c5b0e3], .VPSidebarItem.level-5 .text[data-v-03c5b0e3] {
+color: #fafafa;
 }
 
 .VPSidebarItem.level-0.is-active > .item .link > .text[data-v-03c5b0e3], .VPSidebarItem.level-1.is-active > .item .link > .text[data-v-03c5b0e3], .VPSidebarItem.level-2.is-active > .item .link > .text[data-v-03c5b0e3], .VPSidebarItem.level-3.is-active > .item .link > .text[data-v-03c5b0e3], .VPSidebarItem.level-4.is-active > .item .link > .text[data-v-03c5b0e3], .VPSidebarItem.level-5.is-active > .item .link > .text[data-v-03c5b0e3] {
