@@ -7,7 +7,9 @@ Annual subscription holders receive one primary invoice per year. Any add-ons or
 
 <br>
 
-## View, print and download
+## Manage invoice(s)
+
+All invoices are available to view, print, or download for your financial management. 
 
 1. Access the **[Billing Portal](https://billing.stripe.com/p/login/9AQ4gz7EabVXc7eaEE)**. You can also find this link in the bottom-left of the cloud dashboard.
 2. Locate your history - Scroll down the right-hand pane to the invoice history section to view all past transactions.
