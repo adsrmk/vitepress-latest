@@ -122,7 +122,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       text: 'Billing',
       collapsed: false,
       items: [
-         { text: 'Invoices', link: '2FA.md' }
+         { text: 'Invoices', link: 'invoices.md' }
     
       ]
     },
