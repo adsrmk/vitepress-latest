@@ -2,6 +2,11 @@
  * Colors: Solid
  * -------------------------------------------------------------------------- */
 
+.VPSidebarItem.level-1 .text[data-v-03c5b0e3], .VPSidebarItem.level-2 .text[data-v-03c5b0e3], .VPSidebarItem.level-3 .text[data-v-03c5b0e3], .VPSidebarItem.level-4 .text[data-v-03c5b0e3], .VPSidebarItem.level-5 .text[data-v-03c5b0e3]
+color: #fff;
+}
+
+
 :root {
   --vp-c-white: #ffffff;
   --vp-c-black: #000000;
