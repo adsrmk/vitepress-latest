@@ -5,6 +5,10 @@ color: #fafafa;
 .VPSidebarItem.level-0.is-active > .item .link > .text[data-v-03c5b0e3], .VPSidebarItem.level-1.is-active > .item .link > .text[data-v-03c5b0e3], .VPSidebarItem.level-2.is-active > .item .link > .text[data-v-03c5b0e3], .VPSidebarItem.level-3.is-active > .item .link > .text[data-v-03c5b0e3], .VPSidebarItem.level-4.is-active > .item .link > .text[data-v-03c5b0e3], .VPSidebarItem.level-5.is-active > .item .link > .text[data-v-03c5b0e3] {
 color: #E3FF48;
 }
+.group+.group[data-v-f3832bb3] {
+border-top: none;
+}
+  
 
 :root:where(:lang(fa)) {
   --vp-font-family-base:
