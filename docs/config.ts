@@ -118,6 +118,16 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
     },
 
 
+       {
+      text: 'Billing',
+      collapsed: false,
+      items: [
+         { text: 'Invoices', link: '2FA.md' }
+    
+      ]
+    },
+
+
         {
       text: 'Wordpress app',
       collapsed: false,
