@@ -3,7 +3,7 @@
 
 To provide a easy and secure billing experience, we utilize Stripe to manage all payments and subscriptions. This integration allows you to maintain control over your billing details while ensuring your data remains protected by industry-leading PCI-compliance.
 
-We support Debit/Credit Cards and SEPA Direct Debit for all automated subscription renewals, while iDEAL is available for the settlement of individual invoices. You can view your payment history, manage outstanding balances, and update your preferences at any time via your Stripe Billing Portal.
+We support Debit/Credit Cards and SEPA Direct Debit for all automated subscription renewals, while iDEAL is additionaly available for the settlement of individual invoices.
 
 Once a primary payment method is established, applicable fees are deducted automatically to ensure uninterrupted service continuity. This automated cycle applies to both monthly and annual subscription plans, with all **recurring charges processed on the first day of each month.**
 
