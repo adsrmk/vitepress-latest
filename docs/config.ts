@@ -13,7 +13,7 @@ export default defineAdditionalConfig({
 
     sidebar: {
       '/guide/': { base: '/guide/', items: sidebarGuide() },
-      '/reference/': { base: '/reference/', items: sidebarReference() }
+      '/reference/': { base: '/reference/', items: sidebarRefere  { text: 'Invoices', link: 'invoices.md' }invoicnce() }
     },
 
         editLink: {
@@ -122,7 +122,8 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       text: 'Billing',
       collapsed: false,
       items: [
-         { text: 'Invoices', link: 'invoices.md' }
+         { text: 'Invoices', link: 'invoices.md' },
+         { text: 'Payments', link: 'payments.md' }
     
       ]
     },
