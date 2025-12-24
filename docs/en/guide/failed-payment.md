@@ -1,7 +1,5 @@
 # Failed payment(s)
 
-To ensure uninterrupted access to your hosting environments and data, our billing system follows a structured process for payment management. Monthly subscriptions are processed on the **1st of each month** via your primary payment method on file.
-
 In the event that an initial transaction cannot be completed—often due to routine card expirations or bank communication errors—our system begins a grace period designed to give your team time to resolve the issue without loss of service.
 
 <br>
