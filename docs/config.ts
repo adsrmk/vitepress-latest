@@ -124,7 +124,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       items: [
          { text: 'Invoices', link: 'invoices.md' },
          { text: 'Payment methods', link: 'payments.md' },
-         { text: 'Failed payment', link: 'failed-payments.md' },
+         { text: 'Failed payment', link: 'failed-payment.md' },
          { text: 'VAT', link: 'VAT.md' }
     
       ]
