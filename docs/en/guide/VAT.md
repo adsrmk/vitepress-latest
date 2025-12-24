@@ -40,14 +40,13 @@ To apply a tax-exempt status to your account, please follow our verification pro
 If you need to add or change your VAT ID, you can do so directly through the Billing Portal.
 
 1. Log in to your Dashboard.
-2. Navigate to the Billing section and click on Manage Subscription (this will securely redirect you to the Stripe Billing Portal).
-3. Under the Billing Information or Account Details section, click **Update Information.**
-4. Scroll down to the Tax ID field.
-5. Select your country’s tax type (e.g., EU VAT, GB VAT) and enter your ID.
+2. Under the Billing Information or Account Details section, click **Update Information.**
+3. Scroll down to the Tax ID field.
+4. Select your country’s tax type (e.g., EU VAT, GB VAT) and enter your ID.
 <br>
 <img width="435" height="416" alt="image" src="https://github.com/user-attachments/assets/a00f6298-e031-44d3-9b18-d9f52d43dd64" />
 <br>
-6. Click **Save** to apply the changes
+5. Click **Save** to apply the changes
 
 
    
