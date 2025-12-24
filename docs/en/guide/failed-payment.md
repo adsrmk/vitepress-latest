@@ -4,6 +4,8 @@ To ensure uninterrupted access to your hosting environments and data, our billin
 
 In the event that an initial transaction cannot be completed—often due to routine card expirations or bank communication errors—our system begins a grace period designed to give your team time to resolve the issue without loss of service.
 
+<br>
+
 **Second Notification (Day 3):** 
 If the initial payment is unsuccessful, a second attempt will be made three days later. If this is resolved, no further action is required. If it remains outstanding, an automated reminder will be sent to the administrative contact.
 
