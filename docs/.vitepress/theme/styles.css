@@ -17,8 +17,8 @@ color: #9d9d9d;
 color: #E3FF48;
 }
 
-:root {
-    --vp-c-divider: #222;
+:where([dir=ltr]) .VPSidebarItem.level-1 .items[data-v-03c5b0e3], :where([dir=ltr]) .VPSidebarItem.level-2 .items[data-v-03c5b0e3], :where([dir=ltr]) .VPSidebarItem.level-3 .items[data-v-03c5b0e3], :where([dir=ltr]) .VPSidebarItem.level-4 .items[data-v-03c5b0e3], :where([dir=ltr]) .VPSidebarItem.level-5 .items[data-v-03c5b0e3] {
+border-left: 0px #222;
 }
 .group+.group[data-v-f3832bb3] {
 border-top: none;
