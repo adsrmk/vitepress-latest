@@ -15,6 +15,7 @@ On the eighth day, a third attempt is made. Should the payment remain outstandin
 **Final Resolution Attempt (Day 14):** 
 Fourteen days following the initial due date, a final attempt will be made to process the outstanding balance using any payment methods associated with the account. This is a final measure to help maintain your account and prevent permanent data removal. If an invoice remains unpaid for 15 days, the associated plans and services will be formally decommissioned.
 
+<br>
 
 <div class="warning custom-block" style="padding-top: 8px">
 Notice of permanent Deletion: Upon cancellation, all data hosted on our infrastructure—including production environments, staging instances, and associated databases—will be permanently purged from our active servers. In accordance with our security and data retention protocols, this action is irreversible. We strongly advise maintaining external backups to mitigate the risk of total data loss during a billing lapse.
