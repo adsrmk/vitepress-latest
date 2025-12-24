@@ -21,7 +21,7 @@ define('DB_PASSWORD', 'your_database_password');
 define('DB_HOST', 'localhost');
     }
 }
-```
+
 
 
 ## Verify Database Details in the EVC panel
