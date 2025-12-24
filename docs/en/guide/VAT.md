@@ -1,13 +1,11 @@
-# VAT (Value Added Tax)
-
+# VAT 
 In compliance with regional tax regulations, we apply Value Added Tax (VAT) to customers—both individuals and businesses—located in the European Union (EU) and the United Kingdom (UK).
 
-**What is VAT?**
+**What is VAT?** 
 VAT is a consumption tax applied to most goods and services within the EU and UK. This includes digital services such as hosting.
 The tax is calculated as a percentage added to your total invoice amount. Because VAT rates are determined by individual countries, the applicable rate will vary based on your primary residence or the country where your business is legally registered.
  
-Please be aware that this information is not professional tax advice. If you need to update your tax ID or exemption status in our system, you can do so in the billing portal. 
-For all other tax-related questions, please contact your legal advisor or local tax office.
+Please be aware that this information is not professional tax advice. For all other tax-related questions, please contact your legal advisor or local tax office.
 
 
 ## VAT Rates
@@ -32,7 +30,7 @@ In certain countries, small business schemes may allow for tax exemptions based 
 To apply a tax-exempt status to your account, please follow our verification process:
 
 1. Gather Documentation: Prepare a digital copy of your official State-issued Exemption Certificate or government approval letter (e.g., KOR confirmation).
-2. Contact Support: Reach out to our Billing team via the dashboard or at support@envision.nl
+2. Contact Support: Reach out to our support team at support@envision.nl
 3. Verification: Our team will review your documents within 1–2 business days. Once approved, tax will be removed from all future invoices.
 
 <br>
