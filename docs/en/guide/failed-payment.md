@@ -1,20 +1,18 @@
 # Failed payment(s)
 
-All recurring service fees are processed automatically via Stripe on the **1st calendar day of each month.** Payments are drawn from the primary default payment method (Credit Card or SEPA Direct Debit). It is the responsibility of the account holder to ensure that billing information is current and that sufficient funds are available to maintain service continuity.
+To ensure uninterrupted access to your hosting environments and data, our billing system follows a structured process for payment management. Monthly subscriptions are processed on the **1st of each month** via your primary payment method on file.
 
-### Automated Payment Remediation Schedule
-In the event of a transaction failure—commonly due to card expiration, insufficient liquidity, or banking security flags—our system initiates the following recovery sequence:
+In the event that an initial transaction cannot be completed—often due to routine card expirations or bank communication errors—our system begins a grace period designed to give your team time to resolve the issue without loss of service.
 
-**Second Attempt (Day 3):** 
-Three days following the initial failure, a second automated attempt will be processed. If successful, the account returns to "Good Standing" automatically. If unsuccessful, a formal Notice of Overdue Invoice will be dispatched to the administrative email on file.
-<br>
+**Second Notification (Day 3):** 
+If the initial payment is unsuccessful, a second attempt will be made three days later. If this is resolved, no further action is required. If it remains outstanding, an automated reminder will be sent to the administrative contact.
 
-**Third Attempt & Service Suspension (Day 8):**
-Eight days post-initial failure, a third attempt is executed. Should this fail, the account will enter suspension state. **All active plans, hosted applications, and databases will be taken offline**, effectively ceasing all inbound traffic and background processes.
-<br>
+**Service Interruption (Day 8):** 
+On the eighth day, a third attempt is made. Should the payment remain outstanding at this stage, the account will move into a Suspended State. To protect your resources, all active applications and databases will be taken offline until the account balance is settled.
 
-**Final Notice and Termination of Services**
-Fourteen days (14) after the initial billing failure, the system will execute a final payment attempt. At this stage, the system is authorized to attempt the charge against any and all secondary payment methods associated with the account to prevent permanent data loss. Failure to remit payment within 15 days of the initial due date constitutes a breach of service terms and results in Immediate Account Cancellation.
+**Final Resolution Attempt (Day 14):** 
+Fourteen days following the initial due date, a final attempt will be made to process the outstanding balance using any payment methods associated with the account. This is a final measure to help maintain your account and prevent permanent data removal. If an invoice remains unpaid for 15 days, the associated plans and services will be formally decommissioned.
+
 
 <div class="warning custom-block" style="padding-top: 8px">
 Notice of permanent Deletion: Upon cancellation, all data hosted on our infrastructure—including production environments, staging instances, and associated databases—will be permanently purged from our active servers. In accordance with our security and data retention protocols, this action is irreversible. We strongly advise maintaining external backups to mitigate the risk of total data loss during a billing lapse.
