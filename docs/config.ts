@@ -123,7 +123,8 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
          { text: 'Invoices', link: 'invoices.md' },
-         { text: 'Payments', link: 'payments.md' }
+         { text: 'Payments', link: 'payments.md' },
+         { text: 'VAT', link: 'VAT.md' }
     
       ]
     },
