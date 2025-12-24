@@ -126,7 +126,16 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
          { text: 'Payment methods', link: 'payments.md' },
          { text: 'Failed payment', link: 'failed-payment.md' },
          { text: 'VAT', link: 'VAT.md' }
-    
+      ]
+    },
+
+
+
+           {
+      text: 'Developer Tools',
+      collapsed: false,
+      items: [
+         { text: 'IonCube loader', link: 'ioncube.md' }
       ]
     },
 
