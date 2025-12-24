@@ -14,11 +14,12 @@ Begin by checking the credentials stored in your WordPress configuration file
 4. Find and open the `wp-config.php` file for editing, you will find entries like:
 
 
-   ```php [/public_html/wp-config.php]
+```php [/public_html/wp-config.php]
 define('DB_NAME', 'your_database_name'); 
 define('DB_USER', 'your_database_user'); 
 define('DB_PASSWORD', 'your_database_password'); 
-define('DB_HOST', 'localhost'); ```
+define('DB_HOST', 'localhost');
+```
 
 
 ## Verify Database Details in the EVC panel
