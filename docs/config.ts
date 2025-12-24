@@ -135,7 +135,8 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       text: 'Developer Tools',
       collapsed: false,
       items: [
-         { text: 'IonCube loader', link: 'ioncube.md' }
+         { text: 'IonCube loader', link: 'ioncube.md' },
+         { text: 'PHP', link: 'php.md' }
       ]
     },
 
