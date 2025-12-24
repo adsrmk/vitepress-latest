@@ -4,7 +4,9 @@ ionCube is a technology for securing PHP code, allowing developers to protect th
 which is then executed by a special ionCube Loader (a PHP extension) on the server, also providing features for licensing and distribution. 
 It works by compiling PHP scripts into a protected, binary format, making it hard to reverse-engineer, and the loader extension decrypts and runs it at runtime, 
 often used by developers to sell licensed applications without revealing their core logic. 
+
 <br>
+
 **Potential benefits**
 
 - Security: Encryption prevents hackers from injecting malware or backdoors into core files without breaking the script.
