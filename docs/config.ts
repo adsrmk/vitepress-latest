@@ -167,6 +167,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'Image upload error', link: 'Upload.md' },
         { text: 'Markdown Extensions', link: 'markdown' },
         { text: '502: Bad Gateway', link: '502.md' },
+        { text: '1015: Rate Limited', link: '1015.md' },
        { text: 'Requesting SSL', link: 'SSL.md' },
         { text: 'Elementor 500', link: 'elementor_500.md' },
         { text: 'Unable to access FTP', link: 'SFTP.md' },
