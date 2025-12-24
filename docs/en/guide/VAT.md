@@ -15,8 +15,8 @@ For all other tax-related questions, please contact your legal advisor or local 
 While countries may have multiple tax tiers, our services are categorized under the standard VAT rate.
 Tax rates are subject to change by local governments. For the most up-to-date information regarding your specific region, please consult the official government resources below:
 
-- **EU Member States:** [Official EU VAT Rates] (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm#inline-nav-6)
-- **United Kingdom:** [Official UK VAT Rates] (https://www.gov.uk/vat-rates)
+- **EU Member States:** [Official EU VAT Rates](https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm#inline-nav-6)
+- **United Kingdom:** [Official UK VAT Rates](https://www.gov.uk/vat-rates)
 
 Note: If you are located in the EU or UK, we are generally required by law to collect VAT on all your purchases unless a **valid exemption** or "Reverse Charge" applies.
 
@@ -43,8 +43,8 @@ If you need to add or change your VAT ID, you can do so directly through the Bil
 5. Select your country’s tax type (e.g., EU VAT, GB VAT) and enter your ID.
    <img width="1097" height="379" alt="image" src="https://github.com/user-attachments/assets/5530413f-bb0c-4412-b806-55d708e93a88" />
    <br>
-   
-6. Click Save to apply the changes.
+
+
 
    
 
