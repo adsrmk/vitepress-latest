@@ -7,13 +7,14 @@ often used by developers to sell licensed applications without revealing their c
 
 **Potential benefits**
 
-Security: Encryption prevents hackers from injecting malware or backdoors into core files without breaking the script.
-Reliability: Locked files ensure you are running the exact code the developer intended, eliminating bugs caused by accidental edits.
-Performance: By using optimized bytecode, the execution is fast and has virtually zero impact on your site’s speed.
+- Security: Encryption prevents hackers from injecting malware or backdoors into core files without breaking the script.
+- Reliability: Locked files ensure you are running the exact code the developer intended, eliminating bugs caused by accidental edits.
+- Performance: By using optimized bytecode, the execution is fast and has virtually zero impact on your site’s speed.
 
 
 ## Enable encoder
 
 Users may enable the ionCube Loader within the developer tools panel. **Please be advised that PHP 8.0 is not supported** for ionCube integration as it was utilized as a transitional upgrade. It is however supported for PHP 8.1+ and all subsequent versions.
+<br>
 <img width="846" height="178" alt="image" src="https://github.com/user-attachments/assets/c471b1a7-4ab0-49b4-a373-71531b5e3f44" />
 
