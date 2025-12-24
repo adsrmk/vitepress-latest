@@ -1,9 +1,8 @@
-# VAT 
+# VAT (Value Added Tax)
 
 In compliance with regional tax regulations, we apply Value Added Tax (VAT) to customers—both individuals and businesses—located in the European Union (EU) and the United Kingdom (UK).
 
 **What is VAT?**
-
 VAT is a consumption tax applied to most goods and services within the EU and UK. This includes digital services such as hosting.
 The tax is calculated as a percentage added to your total invoice amount. Because VAT rates are determined by individual countries, the applicable rate will vary based on your primary residence or the country where your business is legally registered.
  
