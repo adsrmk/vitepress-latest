@@ -34,6 +34,9 @@ While scaling up makes a single server stronger, a multi-server clustering allow
 - By spreading your sites across multiple servers, you create a more balanced workload that prevents any heavy single site from slowing down the rest.
 - Makes your infrastructure more resilient; if one server experiences downtime, only the sites on that specific node are affected.
 - More control on how you want websites to be diversified.
+
+<img width="1152" height="484" alt="image" src="https://github.com/user-attachments/assets/5efd81d7-7ec1-40e1-8072-a922bb0432dd" />
+
   
 
 ### Move a website
