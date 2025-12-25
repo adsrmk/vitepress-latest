@@ -1,15 +1,18 @@
 # Enterprise plan
 
-The enterprise plan was created for agencies, freelancers or high-performing ecommerce sites. 
-You can diverse, scale and move websites/servers for a complete control on how you want your agency to be run.
-All these servers will be managed by us so agencies and freelancers can focus on their clients demands.
+The Enterprise plan was built for agencies, freelancers, and high-performance e-commerce businesses. It lets you focus on building websites and running your business while we handle the IT—keeping servers online, secure, updated, and backed up through our simplified cloud panel.
+
+You can deploy, scale, and move websites or servers with control over how your infrastructure runs. All servers are fully managed by us, so agencies and freelancers can stay focused on delivering for their clients, not managing servers. And all that without breaking the bank.
+
 
 **What can you expect?**
 
 - Fully managed server(s); we make sure all servers are functional, up-to-date and reach a SLA uptime of atleast 99.5%
 - Automated server back-ups; in case of a force-majeure event or unexpected failure, we create automatic server back-ups on weekly basis. They can fully restore a server's disk if unfortunate events occur.
 
+<div class="warning custom-block" style="padding-top: 8px">
 That said, we want to be clear that we do not manage customer websites, provide coding support, or assist with application design. While these services are available at discounted enterprise rates, they are not included in the infrastructure plan.
+</div>
 
 
 
