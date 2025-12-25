@@ -37,7 +37,7 @@ If your website is running Wordpress. There is one more step to to make redis wo
 3. Click on **Enable Object Cache.**
 4. In your `wp-config.php` file add the following and give **my_unique_site_name** a custom name (or leave as default)
 
-```text [/public_html/wp-config.php]
+```php [/public_html/wp-config.php]
 define( 'WP_REDIS_HOST', '127.0.0.1' );
 define( 'WP_REDIS_PORT', 6379 );
 // Optional: Give this site a unique prefix if you have multiple sites
