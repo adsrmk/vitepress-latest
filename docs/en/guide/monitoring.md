@@ -6,6 +6,8 @@ Rather than waiting for a monthly report, we use **[beszel↗](https://beszel.de
 
 Upon registering as an customer, you'll get an email with login details to view certain server analytics such as:
 
+<br>
+
 - Memory Resident Set (RSS): Track the actual RAM footprint of your apps.
 - CPU & Load: Identify peak traffic hours.
 - Network: Monitor bandwidth spikes during data transfers.
