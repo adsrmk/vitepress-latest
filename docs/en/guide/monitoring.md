@@ -1,4 +1,4 @@
-# Monitor real-time server data
+# Monitor real-time server data  <Badge type="info" text="Enterprise" />
 
 As an **Enterprise client**, you have access to server analytics and monitoring.
 This provides your team with 1:1 transparency into the health and resource consumption of your managed server(s).
