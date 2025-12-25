@@ -54,8 +54,9 @@ You may get a 502: Bad Gateway error after activating Redis. This is usually cau
 
 ## Tuning Redis
 
-Once you’ve toggled Redis on, you can fine-tune its behavior to ensure it stays fast and doesn't consume too much of your container's resources. 
-We created a default config file that you can copy-paste in your redis.conf without trouble. Only add/adjust values if you know what you are doing. 
+Once you have toggled Redis on, it will run with standard settings. However, fine-tuning your configuration ensures that Redis stays fast while staying within your container’s resource limits. We have prepared a **best practice** configuration below. You can copy and paste this directly into your **redis.conf** file. These settings are optimized for stability and performance in a containerized environment.
+
+**Note:** Only adjust these values if you know what you're doing. 
 
 
 ```ts
@@ -75,8 +76,6 @@ rdbchecksum no
 save 900 1
 ```
 
-There are moore options and directives you can add in configuration file on redis.
-You can add these configurations and more in the redis.conf file at the bottom:
 
 <img width="831" height="254" alt="image" src="https://github.com/user-attachments/assets/1de7014a-af59-4fbb-aa49-9e75f81efe31" />
 
