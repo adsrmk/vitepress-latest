@@ -8,8 +8,10 @@ You can deploy, scale, and move websites or servers with control over how your i
 
 **What can you expect?**
 
-- Fully managed server(s); we make sure all servers are functional, up-to-date and reach a SLA uptime of atleast 99.5%
-- Automated server back-ups; in case of a force-majeure event or unexpected failure, we create automatic server back-ups on weekly basis. They can fully restore a server's disk if unfortunate events occur.
+- **Fully managed server(s);** we make sure all servers are functional, up-to-date and reach a SLA uptime of atleast 99.5%
+- **Automated server back-ups;** in case of a force-majeure event or unexpected failure, we create automatic server back-ups on weekly basis. They can fully restore a server's disk if unfortunate events occur.
+- **PHP.ini tuning;** Fine-tune PHP configuration to get the best performance out of your applications.
+  
 
 <div class="warning custom-block" style="padding-top: 8px">
 That said, we want to be clear that we do not manage customer websites, provide coding support, or assist with application design. While these services are available at discounted enterprise rates, they are not included in the infrastructure plan.
@@ -37,7 +39,8 @@ While scaling up makes a single server stronger, a multi-server clustering allow
 
 <img width="1152" height="484" alt="image" src="https://github.com/user-attachments/assets/5efd81d7-7ec1-40e1-8072-a922bb0432dd" />
 
-  
+<br>
+
 
 ### Move a website
 In a clustered environment, you have the option to migrate a website between servers. This mobility becomes essential when a site outgrows its current environment, requiring either total isolation to protect performance or a more powerful hardware profile to handle increased traffic and storage demands.
