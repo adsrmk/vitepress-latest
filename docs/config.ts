@@ -134,7 +134,8 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
          { text: 'Resource monitoring', link: 'monitoring.md' },
-        { text: 'Architecture', link: 'architecture.md' }
+        { text: 'Architecture', link: 'architecture.md' },
+        { text: 'Enterprise plan', link: 'enterprise.md' }
       ]
     },
 
