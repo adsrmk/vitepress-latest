@@ -1,4 +1,4 @@
-# Monitor real-time server data  <Badge type="info" text="Enterprise" />
+# Monitor real-time server data  <Badge type="tip" text="Enterprise" />
 
 As an **Enterprise client**, you have access to server analytics and monitoring.
 This provides your team with 1:1 transparency into the health and resource consumption of your managed server(s).
@@ -11,7 +11,7 @@ Upon registering as an customer, you'll get an email with login details to view 
 - Network: Monitor bandwidth spikes during data transfers.
 - Disk Usage and I/O: How many disk usage has been utilized and when read/writes occur.
 
-  <img width="1500" height="783" alt="image" src="https://github.com/user-attachments/assets/7818c2ef-1456-4799-ba79-3e3b83ebd0aa" />
+<img width="1500" height="783" alt="image" src="https://github.com/user-attachments/assets/7818c2ef-1456-4799-ba79-3e3b83ebd0aa" />
 
 
   
