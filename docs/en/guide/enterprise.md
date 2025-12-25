@@ -13,12 +13,17 @@ What can you expect?
 We provide the flexibility to scale your server whenever you are responding to high-demand traffic spikes, 
 outgrowing your current allocation, or simply prefer the simplicity of maintaining your entire stack on a single webserver.
 
-**Benefits:**
-- Everything central on one server; requires less-monitoring which server is using more or less.
-- If one of your customer's is experiencing lack of performance or outgrowing server memory. Scaling up is a fast-resolution.
+The main perk of this approach is having everything in one central place, so you don't have to spend your time monitoring which server is doing what. Plus, if one of your customers starts lagging or runs out of memory, scaling up is a quick, one-click fix to get them back up to speed immediately.
+
 
 ## Clustered enviroment
-In contrary to scaling up - If you like to organize your business or simply seperate several clients from others, We can create a multiple-server cluster enviroment.
-This gives you the option to place website(s) under specific servers and vice versa. 
+While scaling up makes a single server stronger, our Multi-Server Clustering allows you to grow by spreading your work out. This is perfect if you want to keep your business organized or need to keep certain clients completely separate from others.
+
+By creating a cluster, you gain the freedom to "drag and drop" websites onto specific servers. This means you can give a high-traffic client their own dedicated space or group smaller sites together, giving you total control over how your resources are used and how your clients are managed.
+
+
 
 ### Move a website
+In a clustered environment, you have the option to migrate a website between servers. This mobility becomes essential when a site outgrows its current environment, requiring either total isolation to protect performance or a more powerful hardware profile to handle increased traffic and storage demands.
+
+
