@@ -74,9 +74,10 @@ rdbcompression no
 rdbchecksum no
 
 save 900 1
+save 300 10
+save 60 10000
 ```
 
 
-<img width="831" height="254" alt="image" src="https://github.com/user-attachments/assets/1de7014a-af59-4fbb-aa49-9e75f81efe31" />
 
 
