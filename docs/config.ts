@@ -129,7 +129,13 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       ]
     },
 
-
+           {
+      text: 'Infrastructure',
+      collapsed: false,
+      items: [
+         { text: 'Resource monitoring', link: 'monitoring.md' }
+      ]
+    },
 
            {
       text: 'Developer Tools',
