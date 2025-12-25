@@ -8,7 +8,7 @@ Servers are divided by multiple providers. We are always eager to use the latest
 ### Architecture
 All servers utilize a **x86-64 architecture** running on **Ubuntu 24.04 LTS.**
 
-
+|  Hardware        |    Values        | 
 | ------------- | -----------: | 
 | Processor     | **AMD©** EPYC Milan, Genoa or Ryzen 7950X |
 | Memory      |   Dual and Octa-channel DDR5   |   
