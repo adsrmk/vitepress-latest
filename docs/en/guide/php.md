@@ -4,7 +4,7 @@ PHP (Hypertext Preprocessor) is a server-side scripting language used for web de
 With EVC, you have limited options to customize your website's functionality and performance.
 
 
-## PHP Version
+## PHP Version 
 
 We recommend using the latest stable PHP version for optimal performance and security. 
 But, if you prefer a different version, you can switch the PHP engine in the Advanced section under Developer Tools.
@@ -41,10 +41,10 @@ You can find the PHP error log in your website's home directory, named **php-err
 <img width="836" height="436" alt="image" src="https://github.com/user-attachments/assets/2e767c22-cd56-463e-aca0-dce89e52263d" />
 
 
-## PHP.ini editor
+## PHP.ini editor  <Badge type="info" text="Enterprise" />
 
 <div class="tip custom-block" style="padding-top: 8px">
-This feature is only available for business and enterprise customers on the Managed VPS plan. We recommend editing it only if you are experienced, as the default values are optimized for most of our services.
+This feature is only available for enterprise customers on the Managed VPS plan. We recommend editing it only if you are experienced, as the default values are optimized for most of our services.
 </div>
 
 It is possible to override and customize PHP values based on your website's needs. For example, if a website requires more resources, you may need to increase the maximum memory limit to ensure smooth performance.
