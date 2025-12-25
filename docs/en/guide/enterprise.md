@@ -4,6 +4,7 @@ The Enterprise plan was built for agencies, freelancers, and high-performance e-
 
 You can deploy, scale, and move websites or servers with control over how your infrastructure runs. All servers are fully managed by us, so agencies and freelancers can stay focused on delivering for their clients, not managing servers. And all that without breaking the bank.
 
+<br>
 
 **What can you expect?**
 
