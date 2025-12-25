@@ -25,6 +25,19 @@ Once enabled, the Redis application will begin running automatically within your
 <img width="805" height="174" alt="image" src="https://github.com/user-attachments/assets/7928cc33-b0b7-427d-9b48-a3816489d2cb" />
 
 
+## Connect w/ Wordpress
+
+If your website is running Wordpress. There is one more step to to make redis work.
+
+1. Log in to WordPress and go to **Plugins.** In the library, search for Redis and install it.
+
+<img width="828" height="375" alt="image" src="https://github.com/user-attachments/assets/a2632e91-fb09-420b-9739-19bc4eaa6638" />
+
+2. In WordPress, go to **Settings → Redis**
+3. Click on **Enable Object Cache.**
+
+
+
 <div class="warning custom-block" style="padding-top: 8px">
-You must still enable redis on wordpress to make a direct connection with the application. [Please follow this guide to do so.](#)
+You may get a 502: Bad Gateway error after activating Redis. This is usually caused because the Redis configuration is not yet correctly connected to the application server. This is easily solved by restarting your PHP container. At Advanced → Developer Tools, select the first Restart button under .PHP
 </div>
