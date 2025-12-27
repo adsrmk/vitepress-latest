@@ -117,11 +117,37 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
          { text: 'Obfuscate version(s)', link: 'hide_wp.md' },
          { text: 'Disable wp-login', link: 'backend.md' },
          { text: 'Disable REST-API', link: 'rest-api.md' },
-         { text: 'Block User Enumeration', link: 'block_user_enum.md' }
+         { text: 'Block User Enumeration', link: 'block_user_enum.md' },
+        {
+      text: 'Email',
+      items: [
+        { text: 'Setup Mail DNS', link: 'setup_mail_records.md' },
+        { text: 'Create an email account', link: 'email_account.md' },
+        { text: 'Block e-mails', link: 'block_emails.md' },
+        { text: 'Change e-mail password', link: 'email_password.md' },
+        { text: 'Email forwarding', link: 'forwarding.md' },
+        { text: 'File attachments', link: 'file_attachment.md' }
       ]
-    },
+    }
+  ]
+},
 
 
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
        {
       text: 'Billing',
       collapsed: false,
