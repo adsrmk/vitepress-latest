@@ -16,5 +16,4 @@ A subdomain can be found within the primary domain under files and is listed in 
 
 
 ## Add Files
-
-<img src="https://drive.proton.me/urls/YZEGQ4V9HC#eMz0nyxLJ06u" />
+You can add files by drag-and-drop in the file manager, or by simply selection the upload button from the top-right.
