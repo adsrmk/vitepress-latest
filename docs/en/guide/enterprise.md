@@ -23,7 +23,7 @@ This plan excludes website management, coding support, and application design, a
 Envision allows you to scale your business as your customers grow, ensuring your infrastructure keeps pace with demand. This can be achieved in two ways: vertical scaling and horizontal scaling.
 
 
-### Vertical scaling
+## Vertical scaling
 Vertical scaling is the most straightforward approach, allowing you to increase the power of a single server by upgrading its resources—CPU, RAM, or storage—as your needs grow. This method is especially useful when a server is handling high-demand traffic spikes, outgrowing its current allocation, or if you prefer the simplicity of keeping your entire stack on a single webserver. With vertical scaling, you can quickly boost performance without the complexity of managing multiple servers, ensuring your applications continue running smoothly even under increased load.
 
 **Benefits:**
