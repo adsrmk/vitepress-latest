@@ -145,6 +145,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       items: [
          { text: 'IonCube loader', link: 'ioncube.md' },
          { text: 'PHP', link: 'php.md' },
+         { text: 'SSH', link: 'SSH.md' },
          { text: 'Redis', link: 'redis.md' }
       ]
     },
