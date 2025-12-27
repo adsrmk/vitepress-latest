@@ -40,7 +40,7 @@ If you have a consistent IP address, you can restrict access to wp-login.php dir
 
 To enable this, add this code at the top of wp-config.php
 
-```php [.public_html/wp-config.php]
+```php [/public_html/wp-config.php]
 // Security: Restrict wp-login.php to specific IPs
 if (strpos($_SERVER['REQUEST_URI'], 'wp-login.php') !== false) {
     $allowed_ips = ['123.456.789.000', '111.222.333.444']; // Add your IPs here
@@ -58,7 +58,7 @@ By default, WordPress displays detailed login error messages, such as whether a 
 While helpful for users, this information can also aid attackers by confirming valid usernames. Since most site owners and developers already know their usernames, this can be disabled.
 Add this in the `functions.php` file of your current theme.
 
-```php
+```php [/public_html/wp-content/themes/your-theme/functions.php]
 add_filter('login_errors', function() {
     return 'Login failed.';
 });
