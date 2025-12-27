@@ -51,3 +51,15 @@ if (strpos($_SERVER['REQUEST_URI'], 'wp-login.php') !== false) {
 }
 ```
 <br>
+
+### Extra snippet
+
+By default, WordPress displays detailed login error messages, such as whether a username or password is incorrect. 
+While helpful for users, this information can also aid attackers by confirming valid usernames. Since most site owners and developers already know their usernames, this can be disabled.
+Add this in the `functions.php` file of your current theme.
+
+add_filter('login_errors', function() {
+    return 'Login failed.';
+});
+
+
