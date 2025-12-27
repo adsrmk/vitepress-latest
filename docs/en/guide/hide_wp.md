@@ -9,7 +9,7 @@ To hide your wordpress version from the site header; in your theme folder, searc
 ```php
 // Remove WordPress version from header
 remove_action('wp_head', 'wp_generator');
-```php
+```
 
 <br>
 
@@ -23,5 +23,5 @@ function remove_wp_version_rss() {
     return '';
 }
 add_filter('the_generator', 'remove_wp_version_rss');
-```php
+```
 
