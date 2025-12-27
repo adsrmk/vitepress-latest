@@ -2,6 +2,8 @@
 
 In the event that an initial transaction cannot be completed—often due to routine card expirations or bank communication errors—our system begins a grace period designed to give your team time to resolve the issue without loss of service.
 
+**If, for financial reasons, a payment needs to be delayed, please inform us so we can make appropriate arrangements. This helps prevent your account from being locked or suspended.**
+
 <br>
 
 **Second Notification (Day 3):** 
