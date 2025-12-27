@@ -5,7 +5,7 @@ There are a few simple snippets that can help improve your WordPress site’s se
 In your theme folder, find the `functions.php` and add the following at the top under **<?php**
 
 
-### Remove RSS version from site header
+### Removes RSS and WP version
 
 By default, WordPress includes its version number in both the site header and RSS feeds. Exposing this information can make it easier for attackers to target known vulnerabilities. Removing the version improves security without affecting functionality.
 
