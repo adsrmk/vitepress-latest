@@ -17,7 +17,7 @@ You can deploy, scale, and move websites or servers with control over how your i
 This plan excludes website management, coding support, and application design, and is dedicated solely to server management
 </div>
 
-
+<br>
 
 ## Expanding business
 Envision allows you to scale your business as your customers grow, ensuring your infrastructure keeps pace with demand. This can be achieved in two ways: vertical scaling and horizontal scaling.
