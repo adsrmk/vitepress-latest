@@ -86,7 +86,8 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
   text: 'Platform',
   collapsed: false,
   items: [
-     { text: 'Users', link: 'users.md' },
+       { text: 'Users', link: 'users.md' },
+       { text: 'File Manager', link: 'file manager.md' },
       { text: 'Redirects', link: 'redirect.md' },
       { text: 'Backups', link: 'backups.md' },
       { text: 'Database', link: 'database.md' },
