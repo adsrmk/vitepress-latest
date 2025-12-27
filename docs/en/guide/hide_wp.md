@@ -1,27 +1,40 @@
-# Obfuscate WordPress version
+# Obfuscate WordPress files/version
 
 Exposing your WordPress version can make your site more vulnerable to attacks. The following steps help hide your version from visitors, RSS feeds, and static files.
 
-### Remove version from site header
+### Remove RSS version from site header
 
-To hide your wordpress version from the site header; in your theme folder, search for `functions.php` and paste the following:
+By default, WordPress includes its version number in both the site header and RSS feeds. Exposing this information can make it easier for attackers to target known vulnerabilities. Removing the version improves security without affecting functionality.
 
 ```php
 // Remove WordPress version from header
 remove_action('wp_head', 'wp_generator');
-```
 
-<br>
-
-###  Hide version in RSS Feeds
-
-Also in `functions.php`, add this snippet:
-
-```php
 // Remove version from RSS feeds
 function remove_wp_version_rss() {
     return '';
 }
 add_filter('the_generator', 'remove_wp_version_rss');
+```
+
+<br>
+
+
+### Delete versions from styles and scripts
+
+By default, WordPress appends its version number to CSS and JavaScript files as a query string (e.g., style.css?**ver=6.5**). While this helps with caching, it also **exposes** your file versions to potential attackers. Removing these version strings enhances security without affecting functionality.
+
+The following snippet removes version numbers from all enqueued CSS and JS files:
+
+```php
+// Remove version query strings from static files
+function remove_cssjs_ver($src) {
+    if (strpos($src, 'ver=') !== false) {
+        $src = remove_query_arg('ver', $src);
+    }
+    return $src;
+}
+add_filter('style_loader_src', 'remove_cssjs_ver', 10, 2);
+add_filter('script_loader_src', 'remove_cssjs_ver', 10, 2);
 ```
 
