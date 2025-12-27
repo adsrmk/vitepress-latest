@@ -1,9 +1,11 @@
-# Secure REST-API
+# Disable REST-API
 
 
 The WordPress REST API allows applications and services to interact with your site programmatically. While it’s powerful, 
 it can also expose data to unauthenticated users if left unrestricted. 
 In many setups—especially brochure sites or classic CMS-driven websites—public REST access is unnecessary and increases the attack surface.
+
+<br>
 
 <div class="warning custom-block" style="padding-top: 8px">
 Do not restrict the REST API if your site uses Headless WordPress, mobile apps, advanced page builders, or external integrations such as WooCommerce or third-party services, as this may break functionality.
