@@ -114,7 +114,8 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
          { text: 'Setup 2FA', link: '2FA.md' },
          { text: 'DNSSEC', link: 'dnssec.md' },
          { text: 'ModSec', link: 'modsec.md' },
-         { text: 'Backend', link: 'backend.md' }
+         { text: 'Obfuscate version(s)', link: 'wp_hide.md' }
+         { text: 'Disable /wp-login', link: 'backend.md' }
       ]
     },
 
