@@ -1,8 +1,8 @@
 # Enterprise plan
 
-The Enterprise plan was built for agencies, freelancers, and high-performance e-commerce businesses. It lets you focus on building websites and running your business while we handle the IT—keeping servers online, secure, updated, and backed up through our simplified cloud panel.
+The Enterprise plan is designed for agencies, freelancers, and high-performance e-commerce businesses, handling all server management so you can focus on building and growing your business.
 
-You can deploy, scale, and move websites or servers with control over how your infrastructure runs. All servers are fully managed by us, so agencies and freelancers can stay focused on delivering for their clients, not managing servers. And all that without breaking the bank.
+You can deploy, scale, and move websites or servers with control over how your infrastructure runs. All servers are fully managed by us, so agencies and freelancers can stay focused on delivering for their clients, not managing servers. 
 
 <br>
 
@@ -11,10 +11,10 @@ You can deploy, scale, and move websites or servers with control over how your i
 - **Fully managed server(s);** we make sure all servers are functional, up-to-date and reach a SLA uptime of atleast 99.5%
 - **Automated server back-ups;** in case of a force-majeure event or unexpected failure, we create automatic server back-ups on weekly basis. They can fully restore a server's disk if unfortunate events occur.
 - **PHP.ini tuning;** Fine-tune PHP configuration to get the best performance out of your applications.
-  
+- **Priority support** Need to scale, make a specific backup or create a new server? Most requests are filled **within a hour**
 
 <div class="warning custom-block" style="padding-top: 8px">
-That said, we want to be clear that we do not manage customer websites, provide coding support, or assist with application design. While these services are available at discounted enterprise rates, they are not included in the infrastructure plan.
+This plan excludes website management, coding support, and application design, and is dedicated solely to server management
 </div>
 
 
@@ -24,8 +24,9 @@ We provide the flexibility to scale your server whenever you are responding to h
 outgrowing your current allocation, or simply prefer the simplicity of maintaining your entire stack on a single webserver.
 
 **Benefits:**
-- Everything central on one server; requires less-monitoring which server is using more or less.
-- If one of your customer's is experiencing lack of performance or outgrowing server memory. Scaling up is a fast-resolution.
+
+- Everything centralized on one server, reducing the need to constantly monitor individual resource usage.
+- Fast scaling when needed: if a customer experiences performance issues or outgrows server memory, resources can be upgraded quickly for immediate resolution.
 
 <br>
 
