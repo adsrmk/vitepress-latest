@@ -1,4 +1,4 @@
-# Secure back-end login
+# Secure wp-login backend
 
 Securing the /wp-login.php page is a effective step you can take to protect a WordPress website. 
 Because it is the default "front door" for every WordPress site, it is also the primary target for hackers and automated bots.
