@@ -20,7 +20,9 @@ color: #9d9d9d;
 .VPSidebarItem.level-0.is-active > .item .link > .text[data-v-03c5b0e3], .VPSidebarItem.level-1.is-active > .item .link > .text[data-v-03c5b0e3], .VPSidebarItem.level-2.is-active > .item .link > .text[data-v-03c5b0e3], .VPSidebarItem.level-3.is-active > .item .link > .text[data-v-03c5b0e3], .VPSidebarItem.level-4.is-active > .item .link > .text[data-v-03c5b0e3], .VPSidebarItem.level-5.is-active > .item .link > .text[data-v-03c5b0e3] {
 color: #E3FF48;
 }
-
+.VPSidebarItem.level-2.is-active>.item>.indicator[data-v-03c5b0e3], .VPSidebarItem.level-3.is-active>.item>.indicator[data-v-03c5b0e3], .VPSidebarItem.level-4.is-active>.item>.indicator[data-v-03c5b0e3], .VPSidebarItem.level-5.is-active>.item>.indicator[data-v-03c5b0e3] {
+color: #E3FF48;
+}
 :where([dir=ltr]) .VPSidebarItem.level-1 .items[data-v-03c5b0e3], :where([dir=ltr]) .VPSidebarItem.level-2 .items[data-v-03c5b0e3], :where([dir=ltr]) .VPSidebarItem.level-3 .items[data-v-03c5b0e3], :where([dir=ltr]) .VPSidebarItem.level-4 .items[data-v-03c5b0e3], :where([dir=ltr]) .VPSidebarItem.level-5 .items[data-v-03c5b0e3] {
 border-left: 0px solid #fff;
 }
