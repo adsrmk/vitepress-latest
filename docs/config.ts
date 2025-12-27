@@ -87,7 +87,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
   collapsed: false,
   items: [
        { text: 'Users', link: 'users.md' },
-       { text: 'File Manager', link: 'file manager.md' },
+       { text: 'File Manager', link: 'file_manager.md' },
       { text: 'Redirects', link: 'redirect.md' },
       { text: 'Backups', link: 'backups.md' },
       { text: 'Database', link: 'database.md' },
