@@ -1,7 +1,7 @@
 # Invoices
 
 All invoices are accessible at any time via your account dashboard. These documents provide a record of charges, including the service period, payment status, and issuance date.
-We utilize Stripe to ensure a secure, transparent, and industry-compliant billing experience. This allows for management of your financial records and simplified tax reporting.
+We utilize Stripe to ensure a secure, transparent, and industry-compliant billing experience. 
 
 Annual subscription holders receive one primary invoice per year. Any add-ons or variable surcharges are processed independently and invoiced according to actual consumption.
 
