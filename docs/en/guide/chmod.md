@@ -3,7 +3,9 @@
 Proper file and directory permissions are essential to prevent unauthorized access or modifications to your WordPress site. Incorrect permissions can allow attackers to overwrite files, 
 inject malicious code, or take control of your site.
 
-By default, the panel automatically gives files and directories the correct permissions. However, we do recommend setting wp-config.php to 440 for increase security measures.
+<div class="info custom-block" style="padding-top: 8px">
+While the panel assigns suggested permissions by default, we recommend setting wp-config.php to 440 to enhance your site's security
+</div>
 
 
 **Recommended Permissions:**
