@@ -23,6 +23,7 @@ By default, parts of the REST API are accessible to anonymous visitors. This can
 - Probe endpoints for vulnerabilities
 
 Restricting access ensures that only authenticated users or trusted services can interact with the API.
+To enable this feature, add this snippet in the `functions.php` of your theme.
 
 
 ```php
