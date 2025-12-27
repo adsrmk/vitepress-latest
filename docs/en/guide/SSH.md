@@ -12,9 +12,10 @@ In this guide, we will use the [Termius application ↗](https://termius.com/ind
 <img width="3022" height="656" alt="image" src="https://github.com/user-attachments/assets/1a2d1dc0-e091-4a89-8d90-0f067c2c6faf" />
 <br>
 
+
+
 4.Choose **ED25519** as the key type algorithm and add a label for easier reference (optional).
 
-<br>
 <img width="674" height="722" alt="image" src="https://github.com/user-attachments/assets/86914dd3-ded2-492e-aa5a-f8f5a26095ec" />
 <br>
 
