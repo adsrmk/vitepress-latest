@@ -53,6 +53,9 @@ To enable DKIM for a domain:
 4. Scroll to Email Authentication and toggle DKIM to On.
 5. If you are using EV Cloud nameservers, wait for validation.
 
+<img width="870" height="213" alt="image" src="https://github.com/user-attachments/assets/d62f24e2-95d8-43e5-ac04-67ff99be261d" />
+
+
 <div class="info custom-block" style="padding-top: 8px">
 If your DNS is hosted elsewhere, follow the on-screen instructions and paste the generated DKIM key.
 Your record wil look something like this.
