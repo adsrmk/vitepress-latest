@@ -1,3 +1,6 @@
+.VPSidebarItem.level-0.is-link>.item>.link:hover .text[data-v-03c5b0e3], .VPSidebarItem.level-1.is-link>.item>.link:hover .text[data-v-03c5b0e3], .VPSidebarItem.level-2.is-link>.item>.link:hover .text[data-v-03c5b0e3], .VPSidebarItem.level-3.is-link>.item>.link:hover .text[data-v-03c5b0e3], .VPSidebarItem.level-4.is-link>.item>.link:hover .text[data-v-03c5b0e3], .VPSidebarItem.level-5.is-link>.item>.link:hover .text[data-v-03c5b0e3] {
+color #f3fead;
+}
 .title[data-v-f39ed7f6] {
   color: #fff;
 }
