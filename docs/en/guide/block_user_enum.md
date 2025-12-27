@@ -12,6 +12,7 @@ If user enumeration is left enabled, attackers can:
 - Target administrators specifically
 
 Blocking this behavior limits the information exposed to anonymous visitors and increases overall site security.
+<br>
 Add the following code to your theme’s `functions.php` file to enable this security feature.
 
 ```php
