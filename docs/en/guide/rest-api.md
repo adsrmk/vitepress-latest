@@ -11,6 +11,7 @@ In many setups—especially brochure sites or classic CMS-driven websites—publ
 Do not restrict the REST API if your site uses Headless WordPress, mobile apps, advanced page builders, or external integrations such as WooCommerce or third-party services, as this may break functionality.
 </div>
 
+<br>
 
 
 **Why Restrict REST API Access?**
