@@ -14,6 +14,8 @@ A subdomain can be found within the primary domain under files and is listed in 
 <br>
 <img width="913" height="240" alt="image" src="https://github.com/user-attachments/assets/e48ffb22-3d20-475c-a158-875b20221652" />
 
+<br>
+
 
 ## Add and manage Files
 Files can be added directly using the **drag-and-drop functionality** in the File Manager, or by selecting the **Upload** button located in the top-right corner.
