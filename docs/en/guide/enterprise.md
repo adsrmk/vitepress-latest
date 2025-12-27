@@ -19,9 +19,12 @@ This plan excludes website management, coding support, and application design, a
 
 
 
-## Scaling possibilities  
-We provide the flexibility to scale your server whenever you are responding to high-demand traffic spikes, 
-outgrowing your current allocation, or simply prefer the simplicity of maintaining your entire stack on a single webserver.
+## Expanding business
+Envision allows you to scale your business as your customers grow, ensuring your infrastructure keeps pace with demand. This can be achieved in two ways: vertical scaling and horizontal scaling.
+
+
+### Vertical scaling
+Vertical scaling is the most straightforward approach, allowing you to increase the power of a single server by upgrading its resources—CPU, RAM, or storage—as your needs grow. This method is especially useful when a server is handling high-demand traffic spikes, outgrowing its current allocation, or if you prefer the simplicity of keeping your entire stack on a single webserver. With vertical scaling, you can quickly boost performance without the complexity of managing multiple servers, ensuring your applications continue running smoothly even under increased load.
 
 **Benefits:**
 
@@ -30,13 +33,14 @@ outgrowing your current allocation, or simply prefer the simplicity of maintaini
 
 <br>
 
-## Clustered enviroment
-While scaling up makes a single server stronger, a multi-server clustering allows you to grow by spreading your work out. or need to keep certain clients completely separate from others.
+## Horizontal scaling
+While vertical scaling strengthens a single server, horizontal scaling lets you grow by spreading workloads across multiple servers. This approach is especially useful if you need to isolate certain clients, handle sustained high traffic, or increase redundancy.
 
 **Benefits:**
-- By spreading your sites across multiple servers, you create a more balanced workload that prevents any heavy single site from slowing down the rest.
-- Makes your infrastructure more resilient; if one server experiences downtime, only the sites on that specific node are affected.
-- More control on how you want websites to be diversified.
+
+- Distributes sites across multiple servers, creating a balanced workload and preventing any single heavy site from slowing down others.
+- Improves resilience: if one server goes offline, only the sites on that node are affected, keeping the rest of your infrastructure running.
+- Offers greater control over how websites are organized and diversified, giving you flexibility in managing client environments.
 
 <img width="1152" height="484" alt="image" src="https://github.com/user-attachments/assets/5efd81d7-7ec1-40e1-8072-a922bb0432dd" />
 
