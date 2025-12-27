@@ -6,9 +6,10 @@ By default, WordPress can expose usernames through author archive URLs, such as 
 **Why Block User Enumeration?**
 
 If user enumeration is left enabled, attackers can:
-	•	Identify valid usernames
-	•	Reduce the time needed to break into accounts
-	•	Target administrators specifically
+
+- Identify valid usernames
+- Reduce the time needed to break into accounts
+- Target administrators specifically
 
 Blocking this behavior limits the information exposed to anonymous visitors and increases overall site security.
 Add the following code to your theme’s `functions.php` file to enable this security feature.
