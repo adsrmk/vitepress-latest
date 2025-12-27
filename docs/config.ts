@@ -121,7 +121,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'Disable wp-login', link: 'backend.md' },
         { text: 'Disable REST-API', link: 'rest-api.md' },
         { text: 'Block User Enumeration', link: 'block_user_enum.md' },
-        { text: 'File Permissions', link: 'chmod.md' },
+        { text: 'File Permissions', link: 'chmod.md' }
         
       ]
     }
