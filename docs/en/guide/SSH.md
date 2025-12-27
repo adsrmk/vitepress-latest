@@ -7,6 +7,8 @@ In this guide, we will use the [Termius application ↗](https://termius.com/ind
 3. Click on Keys, and a dropdown menu will appear. From here, choose **"Generate Key".**
 
 <br>
+
+<br>
 <img width="3022" height="656" alt="image" src="https://github.com/user-attachments/assets/1a2d1dc0-e091-4a89-8d90-0f067c2c6faf" />
 <br>
 
