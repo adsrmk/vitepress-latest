@@ -20,7 +20,6 @@ Tips:
 
 - Avoid using 777 permissions; it grants write access to everyone and is a major security risk.
 - Regularly audit permissions, especially after installing plugins or themes.
-- Use your hosting control panel, FTP client, or SSH commands like chmod to adjust permissions.
 
 Correct permissions help ensure that WordPress runs smoothly while minimizing the risk of unauthorized changes.
 
