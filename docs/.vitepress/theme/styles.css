@@ -4,6 +4,7 @@ color: #f3fead;
 .title[data-v-f39ed7f6] {
   color: #fff;
 }
+
 .VPNavBarTitle.has-sidebar .title[data-v-f39ed7f6] {
 border-bottom-color: #222;
 }
@@ -21,7 +22,7 @@ color: #E3FF48;
 }
 
 :where([dir=ltr]) .VPSidebarItem.level-1 .items[data-v-03c5b0e3], :where([dir=ltr]) .VPSidebarItem.level-2 .items[data-v-03c5b0e3], :where([dir=ltr]) .VPSidebarItem.level-3 .items[data-v-03c5b0e3], :where([dir=ltr]) .VPSidebarItem.level-4 .items[data-v-03c5b0e3], :where([dir=ltr]) .VPSidebarItem.level-5 .items[data-v-03c5b0e3] {
-border-left: none;
+border-left: 0px solid #fff;
 }
 
 .group+.group[data-v-f3832bb3] {
