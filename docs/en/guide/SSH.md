@@ -1,5 +1,7 @@
 # Connect to your workspace with SSH keys
 
+
+
 In this guide, we will use the [Termius application ↗](https://termius.com/index.html)￼ to generate an SSH key for secure server access. Termius is a widely-used SSH client that enables secure connections to remote servers via SSH keys or FTP. Its intuitive interface simplifies the management and organization of multiple server connections.
 
 1. Navigate to the Vault tab in Termius.
