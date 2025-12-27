@@ -115,7 +115,8 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
          { text: 'DNSSEC', link: 'dnssec.md' },
          { text: 'ModSec', link: 'modsec.md' },
          { text: 'Obfuscate version(s)', link: 'hide_wp.md' },
-         { text: 'Disable wp-login', link: 'backend.md' }
+         { text: 'Disable wp-login', link: 'backend.md' },
+         { text: 'Disable REST-API', link: 'backend.md' }
       ]
     },
 
