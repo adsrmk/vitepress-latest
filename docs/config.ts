@@ -116,7 +116,8 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
          { text: 'ModSec', link: 'modsec.md' },
          { text: 'Obfuscate version(s)', link: 'hide_wp.md' },
          { text: 'Disable wp-login', link: 'backend.md' },
-         { text: 'Disable REST-API', link: 'rest-api.md' }
+         { text: 'Disable REST-API', link: 'rest-api.md' },
+         { text: 'Block User Enumeration', link: 'block_user_enum.md' }
       ]
     },
 
