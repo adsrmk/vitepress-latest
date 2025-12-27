@@ -7,12 +7,13 @@ inject malicious code, or take control of your site.
 While the panel assigns suggested permissions by default, we recommend setting wp-config.php to 440 to enhance your site's security
 </div>
 
+<br>
 
 **Recommended Permissions:**
 
 - Files: **644** — Owner can read/write; group and public can only read.
 - Directories: **755** — Owner can read/write/execute; group and public can read/execute.
-- wp-config.php: **600 or 440** — Restricts access to sensitive configuration details.
+- wp-config.php: **440** — Restricts access to sensitive configuration details.
 
 
 Tips:
@@ -26,7 +27,9 @@ Correct permissions help ensure that WordPress runs smoothly while minimizing th
 <br>
 
 ## How do edit permissions?
-You can change how files and folders are shared by **right-clicking** them and selecting **'Permissions'** from the menu
-<br>
-<img width="935" height="491" alt="image" src="https://github.com/user-attachments/assets/30334757-0643-425e-941d-27d0ad63e458" />
+You can change how files and folders are shared by **right-clicking** them and selecting **'Permissions'** from the menu.
 
+<br>
+
+<img width="935" height="491" alt="image" src="https://github.com/user-attachments/assets/30334757-0643-425e-941d-27d0ad63e458" />
+<br>
