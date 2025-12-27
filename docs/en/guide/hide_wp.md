@@ -3,7 +3,7 @@
 There are a few simple snippets that can help improve your WordPress site’s security. These primarily hide version information from files and RSS feeds, preventing anonymous visitors from easily identifying which WordPress version your site is running. 
 
 In your theme folder, find the `functions.php` and add the following at the top under **<?php**
-
+<br>
 
 ### Removes RSS and WP version
 
