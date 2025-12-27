@@ -1,5 +1,6 @@
 # Connect to your workspace with SSH keys
 
+SSH keys are a secure way to connect to your server without using passwords. They use a **public/private key pair:** the private key stays on your device, while the public key is added to your server. This ensures that only someone with the private key can access the server, making logins both safer and faster. Using SSH keys also allows you to run commands, manage files, and work with tools like WP‑CLI or Composer without exposing your password.
 
 
 In this guide, we will use the [Termius application ↗](https://termius.com/index.html)￼ to generate an SSH key for secure server access. Termius is a widely-used SSH client that enables secure connections to remote servers via SSH keys or FTP. Its intuitive interface simplifies the management and organization of multiple server connections.
