@@ -11,7 +11,7 @@ If user enumeration is left enabled, attackers can:
 	•	Target administrators specifically
 
 Blocking this behavior limits the information exposed to anonymous visitors and increases overall site security.
-
+Add the following code to your theme’s `functions.php` file to enable this security feature.
 
 ```php
 if (!is_admin() && preg_match('/author=([0-9]*)/i', $_SERVER['QUERY_STRING'])) {
