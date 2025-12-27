@@ -1,6 +1,9 @@
 # Obfuscate WordPress files/version
 
-Exposing your WordPress version can make your site more vulnerable to attacks. The following steps help hide your version from visitors, RSS feeds, and static files.
+There are a few simple snippets that can help improve your WordPress site’s security. These primarily hide version information from files and RSS feeds, preventing anonymous visitors from easily identifying which WordPress version your site is running. 
+
+In your theme folder, find the `functions.php` and add the following at the top under **<?php**
+
 
 ### Remove RSS version from site header
 
