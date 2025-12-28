@@ -4,7 +4,7 @@ In a DDoS (**distributed denial-of-service**) attack, an attacker sends thousand
 flood a server's resources, and overload the system. By doing this, valid requests can only be processed very slowly or not at all. 
 A massive amount of compromised computers (botnets) are often used to create a gigantic amount of data traffic.
 
-With Hetzner GmbH as our load balancer and collocation partner, our systems and your data is protected by utilizing Arbor and Juniper hardware.
+With **Hetzner GmbH** as our load balancer and collocation partner, our systems and your data is protected by utilizing Arbor and Juniper hardware.
 <br>
 
 ### Recognition of attack pattern
