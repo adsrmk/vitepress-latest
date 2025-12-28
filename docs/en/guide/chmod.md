@@ -25,7 +25,7 @@ Correct permissions help ensure that WordPress runs smoothly while minimizing th
 
 <br>
 
-## Set wp-includes directory to 444
+## Set wp core directories to 444
 
 Setting file permissions to 444 on the wp-includes directory is a simple but effective hardening step for WordPress.
 
