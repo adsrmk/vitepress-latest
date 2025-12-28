@@ -162,6 +162,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       items: [
          { text: 'Resource monitoring', link: 'monitoring.md' },
         { text: 'Architecture', link: 'architecture.md' },
+        { text: 'DDoS Protection', link: 'DDoS.md' },
         { text: 'Enterprise plan', link: 'enterprise.md' }
       ]
     },
