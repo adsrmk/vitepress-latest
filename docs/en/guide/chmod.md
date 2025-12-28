@@ -48,7 +48,7 @@ You must not set 444 on the wp-includes directory. Directories need the execute 
 cd public_html
 ```
 3. Execute the following command
-```ssh [.vitepress/theme/index.js]
+```ssh 
 find wp-admin wp-includes -type f -exec chmod 444 {} \;
 ```
 
