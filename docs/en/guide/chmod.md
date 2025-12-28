@@ -35,10 +35,10 @@ This approach significantly reduces the risk of persistent malware infections an
 
 
 <div class="warning custom-block" style="padding-top: 8px">
-You must not set 444 on the wp-includes directory.
-Directories need the execute permission to be accessed. If you unintentionally did so, access trough SFTP and revert back to 755..
+You must not set 444 on the wp-includes directory. Directories need the execute permission to be accessed. If this permission was removed by mistake, reconnect via SFTP and restore the directory permissions to 755 to regain access.
 </div>
 
+**To set a secure permission accross all wp-includes files:**
 
 1. Login through [SSH](#)
 2. Go into the main website's directory
