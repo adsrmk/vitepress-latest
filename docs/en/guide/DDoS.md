@@ -16,5 +16,6 @@ including DNS reflection, NTP reflection, and UDP floods, ensuring that only leg
 Finally, in the layer of challenge response automation and dynamic filtering, we tackle more sophisticated attacks, such as SYN floods, DNS floods, and invalid packets. 
 The system adapts in real time to emerging and unique threats, reliably mitigating them while maintaining smooth operation for legitimate users.
 
+<br>
 
 <img width="500" height="196" alt="image" src="https://github.com/user-attachments/assets/d4afc4c0-4076-4ca5-bf69-4427b28d3338" />
