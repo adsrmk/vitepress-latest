@@ -35,7 +35,7 @@ This approach significantly reduces the risk of persistent malware infections an
 
 
 <div class="warning custom-block" style="padding-top: 8px">
-You must not set 444 on the wp-includes directory. Directories need the execute permission to be accessed. If this permission was removed by mistake, you can undo the change by rerunning the command and resetting the permissions to 755.
+You must not set 444 on the wp-includes directory. Directories need the execute permission to be accessed. If this permission was removed by mistake, access through the SFTP and revert back to 755.
 </div>
 
 <br>
