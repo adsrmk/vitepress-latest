@@ -4,12 +4,10 @@ In a DDoS (**distributed denial-of-service**) attack, an attacker sends thousand
 flood a server's resources, and overload the system. By doing this, valid requests can only be processed very slowly or not at all. 
 A massive amount of compromised computers (botnets) are often used to create a gigantic amount of data traffic.
 
-With **Hetzner GmbH** as our load balancer and collocation partner, our systems and your data is protected by utilizing Arbor and Juniper hardware.
-
 <br>
 
 ## Recognition of attack pattern
-Their approach to DDoS protection begins with automated recognition of attack patterns. Rather than merely monitoring traffic volumes or packet counts, 
+The approach to DDoS protection begins with automated recognition of attack patterns. Rather than merely monitoring traffic volumes or packet counts, 
 the system analyzes the incoming traffic to accurately identify the type of attack and respond with precision.
 <br>
 
