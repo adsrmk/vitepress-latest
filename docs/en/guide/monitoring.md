@@ -2,7 +2,7 @@
 
 As an **Enterprise client**, you have access to server analytics and monitoring.
 This provides your team with 1:1 transparency into the health and resource consumption of your managed server(s).
-Rather than waiting for a monthly report, we use **[beszel↗](https://beszel.dev/guide/what-is-beszel)**, a lightweight web-app that gives you a real-time insights into your environment, helping you make data-driven decisions about scaling and optimization.
+Rather than waiting for a monthly report, we use a lightweight web-app that gives you real-time insights into your environment, helping you make data-driven decisions about scaling and optimization.
 
 Upon registering as an customer, you'll get an email with login details to view certain server analytics such as:
 
