@@ -35,7 +35,7 @@ This approach significantly reduces the risk of persistent malware infections an
 
 
 <div class="warning custom-block" style="padding-top: 8px">
-You must not set 444 on the wp-includes directory. Directories need the execute permission to be accessed. If this permission was removed by mistake, reconnect via SFTP and restore the directory permissions to 755 to regain access.
+You must not set 444 on the wp-includes directory. Directories need the execute permission to be accessed. If this permission was removed by mistake, reconnect via SFTP and restore the directory permissions to 755 to regain access. If anything stops working, you can undo the change by rerunning the command and resetting the permissions to 755.
 </div>
 
 <br>
@@ -49,7 +49,7 @@ cd public_html
 ```
 3. Execute the following command
 ```ssh [.vitepress/theme/index.js]
-find wp-includes -type f -exec chmod 444 {} \;
+find wp-admin wp-includes -type f -exec chmod 444 {} \;
 ```
 
 <br>
