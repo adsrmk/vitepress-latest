@@ -160,10 +160,11 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       text: 'Infrastructure',
       collapsed: false,
       items: [
-        { text: 'Resource monitoring', link: 'monitoring.md' },
+        { text: 'Resource Monitoring', link: 'monitoring.md' },
         { text: 'DDoS Protection', link: 'DDoS.md' },
+        { text: 'Uptime Status', link: 'uptime.md' },
         { text: 'Containerization', link: 'containers.md' },
-        { text: 'Enterprise plan', link: 'enterprise.md' }
+        { text: 'Enterprise Plan', link: 'enterprise.md' }
       ]
     },
 
