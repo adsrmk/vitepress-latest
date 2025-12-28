@@ -25,6 +25,27 @@ Correct permissions help ensure that WordPress runs smoothly while minimizing th
 
 <br>
 
+## Set wp-includes directory to 444
+
+Setting file permissions to 444 on the wp-includes directory is a simple but effective hardening step for WordPress.
+
+The wp-includes folder contains core libraries that WordPress needs to **read and execute**, but never modify during normal operation. By making these files read-only, you prevent malicious code, vulnerable plugins, or compromised admin accounts from injecting or altering core functionality.
+
+This approach significantly reduces the risk of persistent malware infections and protects the integrity of WordPress core files. 
+
+1. Login through [SSH](#)
+2. Go into the main website's directory
+```ssh
+cd public_html
+```
+3. Execute the following command
+```ssh [.vitepress/theme/index.js]
+find wp-includes -type f -exec chmod 444 {} \;
+```
+
+
+
+
 ## How do edit permissions?
 You can change how files and folders are shared by **right-clicking** them and selecting **'Permissions'** from the menu.
 
