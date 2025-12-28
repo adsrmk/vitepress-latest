@@ -117,9 +117,10 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         {
       text: 'Wordpress',
       items: [
-        { text: 'Obfuscate version(s)', link: 'hide_wp.md' },
-        { text: 'Disable wp-login', link: 'backend.md' },
+        { text: 'Obfuscate Version(s)', link: 'hide_wp.md' },
+        { text: 'Disable WP-Login', link: 'backend.md' },
         { text: 'Disable REST-API', link: 'rest-api.md' },
+        { text: 'Disable File Editing', link: 'rest-api.md' },
         { text: 'Block User Enumeration', link: 'block_user_enum.md' },
         { text: 'File Permissions', link: 'chmod.md' }
         
