@@ -174,6 +174,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       items: [
          { text: 'IonCube loader', link: 'ioncube.md' },
          { text: 'PHP', link: 'php.md' },
+         { text: 'FastCGI', link: 'fastcgi.md' },
          { text: 'SSH Keys', link: 'SSH.md' },
          { text: 'Redis', link: 'redis.md' }
       ]
