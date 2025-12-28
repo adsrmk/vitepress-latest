@@ -33,6 +33,13 @@ The wp-includes folder contains core libraries that WordPress needs to **read an
 
 This approach significantly reduces the risk of persistent malware infections and protects the integrity of WordPress core files. 
 
+
+<div class="warning custom-block" style="padding-top: 8px">
+You must not set 444 on the wp-includes directory.
+Directories need the execute permission to be accessed. If you unintentionally did so, access trough SFTP and revert back to 755..
+</div>
+
+
 1. Login through [SSH](#)
 2. Go into the main website's directory
 ```ssh
@@ -43,6 +50,7 @@ cd public_html
 find wp-includes -type f -exec chmod 444 {} \;
 ```
 
+<br>
 
 
 
