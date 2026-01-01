@@ -140,6 +140,15 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
     
 
 
+    
+       {
+      text: ' Web Performance',
+      collapsed: false,
+      items: [
+         { text: 'Invoices', link: 'preload_fcgi.md' }
+      ]
+    },
+
 
 
 
