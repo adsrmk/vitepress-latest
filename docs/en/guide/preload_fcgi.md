@@ -40,6 +40,7 @@ foreach ($xml->url as $url) {
 Because all files are cached for one hour, we recommend setting the execution interval to 1 hour. Running the cron job more frequently has no effect due to cache freshness, while longer intervals may negatively impact performance.
 
 <br>
+
 ```php
 /usr/bin/php /var/www/5e43c690-1937-47aa-9ff5-e1c2d7daebb7/public_html/preload.php > /dev/null 2>&1
 ```
