@@ -35,5 +35,16 @@ foreach ($xml->url as $url) {
     usleep(200000); // 200ms
 }
 ```
+3. In developer tools, create a new cron job w/ **execution command**. Make sure to replace the **UUID** (Universally Unique Identifier) with your website's directory.
+In this case its `5e43c690-1937-47aa-9ff5-e1c2d7daebb7`
+   <br>
+   
+```php
+/usr/bin/php /var/www/5e43c690-1937-47aa-9ff5-e1c2d7daebb7/public_html/preload.php > /dev/null 2>&1
+```
+
+
+
+   /usr/bin/php /var/www/5e43c690-1937-47aa-9ff5-e1c2d7daebb7/public_html/preload.php > /dev/null 2>&1
 
    
