@@ -13,33 +13,59 @@ To mitigate this, a cache warm-up process can be implemented. This process perio
 3. Update the sitemap URL to match your website configuration.
    
 ```php
-<?php
-$sitemap = 'https://evworkspace.nl/sitemap.xml';
-$xml = simplexml_load_file($sitemap);
+$sitemapUrl = 'https://yourdomain.com/sitemap.xml';
 
-if (!$xml) {
-    die("Failed to load sitemap\n");
+// 2. Fetch with cURL (Bypasses allow_url_fopen restrictions)
+$ch = curl_init($sitemapUrl);
+curl_setopt_array($ch, [
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_FOLLOWLOCATION => true,
+    CURLOPT_USERAGENT      => 'Sitemap-Warmer-Bot'
+]);
+$xmlContent = curl_exec($ch);
+$httpCode   = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+
+if ($httpCode !== 200) {
+    die("Error: Could not fetch sitemap. HTTP Code: $httpCode");
 }
 
-foreach ($xml->url as $url) {
+// 3. Parse XML
+$xml = simplexml_load_string($xmlContent);
+if (!$xml) {
+    die("Error: Failed to parse XML. Is the sitemap valid XML?");
+}
+
+// 4. Handle Namespaces (The "White Screen" Fix)
+$ns = $xml->getDocNamespaces();
+$xml->registerXPathNamespace('s', $ns[''] ?? 'http://www.sitemaps.org/schemas/sitemap/0.9');
+$urls = $xml->xpath('//s:url');
+
+if (empty($urls)) {
+    die("Error: No URLs found in sitemap. Check the XML structure.");
+}
+
+// 5. Warm the Cache
+foreach ($urls as $url) {
     $loc = (string) $url->loc;
 
-    $ch = curl_init($loc);
-    curl_setopt_array($ch, [
+    $chWarmer = curl_init($loc);
+    curl_setopt_array($chWarmer, [
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_FOLLOWLOCATION => true,
-        CURLOPT_TIMEOUT => 10,
-        CURLOPT_USERAGENT => 'Nginx-FastCGI-Cache-Warmer',
+        CURLOPT_TIMEOUT        => 10,
+        CURLOPT_USERAGENT      => 'Nginx-FastCGI-Cache-Warmer',
     ]);
 
-    curl_exec($ch);
-    $code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    curl_close($ch);
+    curl_exec($chWarmer);
+    $status = curl_getinfo($chWarmer, CURLINFO_HTTP_CODE);
 
-    echo date('Y-m-d H:i:s') . " $code $loc\n";
-
-    usleep(200000); // 200ms
+    echo date('H:i:s') . " [$status] Processing: $loc<br>";
+    
+    // PHP 8.5: No curl_close needed
+    usleep(100000); 
 }
+
+echo "Done!";
 ```
 3. In the Developer Tools, create a new cron job using an execution command. Replace the UUID (Universally Unique Identifier) with your website’s directory name — in this example: `5e43c690-1937-47aa-9ff5-e1c2d7daebb7`.
    
@@ -60,6 +86,6 @@ Because all files are cached for one hour, we recommend setting the execution in
 <br>
 
 
-4. You can verify the functionality by accessing the file through its public URL. Such as https://yourdomain.com/preload.php
+4. You can verify the functionality by accessing the file through its public URL. Such as https://yourdomain.com/**preload.php**. If the output completes successfully, cache warming for FastCGI has been enabled.
 
    
