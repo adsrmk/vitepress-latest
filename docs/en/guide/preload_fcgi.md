@@ -1,11 +1,11 @@
 # Preload FCGI cache
 
-We’ve taken a look behind the curtain and explored how FastCGI cache works under the hood. It’s efficient, and powerful—but it has one important limitation: the cache is only generated when a real visitor requests a page and remains in cache for only a hour.
+We have examined the internal workings of FastCGI caching and its operational behavior. While FastCGI cache is highly efficient and performant, it has a key limitation: cached content is generated only after an actual user requests a page, and cached entries typically expire after one hour.
 
-But what if you didn’t want to wait for that first visitor?
-What if every page of your website was already cached, instantly ready to load, every single time?
+This means that the first visitor to a page may not benefit from cached performance.
 
-You can warmup a cache by fetching your websites URL's with a anonymous agent every hour or so.
+To mitigate this, a cache warm-up process can be implemented. This process periodically requests website URLs using an anonymous user agent, ensuring cached content is generated in advance. This allows pages to be served from cache immediately, maintaining consistent performance for all visitors.
+
 
 ## How to
 1. Create a new file called preload.php under your public_html
