@@ -8,8 +8,9 @@ To mitigate this, a cache warm-up process can be implemented. This process perio
 
 
 ## How to
-1. Create a new file called preload.php under your public_html
-2. paste the following code, and change your sitemap URL
+1. Create a new file named **preload.php** in the public_html directory.
+2. Paste the code below into the file.
+3. Update the sitemap URL to match your website configuration.
    
 ```php
 <?php
@@ -56,5 +57,8 @@ Because all files are cached for one hour, we recommend setting the execution in
 
 <img width="755" height="333" alt="image" src="https://github.com/user-attachments/assets/c8d5c85e-e041-431d-b332-cf6aa1157b54" />
 
+<br>
+
+4. You can verify the functionality by accessing the file through its public URL. Such as https://yourdomain.com/preload.php
 
    
