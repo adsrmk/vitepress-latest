@@ -1,8 +1,6 @@
 # Databases
 
-Databases are structured systems designed to store, organize, and retrieve information efficiently. WordPress relies on a database to manage your website’s core architecture—including posts, pages, comments, metadata, and user configurations. 
-
-While WordPress traditionally utilizes MySQL, our infrastructure operates on the latest stable release of **MariaDB**. MariaDB is a highly optimized, open-source relational database developed as a performance-oriented alternative to MySQL. It is renowned for its speed, scalability, and advanced features such as enhanced GIS and JSON support.
+WordPress stores all website content, users, and settings in a database. This includes posts, pages, comments, and configuration data. Managing your database allows you to control how this information is stored, accessed, and maintained.
 
 <br>
 
