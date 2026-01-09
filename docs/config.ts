@@ -91,6 +91,20 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       { text: 'Redirects', link: 'redirect.md' },
       { text: 'Backups', link: 'backups.md' },
       { text: 'Database', link: 'database.md' },
+
+    
+      {
+      text: 'Email',
+      items: [
+        { text: 'Setup Mail DNS', link: 'setup_mail_records.md' },
+        { text: 'Create an email account', link: 'email_account.md' },
+        { text: 'Block e-mails', link: 'block_emails.md' },
+        { text: 'Change e-mail password', link: 'email_password.md' },
+        { text: 'Email forwarding', link: 'forwarding.md' },
+        { text: 'File attachments', link: 'file_attachment.md' }
+      ]
+    },
+
     
     {
       text: 'Email',
