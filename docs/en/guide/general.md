@@ -5,8 +5,8 @@ It provides a overview of your site’s configuration, including your **live URL
 <br>
 
 ### Site Details & File Path
-- **Site URL:** This is the primary address used by WordPress to generate internal links and redirects. If you have recently changed your domain, ensure this matches your live environment.
-- **File Path:** This shows the root directory of your WordPress installation (usually public_html). You’ll need this path if you are configuring SFTP or managing files via the command line.
+- **Site URL:** Primary address used by WordPress to generate internal links and redirects. If you have recently changed your domain, ensure this matches your live environment.
+- **File Path:** The root directory of your WordPress installation (usually public_html). You’ll need this path if you are configuring SFTP or managing files via the command line.
 <br>
 
 ### WordPress Version
