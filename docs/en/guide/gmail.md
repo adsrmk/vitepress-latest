@@ -37,6 +37,7 @@ Select **Import emails from my other account** (POP3) and click Next.
 <br>
 <img width="1674" height="448" alt="image" src="https://github.com/user-attachments/assets/da4c4f49-bd67-4043-93f6-de13ce33e4ab" />
 <br>
+<br>
 
 6. Finalize setup
    Finally, check all the boxes except the last one. If everything is configured correctly, your email account will be added and all emails will be imported into Gmail.
