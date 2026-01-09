@@ -27,7 +27,7 @@ Select **Import emails from my other account** (POP3) and click Next.
 
 
 5. Enter Your Email Server Credentials
-You will be prompted to enter the following details:
+   You will be prompted to enter the following details:
 
 - **Username:** Your full email address.
 - **Password:** The password you set for your email login.
@@ -38,7 +38,25 @@ You will be prompted to enter the following details:
 <img width="1674" height="448" alt="image" src="https://github.com/user-attachments/assets/da4c4f49-bd67-4043-93f6-de13ce33e4ab" />
 <br>
 
+6. Finalize setup
+   Finally, check all the boxes except the last one. If everything is configured correctly, your email account will be added and all emails will be imported into Gmail.
+   Your configuration should look something like this:
+<br>
 <img width="1100" height="916" alt="image" src="https://github.com/user-attachments/assets/239286ef-edf2-4fb2-a9d0-01686339468c" />
+<br>
+
+7. Sending mails from Gmail
+   To send emails from this account, you'll need to configure the SMTP settings as you did previously. To proceed, select "Yes, I want to be able to send mail."
+   
+SMTP Settings:
+- **SMTP Server:** Use the same mail server as before. Find these details in your email settings (under Email Client Settings).
+- Outgoing Mail Port: Select 587.
+- Username & Password: Enter the same credentials used for your email account.
+- Secure Connection: Select TLS as the encryption method.
+
+  <img width="1098" height="918" alt="image" src="https://github.com/user-attachments/assets/e8c1e455-2045-41ce-8950-edc9477f3128" />
+  <br>
+
 
 
 
