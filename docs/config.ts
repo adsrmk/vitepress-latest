@@ -113,7 +113,8 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'Block e-mails', link: 'block_emails.md' },
         { text: 'Change e-mail password', link: 'email_password.md' },
         { text: 'Email forwarding', link: 'forwarding.md' },
-        { text: 'File attachments', link: 'file_attachment.md' }
+        { text: 'File attachments', link: 'file_attachment.md' },
+        { text: 'Add Mailbox to Gmail', link: 'gmail.md' }
       ]
     }
   ]
