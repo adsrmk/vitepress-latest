@@ -96,11 +96,11 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       {
       text: 'Applications',
       items: [
-        { text: 'General', link: 'setup_mail_records.md' },
-        { text: 'Plugins', link: 'email_account.md' },
-        { text: 'Themes', link: 'block_emails.md' },
-        { text: 'Users', link: 'email_password.md' },
-        { text: 'Debug', link: 'file_attachment.md' }
+        { text: 'General', link: 'general.md' },
+        { text: 'Plugins', link: 'plugins.md' },
+        { text: 'Themes', link: 'themes.md' },
+        { text: 'Users', link: 'wp_users.md' },
+        { text: 'Debug', link: 'debug.md' }
       ]
     },
 
