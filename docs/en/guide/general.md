@@ -10,9 +10,8 @@ It provides a overview of your site’s configuration, including your **live URL
 <br>
 
 ### WordPress Version
-
 Keeping your site secure means keeping your software up to date. This section allows you to manage how your wordpress site handles core updates.
-**Update Preferences:** You can toggle between automatic updates for minor versions (security patches and bug fixes) or major releases. A quick glance at the green badge will tell you if your site is currently running the latest stable version of WordPress. *We recommend updating only to minor versions to avoid compatibility issues with plugins and themes.*
+- **Update Preferences:** You can toggle between automatic updates for minor versions (security patches and bug fixes) or major releases. A quick glance at the green badge will tell you if your site is currently running the latest stable version of WordPress. *We recommend updating only to minor versions to avoid compatibility issues with plugins and themes.*
 <br>
 
 ### Maintenance mode
