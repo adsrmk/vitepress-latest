@@ -15,3 +15,8 @@ WordPress users are different from collaborative users. They can only access you
   <br>
 - **Delete Access:** Remove users permanently to revoke their entry to the production environment. *This action is irreversible. Always double-check and create a backup before proceeding, especially if content was created under the primary or admin account.*
 
+<br>
+
+### SSO
+
+**Single sign-on** (SSO) provides instant access to the WordPress admin area without requiring manual login credentials. This streamlines access between the dashboard and site management. If multiple administrative accounts exist, you can choose which account SSO logs in as.
