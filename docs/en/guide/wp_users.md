@@ -1,6 +1,6 @@
 # Wordpress Users
 
-The Users section provides a centralized hub to manage administrative and team access for your WordPress application. 
+The Users section manages administrative and team access for your WordPress site.
 
 <div class="tip custom-block" style="padding-top: 8px">
 WordPress users are different from collaborative users. They can only access your WordPress site through the back-end and do not have access to the cloud panel.
