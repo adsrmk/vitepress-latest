@@ -85,7 +85,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
 
 
 {
-  text: 'Platform',
+  text: 'Project(s)',
   collapsed: false,
   items: [
        { text: 'Users', link: 'users.md' },
