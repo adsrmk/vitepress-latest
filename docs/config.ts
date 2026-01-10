@@ -117,7 +117,8 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'Spam Settings', link: 'spam_settings.md' },
         { text: 'Out of office', link: 'out_of_office.md' },
         { text: 'File Attachments', link: 'file_attachment.md' },
-        { text: 'Add Mailbox to Gmail', link: 'gmail.md' }
+        { text: 'Add Mailbox to Gmail', link: 'gmail.md' }.
+        { text: 'Webmail', link: 'webmail.md' }
       ]
     }
   ]
