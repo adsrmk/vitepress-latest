@@ -39,7 +39,7 @@ function nav(): DefaultTheme.NavItem[] {
       activeMatch: '/guide/'
     },
     {
-      text: '<developers>',
+      text: 'Developers',
       link: '/reference/site-config',
       activeMatch: '/reference/'
     },
