@@ -115,6 +115,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'Forwarders', link: 'forwarders.md' },
         { text: 'Catch All', link: 'catchall.md' },
         { text: 'Spam Settings', link: 'spam_settings.md' },
+        { text: 'Out of office', link: 'out_of_office.md' },
         { text: 'Block e-mails', link: 'block_emails.md' },
         { text: 'Change e-mail password', link: 'email_password.md' },
         { text: 'Email forwarding', link: 'forwarding.md' },
