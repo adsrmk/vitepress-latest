@@ -9,6 +9,8 @@ The system uses a point-based scoring system (typically 1–10) to determine wha
 - **Stricter** (Lower Score): Catch more spam, but increases the risk of flagging legitimate emails.
 - **Lenient** (Higher Score): Reduces the chance of missing real emails, but allows more unwanted clutter through.
 <br>
+<img width="847" height="666" alt="image" src="https://github.com/user-attachments/assets/c3cbec9c-6b0d-48cb-85a6-34cc9c0e2ee4" />
+<br>
 
 ## Allow/block list
 
