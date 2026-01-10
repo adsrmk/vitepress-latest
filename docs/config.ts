@@ -37,9 +37,9 @@ function nav(): DefaultTheme.NavItem[] {
       activeMatch: '/guide/'
     },
      {
-      text: 'test',
-      link: '/email/',
-      activeMatch: '/email/'
+      text: 'Whatsapp',
+      link: 'https://api.whatsapp.com/send/?phone=31613332490',
+      activeMatch: '/'
     },
     {
       text: 'Reference',
