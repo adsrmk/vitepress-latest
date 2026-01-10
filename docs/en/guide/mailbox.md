@@ -15,14 +15,6 @@ An email mailbox allows you to send, receive, and manage email messages associat
 In most cases, a 1GB mailbox provides sufficient storage for thousands of emails without attachments. The Essential Plan includes 3 email accounts, with additional accounts available on higher plans. If your business frequently sends and receives large files, we recommend upgrading to Google Workspace or ProtonMail for increased storage and more advanced functionalities.
 :::   
 
-
-
-<br>
-
-<div class="warning custom-block" style="padding-top: 8px">
-Note: If your email is set up on other devices, such as a phone or tablet, make sure to update the password there as well. Otherwise, you may stop receiving new emails.
-</div>
-
 <br>
 
 ## Change password
@@ -36,4 +28,9 @@ Note: If your email is set up on other devices, such as a phone or tablet, make 
 - At least one special character
 - Minimum of 10 characters
   
-3. Click Save to apply the changes. Your password is now successfully updated.
+3. Click Save to apply the changes. 
+
+<div class="warning custom-block" style="padding-top: 8px">
+Note: If your email is set up on other devices, such as a phone or tablet, make sure to update the password there as well. Otherwise, you may stop receiving new emails.
+</div>
+
