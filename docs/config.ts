@@ -36,15 +36,14 @@ function nav(): DefaultTheme.NavItem[] {
       link: '/guide/what-is-vitepress',
       activeMatch: '/guide/'
     },
+    {
+      text: '<developers>',
+      link: '/reference/site-config',
+      activeMatch: '/reference/'
+    },
      {
       text: 'Whatsapp',
       link: 'https://api.whatsapp.com/send/?phone=31613332490',
-      activeMatch: '/'
-    },
-    {
-      text: 'Reference',
-      link: '/reference/site-config',
-      activeMatch: '/reference/'
     },
       {
       text: 'Status',
