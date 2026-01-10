@@ -12,8 +12,10 @@ export default defineAdditionalConfig({
     nav: nav(),
 
     sidebar: {
-      '/guide/': { base: '/guide/', items: sidebarGuide() },
-      '/reference/': { base: '/reference/', items: sidebarReference() }
+      '/guide/': { base: '/guide/', 
+       items: sidebarGuide() },
+      '/reference/': { base: '/reference/', 
+      items: sidebarReference() }
     },
 
         editLink: {
