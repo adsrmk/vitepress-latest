@@ -8,6 +8,9 @@ For example, emails sent to info@, sales@, or random@yourdomain.com will all be 
 - Capture messages sent to unknown or temporary addresses
 - Centralize incoming mail for a domain
 
+<br>
+
+
 <div class="warning custom-block" style="padding-top: 8px">
 Catch-all may receive spam since it accepts all incoming emails. It is recommended to use strict filtering when enabling this feature.
 </div>
