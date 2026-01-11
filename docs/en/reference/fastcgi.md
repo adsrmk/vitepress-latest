@@ -1,4 +1,4 @@
-# What is FastCGI Cache?
+# FastCGI Cache
 
 FastCGI Cache is a server-side caching mechanism at the NGINX level. Instead of executing PHP and database queries on every request, NGINX stores the fully rendered HTML output of a page after the first request.
 
