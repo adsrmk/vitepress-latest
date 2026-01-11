@@ -1,7 +1,7 @@
 # Optimzed Font Delivery
 
 In 2026, web fonts are no longer the "performance killers" they once were, provided you handle them with modern techniques. 
-Poor font implementation leads to two major issues: FOIT (Flash of Invisible Text) and CLS (Cumulative Layout Shift).
+Poor font implementation leads to two major issues: **FOIT (Flash of Invisible Text) and CLS (Cumulative Layout Shift)**.
 
 
 ## .WOFF2
@@ -16,3 +16,13 @@ Poor font implementation leads to two major issues: FOIT (Flash of Invisible Tex
 }
 ```
 
+
+## FOIT (Flash of Invisible Text)
+The font-display property determines how the browser behaves while the font file is still downloading.
+
+| Value     | Behavior                                                                 | Best For                                           |
+|-----------|--------------------------------------------------------------------------|---------------------------------------------------|
+| swap      | Shows system font immediately, then swaps once the font is loaded         | General body text (prioritizes readability)       |
+| fallback  | Brief invisibility (~100ms), then system font, then swap                  | Balanced UX and performance                       |
+| optional  | If the font isn't ready in ~100ms, the browser never swaps                | Best for performance and CLS (prevents layout jank) |
+| block     | Hides text until the font is ready (up to 3s)                             | Avoid unless the font is an icon set               |
