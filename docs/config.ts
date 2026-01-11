@@ -14,7 +14,7 @@ export default defineAdditionalConfig({
     sidebar: {
       '/guide/': { base: '/guide/', 
        items: sidebarGuide() },
-      '/developers/': { base: '/developers/', 
+      '/reference/': { base: '/reference/', 
       items: sidebarReference() }
     },
 
@@ -283,7 +283,7 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
         { text: 'CLI', link: 'cli' },
         {
           text: 'Default Theme',
-          base: '/developers/default-theme-',
+          base: '/reference/default-theme-',
           items: [
             { text: 'Overview', link: 'config' },
             { text: 'Nav', link: 'nav' },
