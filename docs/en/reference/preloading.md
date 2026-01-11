@@ -41,3 +41,21 @@ Use prefetch for resources that will be needed on the next page the user is like
 <div class="warning custom-block" style="padding-top: 8px">
 Do not use prefetch for critical current-page assets, as it may compete for bandwidth with more urgent resources.
 </div>
+<br>
+
+## 3. Implementing rel="preconnect"
+preconnect allows the browser to set up early connections before an HTTP request is actually sent to the server. This eliminates the "round-trip" latency involving DNS lookups, TCP handshakes, and TLS negotiations.
+
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://cdn.example.com" crossorigin>
+```
+
+### When to use it
+- **Third-party Fonts:** Connecting to Google Fonts or Adobe Fonts.
+- **CDN Assets:** When you know you'll need images or scripts from a specific edge domain.
+- **Streaming Media:** Preparing the connection for a video player.
+
+  
+
+  
