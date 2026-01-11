@@ -250,7 +250,7 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
     },
     
     {
-      text: 'Security',
+      text: 'Web Security',
       collapsed: false,
       items: [
         { text: 'Reinstall WP core using CLI', link: 'wp_cli.md' },
