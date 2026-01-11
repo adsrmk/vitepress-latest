@@ -46,6 +46,7 @@ WebP is the industry workhorse. It supports both lossy and lossless compression,
 The newest standard designed to eventually replace all previous formats.
 - Best For: Large-scale image libraries (due to lossless transcoding) and responsive web design (due to superior progressive loading).
 - New tech: It can “shrink” existing JPEGs by 35% without any generation loss, and you can reconstruct the original JPEG bit-for-bit if needed.
+<br>
 
 ## Implemenation method(s)
 
@@ -58,9 +59,10 @@ Best For: Large sites that don't want to store 5 copies of every image on their 
 **B. Optimization Plugins**
 For "set it and forget it" local optimization, these are the current leaders:
 
-Imagify: Simple UI, supports WebP and AVIF.
-ShortPixel: Excellent compression and supports the <picture> tag rewrite.
-EWWW Image Optimizer: Best for high-volume sites and server-level optimizations.
+- Imagify: Simple UI, supports WebP and AVIF.
+- ShortPixel: Excellent compression and supports the <picture> tag rewrite.
+- EWWW Image Optimizer: Best for high-volume sites and server-level optimizations.
+<br>
 
 ## Reminders
 - Don't over-compress: AVIF is so efficient that a quality setting of 70-80 in WordPress is usually enough.
