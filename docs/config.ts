@@ -261,17 +261,8 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
         { text: 'Block User Enumeration', link: 'block_user_enum.md' },
         { text: 'File Permissions', link: 'chmod.md' }
       ]
-    },
-        {
-      text: 'Performance',
-      collapsed: false,
-      items: [
-        { text: 'Preload FCGI Cache', link: 'preload_fcgi.md' },
-        { text: 'Speculation Rules API', link: 'speculation_rules_api.md' },
-        { text: 'Link Preloading', link: 'preloading.md' },
-        { text: 'Formatting Images', link: 'image_formats.md' }
-      ]
     }
+      
     
   ]
 }
