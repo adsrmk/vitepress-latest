@@ -273,7 +273,16 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
         { text: 'Block User Enumeration', link: 'block-user-enum' },
         { text: 'File Permissions', link: 'chmod' }
       ]
+    },
+        {
+      text: 'Performance',
+      collapsed: false,
+      items: [
+        { text: 'Obfuscate Version(s)', link: 'hide-wp' },
+        { text: 'Disable WP-Login', link: 'backend' }
+      ]
     }
+    
   ]
 }
 
