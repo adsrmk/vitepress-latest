@@ -15,7 +15,7 @@ There are several ways to "hint" to the browser that it should fetch or prepare 
 | `dns-prefetch`    | Resolves the DNS for a domain only.                             |
 
 
-## 1. Implementing preload
+## 1. Implementing rel="preload"
 Use preload for critical assets that the browser’s discovery scanner might miss (e.g., fonts defined inside CSS or background images).
 
 ```html
@@ -29,4 +29,15 @@ Use preload for critical assets that the browser’s discovery scanner might mis
 - **as:** Required. Tells the browser the type of content so it can set the correct priority and security headers. Common values: script, style, font, image, fetch.
 - **crossorigin:** Required for fonts. Even if the font is on the same domain, fonts must be fetched using anonymous mode CORS.
 - **type:** Optional but helpful for the browser to skip files it doesn't support (e.g., type="image/webp").
+<br>
 
+## 2. Implementing rel="prefetch"
+Use prefetch for resources that will be needed on the next page the user is likely to visit. The browser will download these at a low priority when it is idle.
+
+```html
+<link rel="prefetch" href="/next-page-assets/hero-image.jpg">
+```
+
+<div class="warning custom-block" style="padding-top: 8px">
+Do not use prefetch for critical current-page assets, as it may compete for bandwidth with more urgent resources.
+</div>
