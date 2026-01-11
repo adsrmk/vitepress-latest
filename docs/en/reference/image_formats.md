@@ -28,7 +28,8 @@ AVIF offers the most significant byte savings, often reducing file sizes by 50% 
 WebP is the industry workhorse. It supports both lossy and lossless compression, as well as alpha transparency.
 - Best For: General UI elements, product thumbnails, and replacing transparent PNGs.
 - Cons: While better than JPEG, it is generally outperformed by AVIF in high-detail scenarios.
-- 
+
+  
 <br>
 
 ### JPEG XL (JXL)
