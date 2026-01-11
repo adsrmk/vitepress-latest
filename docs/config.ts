@@ -249,32 +249,29 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
   ]
 }
 
+
 function sidebarReference(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: 'Developers',
       items: [
-        { text: 'Getting started', link: 'getting_started' },
+        { text: 'Getting started', link: 'getting-started' },
         { text: 'Site Config', link: 'site-config' },
         { text: 'Frontmatter Config', link: 'frontmatter-config' },
         { text: 'Runtime API', link: 'runtime-api' },
-        { text: 'CLI', link: 'cli' },
-       
+        { text: 'CLI', link: 'cli' }
       ]
     },
-
-
-
-                {
+    {
       text: 'Security',
       collapsed: false,
       items: [
-        { text: 'Obfuscate Version(s)', link: 'hide_wp.md' },
-        { text: 'Disable WP-Login', link: 'backend.md' },
-        { text: 'Disable REST-API', link: 'rest-api.md' },
-        { text: 'Disable File Editing', link: 'disable_file.md' },
-        { text: 'Block User Enumeration', link: 'block_user_enum.md' },
-        { text: 'File Permissions', link: 'chmod.md' }
+        { text: 'Obfuscate Version(s)', link: 'hide-wp' },
+        { text: 'Disable WP-Login', link: 'backend' },
+        { text: 'Disable REST-API', link: 'rest-api' },
+        { text: 'Disable File Editing', link: 'disable-file' },
+        { text: 'Block User Enumeration', link: 'block-user-enum' },
+        { text: 'File Permissions', link: 'chmod' }
       ]
     }
   ]
