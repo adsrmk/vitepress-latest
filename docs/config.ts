@@ -14,7 +14,7 @@ export default defineAdditionalConfig({
     sidebar: {
       '/guide/': { base: '/guide/', 
        items: sidebarGuide() },
-      '/reference/': { base: '/reference/', 
+      '/developers/': { base: '/developers/', 
       items: sidebarReference() }
     },
 
