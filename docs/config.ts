@@ -134,20 +134,6 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
          { text: 'ModSec', link: 'modsec.md' }
   ]
 },
-
-
-       {
-      text: ' Web Performance',
-      collapsed: false,
-      items: [
-         { text: 'Preload fcgi cache', link: 'preload_fcgi.md' }
-      ]
-    },
-
-
-
-
-
     
        {
       text: 'Billing',
@@ -253,7 +239,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
 function sidebarReference(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: 'Developers',
+      text: 'General',
       items: [
         { text: 'Getting started', link: 'getting-started' },
         { text: 'Site Config', link: 'site-config' },
@@ -262,10 +248,12 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
         { text: 'CLI', link: 'cli' }
       ]
     },
+    
     {
       text: 'Security',
       collapsed: false,
       items: [
+        { text: 'Reinstall WP core using CLI', link: 'wp_cli.md' },
         { text: 'Obfuscate Version(s)', link: 'hide-wp' },
         { text: 'Disable WP-Login', link: 'backend' },
         { text: 'Disable REST-API', link: 'rest-api' },
@@ -278,8 +266,7 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
       text: 'Performance',
       collapsed: false,
       items: [
-        { text: 'Obfuscate Version(s)', link: 'hide-wp' },
-        { text: 'Disable WP-Login', link: 'backend' }
+        { text: 'Preload FCGI Cache', link: 'preload_fcgi.md' }
       ]
     }
     
