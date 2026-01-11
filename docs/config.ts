@@ -266,7 +266,8 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
       text: 'Performance',
       collapsed: false,
       items: [
-        { text: 'Preload FCGI Cache', link: 'preload_fcgi.md' }
+        { text: 'Preload FCGI Cache', link: 'preload_fcgi.md' },
+        { text: 'Link Preloading', link: 'peloading.md' }
       ]
     }
     
