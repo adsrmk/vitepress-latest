@@ -282,6 +282,22 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
         { text: 'Frontmatter Config', link: 'frontmatter-config' },
         { text: 'Runtime API', link: 'runtime-api' },
         { text: 'CLI', link: 'cli' },
+
+
+
+        {
+          text: 'Security',
+          base: '/reference/default-theme-',
+          items: [
+            { text: 'Overview', link: 'config' },
+            { text: 'Nav', link: 'nav' },
+            { text: 'Sidebar', link: 'sidebar' },
+            { text: 'Home Page', link: 'home-page' },
+            { text: 'Footer', link: 'footer' }
+          ]
+        },
+
+        
         {
           text: 'Default Theme',
           base: '/reference/default-theme-',
