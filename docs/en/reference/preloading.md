@@ -15,7 +15,7 @@ There are several ways to "hint" to the browser that it should fetch or prepare 
 | `dns-prefetch`    | Resolves the DNS for a domain only.                             |
 
 
-## Implenting preload
+## 1. Implementing preload
 Use preload for critical assets that the browser’s discovery scanner might miss (e.g., fonts defined inside CSS or background images).
 
 ```html
