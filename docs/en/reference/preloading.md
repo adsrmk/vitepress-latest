@@ -61,5 +61,5 @@ preconnect allows the browser to set up early connections before an HTTP request
 
 
 There are additional options for link preloading if you want to explore this further. 
-You can learn more about this topic [here]https://web.dev/articles/preload-critical-assets
+You can learn more about this topic [here](https://web.dev/articles/preload-critical-assets)
   
