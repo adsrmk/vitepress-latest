@@ -277,11 +277,6 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
         { text: 'File Permissions', link: 'chmod.md' }
       ]
     }
-
-
-      
-      ]
-    }
   ]
 }
 
