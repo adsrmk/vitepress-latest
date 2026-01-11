@@ -13,10 +13,13 @@ If user enumeration is left enabled, attackers can:
 
 Blocking this behavior limits the information exposed to anonymous visitors and increases overall site security.
 <br>
-Add the following code to your theme’s `functions.php` file to enable this security feature.
+Add the following code to your `wp-config.php` file to enable this security feature.
 
 ```php
-if (!is_admin() && preg_match('/author=([0-9]*)/i', $_SERVER['QUERY_STRING'])) {
+if (!is_admin() &&
+    isset($_SERVER['QUERY_STRING']) &&
+    preg_match('/author=([0-9]*)/i', $_SERVER['QUERY_STRING'])
+) {
     wp_die('Access denied');
 }
 ```
