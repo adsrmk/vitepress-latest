@@ -36,7 +36,7 @@ WebP is the industry workhorse. It supports both lossy and lossless compression,
 The newest standard designed to eventually replace all previous formats.
 - Best For: Large-scale image libraries (due to lossless transcoding) and responsive web design (due to superior progressive loading).
 - New tech: It can “shrink” existing JPEGs by 35% without any generation loss, and you can reconstruct the original JPEG bit-for-bit if needed.
-- 
+
 <br>
 
 ## Implemenation method(s)
