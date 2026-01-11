@@ -14,7 +14,7 @@ export default defineAdditionalConfig({
     sidebar: {
       '/guide/': { base: '/guide/', 
        items: sidebarGuide() },
-      '/developers/': { base: '/developers/', 
+      '/reference/': { base: '/reference/', 
       items: sidebarReference() }
     },
 
@@ -40,8 +40,8 @@ function nav(): DefaultTheme.NavItem[] {
     },
     {
       text: 'Developers',
-      link: '/developers/site-config',
-      activeMatch: '/developers/'
+      link: '/reference/site-config',
+      activeMatch: '/reference/'
     },
      {
       text: 'Whatsapp',
@@ -268,21 +268,36 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'Sitemap Generation', link: 'sitemap-generation' }
       ]
     },
-    { text: 'Config & API Reference', base: '/developers/', link: 'site-config' }
+    { text: 'Config & API Reference', base: '/reference/', link: 'site-config' }
   ]
 }
 
 function sidebarReference(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: 'Developers',
+      text: 'Reference',
       items: [
-        { text: 'PHP', link: 'php.md' },
+        { text: 'Site Config', link: 'site-config' },
+        { text: 'Frontmatter Config', link: 'frontmatter-config' },
+        { text: 'Runtime API', link: 'runtime-api' },
+        { text: 'CLI', link: 'cli' },
         {
           text: 'Default Theme',
-          base: '/developers/default-theme-',
+          base: '/reference/default-theme-',
           items: [
-            { text: 'Redis', link: 'redis.php' }
+            { text: 'Overview', link: 'config' },
+            { text: 'Nav', link: 'nav' },
+            { text: 'Sidebar', link: 'sidebar' },
+            { text: 'Home Page', link: 'home-page' },
+            { text: 'Footer', link: 'footer' },
+            { text: 'Layout', link: 'layout' },
+            { text: 'Badge', link: 'badge' },
+            { text: 'Team Page', link: 'team-page' },
+            { text: 'Prev / Next Links', link: 'prev-next-links' },
+            { text: 'Edit Link', link: 'edit-link' },
+            { text: 'Last Updated Timestamp', link: 'last-updated' },
+            { text: 'Search', link: 'search' },
+            { text: 'Carbon Ads', link: 'carbon-ads' }
           ]
         }
       ]
