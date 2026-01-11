@@ -267,6 +267,7 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: 'Preload FCGI Cache', link: 'preload_fcgi.md' },
+        { text: 'Speculation Rules API', link: 'speculation_rules_api.md' },
         { text: 'Link Preloading', link: 'preloading.md' },
         { text: 'Formatting images', link: 'image_formats.md' }
       ]
