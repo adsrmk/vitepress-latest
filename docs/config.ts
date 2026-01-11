@@ -158,18 +158,6 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       ]
     },
 
-           {
-      text: 'Developer Tools',
-      collapsed: false,
-      items: [
-         { text: 'IonCube loader', link: 'ioncube.md' },
-         { text: 'PHP', link: 'php.md' },
-         { text: 'FastCGI', link: 'fastcgi.md' },
-         { text: 'SSH Keys', link: 'SSH.md' },
-         { text: 'Redis', link: 'redis.md' }
-      ]
-    },
-
 
         {
       text: 'Wordpress app',
@@ -246,6 +234,18 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
         { text: 'Frontmatter Config', link: 'frontmatter-config' },
         { text: 'Runtime API', link: 'runtime-api' },
         { text: 'CLI', link: 'cli' }
+      ]
+    },
+
+     {
+      text: 'Developer Tools',
+      collapsed: false,
+      items: [
+         { text: 'IonCube loader', link: 'ioncube.md' },
+         { text: 'PHP', link: 'php.md' },
+         { text: 'FastCGI', link: 'fastcgi.md' },
+         { text: 'SSH Keys', link: 'SSH.md' },
+         { text: 'Redis', link: 'redis.md' }
       ]
     },
     
