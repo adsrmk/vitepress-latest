@@ -14,7 +14,7 @@ export default defineAdditionalConfig({
     sidebar: {
       '/guide/': { base: '/guide/', 
        items: sidebarGuide() },
-      '/developers/': { base: '/developers/', 
+      '/reference/': { base: '/reference/', 
       items: sidebarReference() }
     },
 
@@ -40,8 +40,8 @@ function nav(): DefaultTheme.NavItem[] {
     },
     {
       text: 'Developers',
-      link: '/developers/site-config',
-      activeMatch: '/developers/'
+      link: '/reference/site-config',
+      activeMatch: '/reference/'
     },
      {
       text: 'Whatsapp',
@@ -268,7 +268,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'Sitemap Generation', link: 'sitemap-generation' }
       ]
     },
-    { text: 'Config & API Reference', base: '/developers/', link: 'site-config' }
+    { text: 'Config & API Reference', base: '/reference/', link: 'site-config' }
   ]
 }
 
