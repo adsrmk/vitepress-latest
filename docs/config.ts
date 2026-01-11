@@ -254,12 +254,12 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: 'Reinstall WP core using CLI', link: 'wp_cli.md' },
-        { text: 'Obfuscate Version(s)', link: 'hide-wp' },
-        { text: 'Disable WP-Login', link: 'backend' },
-        { text: 'Disable REST-API', link: 'rest-api' },
-        { text: 'Disable File Editing', link: 'disable-file' },
-        { text: 'Block User Enumeration', link: 'block-user-enum' },
-        { text: 'File Permissions', link: 'chmod' }
+        { text: 'Obfuscate Version(s)', link: 'hide-wp.md' },
+        { text: 'Disable WP-Login', link: 'backend.md' },
+        { text: 'Disable REST-API', link: 'rest-api.md' },
+        { text: 'Disable File Editing', link: 'disable-file.md' },
+        { text: 'Block User Enumeration', link: 'block-user-enum.md' },
+        { text: 'File Permissions', link: 'chmod.md' }
       ]
     },
         {
