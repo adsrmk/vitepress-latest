@@ -277,6 +277,7 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
     {
       text: 'Developers',
       items: [
+        { text: 'Getting started', link: 'getting_started.' },
         { text: 'Site Config', link: 'site-config' },
         { text: 'Frontmatter Config', link: 'frontmatter-config' },
         { text: 'Runtime API', link: 'runtime-api' },
