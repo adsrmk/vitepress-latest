@@ -131,19 +131,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       items: [
          { text: 'Setup 2FA', link: '2FA.md' },
          { text: 'DNSSEC', link: 'dnssec.md' },
-         { text: 'ModSec', link: 'modsec.md' },
-        {
-      text: 'Wordpress',
-      items: [
-        { text: 'Obfuscate Version(s)', link: 'hide_wp.md' },
-        { text: 'Disable WP-Login', link: 'backend.md' },
-        { text: 'Disable REST-API', link: 'rest-api.md' },
-        { text: 'Disable File Editing', link: 'disable_file.md' },
-        { text: 'Block User Enumeration', link: 'block_user_enum.md' },
-        { text: 'File Permissions', link: 'chmod.md' }
-        
-      ]
-    }
+         { text: 'ModSec', link: 'modsec.md' }
   ]
 },
 
@@ -285,17 +273,22 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
 
 
 
-        {
-          text: 'Security',
-          base: '/reference/default-theme-',
-          items: [
-            { text: 'Overview', link: 'config' },
-            { text: 'Nav', link: 'nav' },
-            { text: 'Sidebar', link: 'sidebar' },
-            { text: 'Home Page', link: 'home-page' },
-            { text: 'Footer', link: 'footer' }
-          ]
-        },
+
+                {
+      text: 'Security',
+      collapsed: false,
+      items: [
+        { text: 'Obfuscate Version(s)', link: 'hide_wp.md' },
+        { text: 'Disable WP-Login', link: 'backend.md' },
+        { text: 'Disable REST-API', link: 'rest-api.md' },
+        { text: 'Disable File Editing', link: 'disable_file.md' },
+        { text: 'Block User Enumeration', link: 'block_user_enum.md' },
+        { text: 'File Permissions', link: 'chmod.md' }
+      ]
+    },
+
+
+        
 
         
         {
