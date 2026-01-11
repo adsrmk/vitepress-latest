@@ -21,17 +21,6 @@ AVIF offers the most significant byte savings, often reducing file sizes by 50% 
 - Best For: High-quality photography, hero banners, and complex graphics where file size is the priority.
 - Cons: Higher CPU usage for encoding and decoding; lacks progressive rendering (loads top-to-bottom or all at once).
 
-**Auto conversion to AVIF**
-By default, if you upload a JPEG, WordPress keeps it as a JPEG. However, you can use a filter to tell WordPress to convert every upload into a next-gen format automatically.
-
-```php
-// Output AVIFs for newly uploaded JPEGs
-function filter_image_editor_output_format( $formats ) {
-    $formats['image/jpeg'] = 'image/avif';
-    return $formats;
-}
-add_filter( 'image_editor_output_format', 'filter_image_editor_output_format' );
-```
 <br>
 
 ### WebP
@@ -63,6 +52,8 @@ For "set it and forget it" local optimization, these are the current leaders:
 - ShortPixel: Excellent compression and supports the <picture> tag rewrite.
 - EWWW Image Optimizer: Best for high-volume sites and server-level optimizations.
 <br>
+
+
 
 ## Reminders
 - Don't over-compress: AVIF is so efficient that a quality setting of 70-80 in WordPress is usually enough.
