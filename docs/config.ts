@@ -270,7 +270,8 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
         { text: 'Frontmatter Config', link: 'frontmatter-config' },
         { text: 'Runtime API', link: 'runtime-api' },
         { text: 'CLI', link: 'cli' },
-
+    ]
+    },
 
 
 
