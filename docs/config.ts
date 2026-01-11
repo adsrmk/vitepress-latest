@@ -267,7 +267,7 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: 'Preload FCGI Cache', link: 'preload_fcgi.md' },
-        { text: 'Link Preloading', link: 'peloading.md' }
+        { text: 'Link Preloading', link: 'preloading.md' }
       ]
     }
     
