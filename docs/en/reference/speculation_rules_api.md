@@ -10,7 +10,7 @@ The simplest way to use the API is by providing a list of specific URLs you want
 ```html [/public_html/wp-content/themes/your_theme/header.php]
 <script type="speculationrules">
 {
-  "prerender":  [ [!code warning]
+  "prerender":  [ 
     {
       "source": "list",
       "urls": ["/page1", "/page2", "/page3"],
@@ -27,13 +27,8 @@ The simplest way to use the API is by providing a list of specific URLs you want
 - Prerender: Downloads the page, executes JavaScript, and builds the DOM in an invisible tab.
 
 **Eagerness:**
-::: Eagerness
+- `immediate:` As soon as the rule is parsed.
+- `eager:` On any slight hint of intent (like moving the mouse toward a link).
+- `moderate:` On a "pointer down" (the moment the user clicks but before they release).
+- `conservative:` Only on hover or mouse down.
 
-immediate: As soon as the rule is parsed.
-
-eager: On any slight hint of intent (like moving the mouse toward a link).
-
-moderate: On a "pointer down" (the moment the user clicks but before they release).
-
-conservative: Only on hover or mouse down.
-:::
