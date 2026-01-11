@@ -270,7 +270,8 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
         { text: 'Preload FCGI Cache', link: 'preload_fcgi.md' },
         { text: 'Speculation Rules API', link: 'speculation_rules_api.md' },
         { text: 'Link Preloading', link: 'preloading.md' },
-        { text: 'Formatting Images', link: 'image_formats.md' }
+        { text: 'Formatting Images', link: 'image_formats.md' },
+        { text: 'Optimizing Font', link: 'optimizing_font.md' }
       ]
     }
       
