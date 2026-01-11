@@ -4,7 +4,7 @@ FastCGI Cache is a server-side caching mechanism at the NGINX level. Instead of 
 
 On subsequent visits, NGINX serves this cached HTML directly, bypassing PHP-FPM and the database entirely. This drastically reduces server load, lowers response times, and allows the server to handle significantly more concurrent visitors.
 
-<img width="1296" height="748" alt="image" src="https://github.com/user-attachments/assets/ca7fdbfb-a17d-47b5-b875-d5944b880544" />
+<img width="1467" height="749" alt="image" src="https://github.com/user-attachments/assets/9d95cfd7-518f-4e47-8d9c-3269fc6e392b" />
 
 
 ## Enable FCGI
