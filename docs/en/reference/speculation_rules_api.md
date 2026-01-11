@@ -20,6 +20,7 @@ The simplest way to use the API is by providing a list of specific URLs you want
 }
 </script>
 ```
+<br>
 
 ### Key Concepts:
 
@@ -31,6 +32,7 @@ The simplest way to use the API is by providing a list of specific URLs you want
 - `eager:` On any slight hint of intent (like moving the mouse toward a link).
 - `moderate:` On a "pointer down" (the moment the user clicks but before they release).
 - `conservative:` Only on hover or mouse down.
+
 <br>
 
 
