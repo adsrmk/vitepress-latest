@@ -52,7 +52,7 @@ Best For: Large sites that don't want to store 5 copies of every image on their 
 For "set it and forget it" local optimization, these are the current leaders:
 
 - Imagify: Simple UI, supports WebP and AVIF.
-- ShortPixel: Excellent compression and supports the <picture> tag rewrite.
+- ShortPixel: Excellent compression and supports the `picture` tag rewrite.
 - EWWW Image Optimizer: Best for high-volume sites and server-level optimizations.
 <br>
 
