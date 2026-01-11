@@ -3,7 +3,7 @@
 The Speculation Rules API is a JSON-based configuration that allows developers to programmatically tell the browser to prefetch (download resources) or prerender (render the entire page in the background) specific URLs.
 Unlike the older link preloading, this API provides granular control over "eagerness" and supports full page rendering, making page transitions feel truly instant.
 
-::: tip
+::: warning
 The Speculation Rules API is `currently only supported in Chromium-based browsers` (e.g., Chrome, Edge, Opera)  
 Other browsers such as Safari or Firefox will ignore these rules completely.
 :::
