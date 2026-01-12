@@ -254,7 +254,7 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
     {
       text: 'Web Dev Tools',
       items: [
-        { text: 'Tools', link: 'setup_mail_records.md' }
+        { text: 'Caniuse ', link: 'caniuse.md' }
       ]
     }
   ]
