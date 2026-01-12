@@ -20,7 +20,7 @@ TTFB is not a single measure of speed, but the result of three distinct phases w
 
 ## Target benchmarks
 
-To ensure your website delivers a fast and smooth experience, it's important to monitor Time To First Byte (TTFB). The table below outlines recommended performance ranges and how they impact user experience:
+The table below outlines recommended performance ranges and how they impact user experience:
 <br>
 
 | TTFB Range        | Rating             | Notes                                   |
