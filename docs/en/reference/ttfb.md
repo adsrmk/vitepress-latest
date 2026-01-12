@@ -15,6 +15,7 @@ TTFB is not a single measure of speed, but the result of three distinct phases w
 - **Server Processing:** How long the server spends handling the request—executing application logic (PHP/Node.js), querying databases, and generating the HTML.
 - **Response Delivery:** How quickly the first byte of the generated response is sent back to the user’s browser.
 
+<br>
 
 ## Target benchmarks
 
