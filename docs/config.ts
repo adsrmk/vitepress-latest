@@ -250,7 +250,7 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
          { text: 'PHP', link: 'php.md' },
          { text: 'FastCGI', link: 'fastcgi.md' },
          { text: 'SSH Keys', link: 'SSH.md' },
-         { text: 'Redis', link: 'redis.md' }
+         { text: 'Redis', link: 'redis.md' },
     {
       text: 'Web Dev Tools',
       items: [
