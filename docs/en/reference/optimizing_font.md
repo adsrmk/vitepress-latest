@@ -33,8 +33,8 @@ The font-display property determines how the browser behaves while the font file
 
 While Google Fonts is convenient, Self-hosting is now the standard for high-performance sites for multiple reasons:
 
-- **No Extra DNS Lookup:*8 You don't need a preconnect to fonts.gstatic.com.
-- **Predictability:** You control the caching headers (Cache-Control: immutable).
-- **Privacy:** No third-party tracking, making it GDPR/CCPA friendly.
+- **No Extra DNS Lookup:** You don’t need a preconnect to fonts.gstatic.com, reducing external requests and slightly improving load performance.
+- **Predictability:** You fully control caching behavior, allowing long-lived cache headers like Cache-Control: immutable for faster repeat visits.
+- **Privacy:** Fonts are served from your own domain, eliminating third-party requests and avoiding potential tracking, which makes it more GDPR/CCPA friendly.
 
 To self-host certain fonts, you can use the [Google Webfonts Helper](https://gwfh.mranftl.com/fonts) to easily download the font files and generate the required CSS for quick and correct setup. 
