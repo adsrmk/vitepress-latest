@@ -4,7 +4,8 @@
 While other metrics (like LCP) focus on the frontend, TTFB is the primary indicator of server responsiveness and network efficiency.
 <br>
 
-<img width="1654" height="477" alt="image" src="https://github.com/user-attachments/assets/dcef7d01-79fd-453a-b1d8-18ae35d262e1" />
+<img width="1654" height="477" alt="3189ae5f05053ed5b3ee59e9ce1a4339 (1)" src="https://github.com/user-attachments/assets/5ec5b232-07ec-418d-b843-b32e592dc991" />
+
 
 <br>
 
