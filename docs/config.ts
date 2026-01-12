@@ -254,7 +254,7 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
     {
       text: 'Web Dev Tools',
       items: [
-        { text: 'TTFB', link: 'setup_mail_records.md' }
+        { text: 'Tools', link: 'setup_mail_records.md' }
       ]
     }
   ]
@@ -280,14 +280,21 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
     },
 
       {
-      text: 'Performance',
+      text: 'Pagespeed',
       collapsed: false,
       items: [
         { text: 'Preload FCGI Cache', link: 'preload_fcgi.md' },
         { text: 'Speculation Rules API', link: 'speculation_rules_api.md' },
         { text: 'Link Preloading', link: 'preloading.md' },
         { text: 'Formatting Images', link: 'image_formats.md' },
-        { text: 'Optimizing Font', link: 'optimizing_font.md' }
+        { text: 'Optimizing Font', link: 'optimizing_font.md' },
+ {
+      text: 'Metrics',
+      items: [
+        { text: 'TTFB', link: 'setup_mail_records.md' }
+      ]
+    }
+        
       ]
     }
       
