@@ -281,21 +281,18 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
       ]
     },
 
-
-
-
-    
       {
-      text: 'Pagespeed',
+      text: 'Performance',
       collapsed: false,
       items: [
+        { text: 'FCGI in memory (tmpfs)', link: 'preload_fcgi.md' },
         { text: 'Preload FCGI Cache', link: 'preload_fcgi.md' },
         { text: 'Speculation Rules API', link: 'speculation_rules_api.md' },
         { text: 'Link Preloading', link: 'preloading.md' },
         { text: 'Formatting Images', link: 'image_formats.md' },
         { text: 'Optimizing Font', link: 'optimizing_font.md' },
  {
-      text: 'Insights',
+      text: 'Metrics',
       items: [
         { text: 'TTFB', link: 'ttfb.md' }
       ]
