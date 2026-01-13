@@ -258,7 +258,7 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
         { text: 'Accessibility', link: 'accessibility.md' },
         { text: 'Pagespeed Insights', link: 'psi.md' },
         { text: 'Image Compressing', link: 'compressor.md' },
-        { text: 'MDN HTTP', link: 'http_mdn.md' }
+        { text: 'MDN HTTP', link: 'mdn_http.md' }
         
 
       ]
