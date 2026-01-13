@@ -285,7 +285,7 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
       text: 'Performance',
       collapsed: false,
       items: [
-        { text: 'FCGI in memory (tmpfs)', link: 'preload_fcgi.md' },
+        { text: 'FCGI in memory (tmpfs)', link: 'fcgi_tmpfs.md' },
         { text: 'Preload FCGI Cache', link: 'preload_fcgi.md' },
         { text: 'Speculation Rules API', link: 'speculation_rules_api.md' },
         { text: 'Link Preloading', link: 'preloading.md' },
