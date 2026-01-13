@@ -257,8 +257,6 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
         { text: 'Caniuse', link: 'caniuse.md' },
         { text: 'Accessibility', link: 'accessibility.md' }
 
-            Accessibility
-
       ]
     }
   ]
