@@ -289,7 +289,7 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
         { text: 'Formatting Images', link: 'image_formats.md' },
         { text: 'Optimizing Font', link: 'optimizing_font.md' },
  {
-      text: 'Metrics',
+      text: 'Insights',
       items: [
         { text: 'TTFB', link: 'ttfb.md' }
       ]
