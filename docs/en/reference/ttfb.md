@@ -20,7 +20,7 @@ TTFB is not a single measure of speed, but the result of three distinct phases w
 
 ## Target benchmarks
 
-There are several platforms available to measure your TTFB. We recommend using [FlyingTTFB](https://flyingttfb.com/) for unlimited global results.
+There are several platforms available to measure your TTFB. We recommend using [FlyingTTFB](https://flyingttfb.com) for unlimited global results.
 The table below outlines recommended performance ranges and how they impact user experience:
 <br>
 
