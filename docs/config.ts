@@ -291,7 +291,7 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
  {
       text: 'Metrics',
       items: [
-        { text: 'TTFB', link: 'setup_mail_records.md' }
+        { text: 'TTFB', link: 'ttfb.md' }
       ]
     }
         
