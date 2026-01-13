@@ -255,7 +255,8 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
       text: 'Web Dev Tools',
       items: [
         { text: 'Caniuse', link: 'caniuse.md' },
-        { text: 'Accessibility', link: 'accessibility.md' }
+        { text: 'Accessibility', link: 'accessibility.md' },
+        { text: 'Pagespeed Insights', link: 'psi.md' }
 
       ]
     }
