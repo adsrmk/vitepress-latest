@@ -295,7 +295,8 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
       text: 'Metrics',
       items: [
         { text: 'TTFB', link: 'ttfb.md' },
-        { text: 'LCP', link: 'lcp.md' }
+        { text: 'LCP', link: 'lcp.md' },
+        { text: 'INP', link: 'inp.md' }
       ]
     }
         
