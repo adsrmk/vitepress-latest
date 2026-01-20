@@ -296,7 +296,8 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
       items: [
         { text: 'TTFB', link: 'ttfb.md' },
         { text: 'LCP', link: 'lcp.md' },
-        { text: 'INP', link: 'inp.md' }
+        { text: 'INP', link: 'inp.md' },
+        { text: 'CLS', link: 'cls.md' },
       ]
     }
         
