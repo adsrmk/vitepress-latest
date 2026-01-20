@@ -4,6 +4,8 @@ Interaction to Next Paint (INP) is a Core Web Vital that measures a page's overa
 
 <img width="777" height="317" alt="image" src="https://github.com/user-attachments/assets/4af2b74f-70de-4183-8ee5-2f4dabb4b50a" />
 
+<br>
+
 
 While FID only measured the delay of the first interaction, INP measures the full time it takes for the page to visually respond to all user clicks, taps, and keyboard inputs.
 
