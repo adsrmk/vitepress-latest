@@ -7,10 +7,10 @@ LCP marks the point in the page load timeline when the largest text block or ima
 It is a "user-centric" metric because it aligns with the user's perception: **"When can I actually see the most important part of this page?"**
 
 ### Common LCP Elements
-- Large images (<img> tags).
+- Large images (img tags).
 - Video poster images.
 - Background images loaded via CSS.
-- Large blocks of text (like h1 or divcontaining paragraphs).
+- Large blocks of text (like h1 or div containing paragraphs).
 
 
 ## Thresholds
