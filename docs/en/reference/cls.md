@@ -4,6 +4,8 @@ Cumulative Layout Shift (CLS) measures how much the elements on a page move arou
 
 Unlike LCP or INP, CLS is not measured in seconds; it is a calculated score based on the "impact fraction" and "distance fraction" of shifting elements.
 
+<img width="932" height="344" alt="cls_061" src="https://github.com/user-attachments/assets/dca11dd8-fded-4e51-87a2-d472e9a03c22" />
+<br>
 
 ### Performance Benchmarks
 * **Good:** 0.1 or less
