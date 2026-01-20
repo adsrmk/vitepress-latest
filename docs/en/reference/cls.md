@@ -7,17 +7,14 @@ Unlike LCP or INP, CLS is not measured in seconds; it is a calculated score base
 <img width="932" height="344" alt="cls_061" src="https://github.com/user-attachments/assets/dca11dd8-fded-4e51-87a2-d472e9a03c22" />
 <br>
 
-### Performance Benchmarks
-* **Good:** 0.1 or less
-* **Needs Improvement:** 0.1 – 0.25
-* **Poor:** Over 0.25
-
 
 ### Common Causes of Shifting
 * **Images without dimensions:** The browser doesn't reserve space, causing text to jump once the image loads.
 * **Ads and Embeds:** Dynamic content that "pops" into the layout late.
 * **Web Fonts:** "Jumping" text when a custom font swaps with a fallback font.
 * **Injected Content:** Banners or forms added via JavaScript above existing content.
+
+<br>
 
 ### Reduce CLS
 * **Set Explicit Dimensions:** Always include `width` and `height` attributes on images and video elements.
