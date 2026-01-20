@@ -26,7 +26,7 @@ To provide a good user experience, sites should strive to have LCP occur within 
 ## Phases of LCP
 Understanding why LCP is slow requires breaking it down into these four sub-parts.
 
-- [Time to First Byte (TTFB)](/ttfb): How long it takes the server to respond.
+- Time to First Byte (TTFB): How long it takes the server to respond.
 - Resource Load Delay: The gap between the first byte and the browser starting to download the LCP image/asset.
 - Resource Load Duration: The time it takes to actually download the LCP asset.
 - Element Render Delay: The time between the asset finishing its download and being painted on the screen.
@@ -35,9 +35,9 @@ Understanding why LCP is slow requires breaking it down into these four sub-part
 ## Improve LCP
 If your LCP is slow, focus on these high-impact optimizations:
 
-- Prioritize the LCP image: Use link rel="preload" or the fetchpriority="high" attribute on your main hero image so the browser knows to download it immediately.
+- Prioritize the LCP Image: Use link rel="preload" or the fetchpriority="high" attribute on your main hero image so the browser knows to download it immediately.
 - Optimize Server Response: Use a Content Delivery Network (CDN) and caching to reduce TTFB.
-- [Compress Images](/compressor): Serve images in modern formats like WebP or AVIF and ensure they are sized correctly for the user's screen.
+- Compress Images: Serve images in modern formats like WebP or AVIF and ensure they are sized correctly for the user's screen.
 - Eliminate Render-Blocking JS/CSS: Ensure that heavy scripts aren't stopping the browser from painting the main content.
 
 
