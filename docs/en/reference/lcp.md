@@ -14,7 +14,6 @@ It is a "user-centric" metric because it aligns with the user's perception: **"W
 
 
 ## Thresholds
-
 To provide a good user experience, sites should strive to have LCP occur within the first 2.5 seconds of the page starting to load.
 
 | Range        | Status |
@@ -25,7 +24,6 @@ To provide a good user experience, sites should strive to have LCP occur within 
 
 
 ## Phases of LCP
-
 Understanding why LCP is slow requires breaking it down into these four sub-parts.
 
 - [Time to First Byte (TTFB)](/ttfb): How long it takes the server to respond.
@@ -35,12 +33,11 @@ Understanding why LCP is slow requires breaking it down into these four sub-part
 
 
 ## Improve LCP
-
 If your LCP is slow, focus on these high-impact optimizations:
 
-Prioritize the LCP image: Use <link rel="preload"> or the fetchpriority="high" attribute on your main hero image so the browser knows to download it immediately.
-Optimize Server Response: Use a Content Delivery Network (CDN) and caching to reduce TTFB. 
-[Compress Images](/compressor): Serve images in modern formats like WebP or AVIF and ensure they are sized correctly for the user's screen.
-Eliminate Render-Blocking JS/CSS: Ensure that heavy scripts aren't stopping the browser from painting the main content.
+- Prioritize the LCP image: Use link rel="preload" or the fetchpriority="high" attribute on your main hero image so the browser knows to download it immediately.
+- Optimize Server Response: Use a Content Delivery Network (CDN) and caching to reduce TTFB.
+- [Compress Images](/compressor): Serve images in modern formats like WebP or AVIF and ensure they are sized correctly for the user's screen.
+- Eliminate Render-Blocking JS/CSS: Ensure that heavy scripts aren't stopping the browser from painting the main content.
 
 
