@@ -10,7 +10,7 @@ It is a "user-centric" metric because it aligns with the user's perception: **"W
 - Large images (<img> tags).
 - Video poster images.
 - Background images loaded via CSS.
-- Large blocks of text (like <h1> or <div> containing paragraphs).
+- Large blocks of text (like h1 or divcontaining paragraphs).
 
 
 ## Thresholds
