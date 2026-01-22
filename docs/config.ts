@@ -294,10 +294,10 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
  {
       text: 'Metrics',
       items: [
-        { text: 'Time To First Byte', link: 'ttfb.md' },
-        { text: 'Largest Contentfull Paint', link: 'lcp.md' },
-        { text: 'Interaction to Next Paint', link: 'inp.md' },
-        { text: 'Cumulative Layout Shift', link: 'cls.md' },
+        { text: 'TTFB', link: 'ttfb.md' },
+        { text: 'FCP/LCP', link: 'lcp.md' },
+        { text: 'INP', link: 'inp.md' },
+        { text: 'CLS', link: 'cls.md' },
       ]
     }
         
