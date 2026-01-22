@@ -1,4 +1,4 @@
-# The Web Content Accessibility Guidelines (WCAG)
+# Web Content Accessibility Guidelines
 
 The Web Content Accessibility Guidelines (WCAG) are the global standard for web accessibility. Developed by the World Wide Web Consortium (W3C) in collaboration with individuals and organizations around the world, they provide a shared set of technical standards for making web content more accessible to people with a wide range of disabilities, including visual, auditory, physical, cognitive, and neurological disabilities.
 
