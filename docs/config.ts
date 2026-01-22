@@ -230,17 +230,12 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
       text: 'General',
       items: [
         { text: 'Getting started', link: 'getting-started' },
-        { text: 'Site Config', link: 'site-config' },
+        { text: 'WCAG', link: 'wcag.md' },
         { text: 'Frontmatter Config', link: 'frontmatter-config' },
         { text: 'Runtime API', link: 'runtime-api' },
         { text: 'CLI', link: 'cli' }
       ]
     },
-
-
-
-
-
 
 {
   text: 'Developer Features',
