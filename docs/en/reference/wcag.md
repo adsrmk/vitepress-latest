@@ -25,6 +25,6 @@ WCAG outlines specific, testable success criteria, which are categorized into th
 * **Level AA (Mid-range):** This level addresses more barriers and provides a stronger level of accessibility. Level AA is the most common target for organizations and is the level often cited in legal standards. It provides good accessibility for most users on most devices.
 * **Level AAA (Highest):** This is the highest and most stringent level of conformance. While it provides the best experience for the widest range of users, it is not always possible to satisfy all Level AAA criteria for all types of content. Therefore, it's not recommended as a general policy requirement but is excellent to strive for where possible.
 
-For our purposes, all development should aim to meet WCAG 2.1 Level AA conformance.
+<br>
 
-How does this look as a starting point for the WCAG section?
+For our purposes, all development should aim to meet WCAG 2.1 Level AA conformance.
