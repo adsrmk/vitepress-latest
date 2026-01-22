@@ -4,6 +4,8 @@ The Web Content Accessibility Guidelines (WCAG) are the global standard for web 
 
 While WCAG itself is not a law, it is the benchmark for accessibility, and following these guidelines is the best way to comply with accessibility legislation like the Americans with Disabilities Act (ADA).
 
+<br>
+
 ## The Four Principles of Accessibility (POUR)
 
 WCAG is organized around four fundamental principles, known by the acronym POUR. For content to be accessible, it must be:
@@ -12,6 +14,8 @@ WCAG is organized around four fundamental principles, known by the acronym POUR.
 * **Operable:** Users must be able to operate the interface. The interface cannot require an interaction that a user cannot perform. This includes making all functionality available from a keyboard for users who cannot use a mouse.
 * **Understandable:** Users must be able to understand the information as well as the operation of the user interface. The content and its presentation should be clear, predictable, and avoid unnecessary complexity.
 * **Robust:** Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including current and future assistive technologies. As technologies evolve, the content should remain accessible.
+
+<br>
 
 ## Conformance Levels: A, AA, AAA
 
