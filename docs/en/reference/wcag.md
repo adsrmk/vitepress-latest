@@ -21,6 +21,12 @@ WCAG is organized around four fundamental principles, known by the acronym POUR.
 
 WCAG outlines specific, testable success criteria, which are categorized into three levels of conformance. Each level builds upon the one before it.
 
+<br>
+
+<img width="528" height="471" alt="image" src="https://github.com/user-attachments/assets/2a5bffe8-cb27-4062-8413-158844eadd28" />
+
+<br>
+
 * **Level A (Minimum):** This is the most basic level of accessibility. It addresses the most severe barriers for users with disabilities and is considered essential for any website. Conforming only to Level A will still leave significant barriers for many users.
 * **Level AA (Mid-range):** This level addresses more barriers and provides a stronger level of accessibility. Level AA is the most common target for organizations and is the level often cited in legal standards. It provides good accessibility for most users on most devices.
 * **Level AAA (Highest):** This is the highest and most stringent level of conformance. While it provides the best experience for the widest range of users, it is not always possible to satisfy all Level AAA criteria for all types of content. Therefore, it's not recommended as a general policy requirement but is excellent to strive for where possible.
