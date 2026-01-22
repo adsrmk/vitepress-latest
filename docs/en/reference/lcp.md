@@ -56,8 +56,10 @@ The LCP element is dynamically determined during the page load. It is always one
 *   Block-level text elements (e.g., `<h1>`, `<p>`) containing text nodes.
 *   `<video>` elements (using the poster image load time).
 
+<br>
 
-## LCP vs. FCP: A Developer's Perspective
+
+## LCP vs. FCP
 
 While both metrics measure "paint," they serve distinct purposes in the user journey. FCP is about the start of the loading experience, while LCP is about the completion of the main loading experience.
 
