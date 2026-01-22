@@ -2,7 +2,7 @@
 
 The Web Content Accessibility Guidelines (WCAG) are the global standard for web accessibility. Developed by the World Wide Web Consortium (W3C) in collaboration with individuals and organizations around the world, they provide a shared set of technical standards for making web content more accessible to people with a wide range of disabilities, including visual, auditory, physical, cognitive, and neurological disabilities.
 
-While WCAG itself is not a law, it is the benchmark for accessibility, and following these guidelines is the best way to comply with accessibility legislation like the Americans with Disabilities Act (ADA).
+While WCAG itself is not a law, it is the benchmark for accessibility, and following these guidelines is the best way to comply with accessibility legislation like the Americans with Disabilities Act (ADA). We recommend using [WebAIM](https://wave.webaim.org/) to analyze your site.
 
 <br>
 
