@@ -23,7 +23,7 @@ WCAG outlines specific, testable success criteria, which are categorized into th
 
 <br>
 
-<img width="528" height="471" alt="image" src="https://github.com/user-attachments/assets/2a5bffe8-cb27-4062-8413-158844eadd28" />
+<img width="648" height="431" alt="image" src="https://github.com/user-attachments/assets/8039a371-9606-4c3e-a428-d134f01fbd49" />
 
 <br>
 
