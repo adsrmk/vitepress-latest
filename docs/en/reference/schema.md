@@ -20,10 +20,6 @@ We found that **Chris Haines**, a SEO director and content writer for Ahrefs, ha
 
 
 
-<div class="tip custom-block" style="padding-top: 8px">
-We found that **Chris Haines**, a SEO director and content writer for Ahrefs, has published a [comprehensive guide](https://ahrefs.com/blog/schema-markup/) on how to implement and use schema markup.
-</div>
-
 
 
 
