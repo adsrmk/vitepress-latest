@@ -5,6 +5,9 @@ It tells Google not just that a page has a block of text, but that the text is a
 
 This context allows search engines to display your content as a **Rich Snippet** in search results, leading to higher click-through rates.
 
+<img width="1115" height="547" alt="image" src="https://github.com/user-attachments/assets/44d99997-e037-4bde-940e-89c30e1236a5" />
+
+
 ## Why It’s a Developer’s Job
 
 While some SEO plugins can add basic schema, the most valuable and specific schema often requires custom implementation. You need to programmatically add the correct **JSON-LD** data based on the content of the page.
