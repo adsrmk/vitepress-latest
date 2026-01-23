@@ -276,6 +276,17 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
       ]
     },
 
+
+
+        {
+      text: 'SEO',
+      collapsed: false,
+      items: [
+        { text: 'Schema Markup', link: 'schema.md' }
+      ]
+    },
+
+
       {
       text: 'Performance',
       collapsed: false,
