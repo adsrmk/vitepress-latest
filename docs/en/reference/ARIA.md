@@ -1,4 +1,4 @@
-# ARIA (Accessible Rich Internet Applications)
+# ARIA Attributes
 
 ARIA stands for **Accessible Rich Internet Applications**. It is a set of attributes you can add to HTML elements to provide more information to assistive technologies (like screen readers) when semantic HTML isn't enough. ARIA helps bridge the gap for complex UI components, such as tabs, menus, and live content updates, that don't have a native HTML equivalent.
 
