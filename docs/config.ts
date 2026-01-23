@@ -231,6 +231,7 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
       items: [
         { text: 'Getting started', link: 'getting-started' },
         { text: 'WCAG', link: 'wcag.md' },
+        { text: 'ARIA Roles', link: 'ARIA.md' },
         { text: 'Semantic HTML', link: 'semantic_html.md' },
         { text: 'Runtime API', link: 'runtime-api' },
         { text: 'CLI', link: 'cli' }
@@ -255,7 +256,6 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
         { text: 'Image Compressing', link: 'compressor.md' },
         { text: 'MDN HTTP', link: 'mdn_http.md' }
         
-
       ]
     }
   ]
@@ -281,6 +281,7 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: 'FCGI in memory (tmpfs)', link: 'fcgi_tmpfs.md' },
+        
         { text: 'Preload FCGI Cache', link: 'preload_fcgi.md' },
         { text: 'Speculation Rules API', link: 'speculation_rules_api.md' },
         { text: 'Link Preloading', link: 'preloading.md' },
