@@ -6,7 +6,7 @@ It is the practice of giving content on a page structure and meaning by using th
 Instead of relying on generic `<div>` and `<span>` tags for everything, we use a rich vocabulary of HTML5 elements to describe the content.  
 This makes the code more readable for developers, better for search engines (SEO), and, most importantly, far more accessible for people using assistive technologies like screen readers.
 
-<img width="548" height="773" alt="image" src="https://github.com/user-attachments/assets/442d52c3-e270-415d-81ba-12e6a9f2e297" />
+<img width="686" height="427" alt="image" src="https://github.com/user-attachments/assets/ff809238-7958-4cda-b887-d62690cc18fe" />
 
 
 ## Why Is It Important?
