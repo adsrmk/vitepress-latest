@@ -231,7 +231,7 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
       items: [
         { text: 'Getting started', link: 'getting-started' },
         { text: 'WCAG', link: 'wcag.md' },
-        { text: 'Frontmatter Config', link: 'frontmatter-config' },
+        { text: 'Semantic HTML', link: 'semantic_html.md' },
         { text: 'Runtime API', link: 'runtime-api' },
         { text: 'CLI', link: 'cli' }
       ]
