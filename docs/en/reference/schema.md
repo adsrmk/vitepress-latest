@@ -5,7 +5,7 @@ It tells Google not just that a page has a block of text, but that the text is a
 
 This context allows search engines to display your content as a **Rich Snippet** in search results, leading to higher click-through rates.
 
-<img width="1050" height="501" alt="image" src="https://github.com/user-attachments/assets/6d53baa1-101a-4231-b287-629deb9d4941" />
+<img width="720" height="344" alt="image" src="https://github.com/user-attachments/assets/0088f4a8-eed9-40fd-86a8-1f91a90082bc" />
 
 <br>
 
