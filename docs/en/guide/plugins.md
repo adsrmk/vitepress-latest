@@ -19,7 +19,7 @@ Each plugin displays a clear status badge to help you identify its current state
 - **Enable auto-updates:** Set specific plugins to update automatically whenever a new version is released by the developer. If a plugin is out of date, a dedicated notification box will appear detailing that a new version is available.
 
 
-<img width="708" height="68" alt="image" src="https://github.com/user-attachments/assets/4442c74a-5cf5-4687-85bb-87b48241da4c" />
+<img width="692" height="71" alt="image" src="https://github.com/user-attachments/assets/5010d0b5-413a-4c4f-a6d0-60b306f2e86c" />
 
 
 <br>
