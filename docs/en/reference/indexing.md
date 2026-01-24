@@ -8,10 +8,8 @@ The primary tools at our disposal are the `robots.txt` file, the meta robots tag
 
 ## 1. The robots.txt File
 
-The **robots.txt** file is a plain text file located at the root of your domain (e.g. `yourdomain.com/robots.txt`). It’s the first place a compliant bot will look before crawling your site.
+The **robots.txt** file is a plain text document located at your domain's root (e.g., `yourdomain.com/robots.txt) that compliant bots consult before crawling; its purpose is to provide broad instructions by specifying which sections of your site bots should not attempt to access.
 
-### Purpose
-Give broad instructions to bots, telling them which large sections of the site they should not attempt to crawl.
 
 ### Best For
 - Blocking access to backend areas (`/wp-admin/`)
@@ -50,10 +48,8 @@ Sitemap: https://www.yourdomain.com/sitemap_index.xml
 
 ## 2. The `meta name="robots"` Tag
 
-This is an HTML tag placed in the `<head>` of a specific page. It gives crawlers explicit instructions on how to handle that single page. It is far more definitive than `robots.txt` for controlling indexing.
+The Meta Robots Tag is an HTML element placed within the `<head>` of a specific page to provide crawlers with explicit instructions on how to handle that single URL. Its purpose is to control the indexing and link-following behavior for an individual page, offering a far more definitive method than `robots.txt` for ensuring specific content does not appear in search results.
 
-### Purpose
-Control the indexing and link-following behavior for an individual page.
 
 ### Key Directives
 
