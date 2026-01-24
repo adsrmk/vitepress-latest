@@ -129,11 +129,11 @@ function block_pdf_indexing() {
 <br>
 
 
-| Task                                                         | `robots.txt` | `meta name="robots"` | `X-Robots-Tag` |
+| Task                                                         | robots.txt | meta name="robots" | X-Robots-Tag |
 | :----------------------------------------------------------- | :----------- | :------------------- | :------------- |
-| **Block crawling of a whole directory (e.g., `/wp-admin/`)** | **Yes**      | No                   | No             |
-| **Prevent a single page from appearing in search results**   | No           | **Yes**              | Yes            |
-| **Prevent a PDF or image file from being indexed**           | No           | No                   | **Yes**        |
-| **Save crawl budget on low-value sections**                  | **Yes**      | Yes                  | Yes            |
+| Block crawling of a whole directory (e.g., `/wp-admin/`)| **Yes**      | No                   | No             |
+| Prevent a single page from appearing in search results   | No           | **Yes**              | Yes            |
+| Prevent a PDF or image file from being indexed           | No           | No                   | **Yes**        |
+| Save crawl budget on low-value sections                  | **Yes**      | Yes                  | Yes            |
 
 
