@@ -7,11 +7,15 @@ Think of ARIA as a way to add extra context. It tells a screen reader:
 - its current state (e.g., it’s disabled),
 - or one of its properties (e.g., this checkbox is checked).
 
+<br>
+
 ## The First Rule of ARIA: Don’t Use ARIA
 
 The most important principle of ARIA is to use it as a **last resort**. The official W3C specification puts it this way:
 
 > “If you can use a native HTML element or attribute with the semantics and behavior you require already built in, instead of re-purposing an element and adding an ARIA role, state or property to make it accessible, then do so.”
+
+<br>
 
 ### In Practice, This Means
 
@@ -20,6 +24,8 @@ The most important principle of ARIA is to use it as a **last resort**. The offi
 - Instead of `<div role="checkbox" aria-checked="true">`, use `<input type="checkbox" checked>`.
 
 Native HTML elements have built-in keyboard accessibility, focus management, and semantics. When you use ARIA, you are making a promise that you will manually implement all of that expected behavior with JavaScript. Incorrectly used ARIA can make a site **less accessible** than having no ARIA at all.
+
+<br>
 
 ## When to Use ARIA
 
@@ -33,6 +39,9 @@ When content on a page updates dynamically without a page reload (e.g., a “new
 
 ### Providing Additional Labels
 To give an accessible name to an element that has no visible text label, such as an icon-only button.
+
+<br>
+
 
 ## Roles, States, and Properties
 
