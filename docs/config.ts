@@ -282,7 +282,8 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
       text: 'SEO',
       collapsed: false,
       items: [
-        { text: 'Schema Markup', link: 'schema.md' }
+        { text: 'Schema Markup', link: 'schema.md' },
+       { text: 'XML Sitemaps', link: 'sitemap.md' }
       ]
     },
 
