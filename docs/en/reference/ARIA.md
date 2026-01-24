@@ -54,6 +54,8 @@ Describe the current condition or characteristics of an element.
 - `aria-label="Close"`: Provides an accessible name for an element (e.g., a button with an “X” icon).
 - `aria-required="true"`: Indicates that a form input is required.
 
-## Key Takeaway
+<br>
+
+
 
 Always start with semantic HTML. Only add ARIA to enhance accessibility where native elements fall short, and be sure to test with a screen reader to confirm it behaves as expected.
