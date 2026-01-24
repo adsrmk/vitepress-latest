@@ -99,10 +99,8 @@ function noindex_paginated_archives() {
 
 ## 3. The X-Robots-Tag HTTP Header
 
-This works exactly like the meta robots tag, but it is sent as part of the HTTP response header from the server.
+The X-Robots-Tag functions exactly like a meta robots tag but is sent as part of the HTTP response header from the server, allowing you to provide indexing instructions for non-HTML resources. Its purpose is to control the indexing and link-following behavior for files like PDFs, images, or office documents where standard `<meta>` tags cannot be embedded.
 
-### Purpose
-Provide indexing instructions for resources that are not HTML pages, such as PDFs, images, or documents. Since you cannot add a `<meta>` tag to a PDF file, this is the only way to control its indexing.
 
 ### Implementation
 This is configured at the server level (e.g. `.htaccess` for Apache or `nginx.conf` for Nginx) or programmatically via PHP.
