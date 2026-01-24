@@ -4,6 +4,10 @@ An XML Sitemap is a file that lists all the important URLs on your website, acti
 
 While WordPress (since version 5.5) automatically generates a basic sitemap, developers often need to customize this output for optimal SEO performance.
 
+
+<img width="970" height="771" alt="image" src="https://github.com/user-attachments/assets/7ff85e31-95e1-4708-bfb9-949c5a019d2b" />
+
+
 <br>
 
 ## Why the Default Sitemap Isn’t Always Enough
