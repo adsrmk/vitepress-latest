@@ -1,4 +1,4 @@
-## Crawling and Indexing
+# Indexing
 
 As developers, we have precise tools to tell search engine bots (like Googlebot) how to crawl and index our website. It’s not enough to just create content; we must actively guide search engines to ensure they focus on high-value pages and ignore irrelevant ones. This saves crawl budget and prevents messy search results.
 
