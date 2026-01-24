@@ -98,4 +98,42 @@ function noindex_paginated_archives() {
 }
 ```
 
+<br>
+
+
+## 3. The X-Robots-Tag HTTP Header
+
+This works exactly like the meta robots tag, but it is sent as part of the HTTP response header from the server.
+
+### Purpose
+Provide indexing instructions for resources that are not HTML pages, such as PDFs, images, or documents. Since you cannot add a `<meta>` tag to a PDF file, this is the only way to control its indexing.
+
+### Implementation
+This is configured at the server level (e.g. `.htaccess` for Apache or `nginx.conf` for Nginx) or programmatically via PHP.
+
+**Example: Using PHP to prevent PDFs from being indexed**
+```php
+/**
+ * Add an X-Robots-Tag HTTP header to block PDF indexing.
+ */
+add_action('template_redirect', 'block_pdf_indexing');
+
+function block_pdf_indexing() {
+    // Check if the current request is for a PDF file.
+    if ( is_attachment() && strpos( get_post_mime_type(), 'application/pdf' ) !== false ) {
+        header('X-Robots-Tag: noindex,nofollow');
+    }
+}
+```
+
+<br>
+
+
+| Task                                                         | `robots.txt` | `meta name="robots"` | `X-Robots-Tag` |
+| :----------------------------------------------------------- | :----------- | :------------------- | :------------- |
+| **Block crawling of a whole directory (e.g., `/wp-admin/`)** | **Yes**      | No                   | No             |
+| **Prevent a single page from appearing in search results**   | No           | **Yes**              | Yes            |
+| **Prevent a PDF or image file from being indexed**           | No           | No                   | **Yes**        |
+| **Save crawl budget on low-value sections**                  | **Yes**      | Yes                  | Yes            |
+
 
