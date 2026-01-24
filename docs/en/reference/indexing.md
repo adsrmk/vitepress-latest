@@ -105,6 +105,7 @@ The X-Robots-Tag functions exactly like a meta robots tag but is sent as part of
 ### Implementation
 This is configured at the server level (e.g. `.htaccess` for Apache or `nginx.conf` for Nginx) or programmatically via PHP.
 
+
 **Example: Using PHP to prevent PDFs from being indexed**
 ```php
 /**
