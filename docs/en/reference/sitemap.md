@@ -1,4 +1,4 @@
-## Advanced XML Sitemaps in WordPress
+## XML Sitemaps in WordPress
 
 An XML Sitemap is a file that lists all the important URLs on your website, acting as a roadmap for search engine crawlers. It tells them which pages you consider important, when they were last updated, and how frequently they change.
 
