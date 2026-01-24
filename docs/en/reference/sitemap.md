@@ -77,7 +77,7 @@ function exclude_specific_post_from_sitemap( $args, $post_type ) {
 ### 3. Disabling the Core Sitemap Entirely
 If you use a dedicated SEO plugin (e.g. Yoast SEO or Rank Math), disable the core sitemap to avoid conflicts
 
-::: info
+::: tip
 While WordPress core provides a basic XML sitemap, it is strongly recommended to disable it and `use a dedicated SEO plugin` like Yoast SEO, Rank Math, or SEOPress.
 
 These plugins offer superior control, including a user interface for excluding content, automatic generation of image and video sitemaps, and better integration with other SEO features.
