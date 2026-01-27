@@ -7,10 +7,12 @@ Implementing these is a fast, high-impact way to protect your site and its users
 
 You can implement these headers in two primary ways:
 
-### 1. Web Server Configuration (Recommended)
-Configure headers directly in your web server configuration file such as httpd config, or nginx.conf
+### Web Server Configuration
+Configure headers directly in your web server configuration files, such as httpd.conf (Apache) or nginx.conf (Nginx).
 
-### 2. WordPress (PHP-Based)
+If you host your website with us, most of these headers are already configured at the Nginx level. However, some security scanning tools may not detect them correctly. In that case, you can optionally apply the headers using option 2 to ensure they are visible and detected.
+
+### WordPress (PHP-Based)
 Add headers via your theme’s `functions.php` file or a custom plugin using PHP’s `header()` function.
 
 This approach is easier for developers to manage and version control.
@@ -24,7 +26,11 @@ function add_security_headers() {
 }
 ```
 
-### HTTP Strict Transport Security (HSTS)
+
+<br>
+
+
+### 1. HTTP Strict Transport Security (HSTS)
 
 This is the most important header for any site that uses HTTPS. It tells the browser that it should only ever communicate with your site using a secure HTTPS connection.
 What it prevents: SSL stripping and man-in-the-middle attacks, where an attacker tries to downgrade a user's connection from HTTPS to insecure HTTP.
