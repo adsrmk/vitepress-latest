@@ -41,7 +41,7 @@ How it works: After a user's first visit, the browser remembers the HSTS policy.
 // 'preload' is for submission to the HSTS preload list (see below).
 header('Strict-Transport-Security: max-age=31536000; includeSubDomains; preload');
 ```
-
+<br>
 
 ### 2. X-Frame-Options
 
@@ -60,7 +60,7 @@ header('X-Frame-Options: DENY');
 // SAMEORIGIN: Only your own site can embed its pages.
 // header('X-Frame-Options: SAMEORIGIN');
 ```
-
+<br>
 
 ### 3. X-Content-Type-Options
 
@@ -75,7 +75,7 @@ This header has only one valid directive: `nosniff`. It tells the browser to nev
 ```php
 header('X-Content-Type-Options: nosniff');
 ```
-
+<br>
 
 ### 4. Referrer-Policy
 
@@ -93,8 +93,7 @@ It allows you to define a policy that controls how much (or how little) referrer
 // This is a great, secure default that preserves privacy while still allowing analytics to see where traffic came from.
 header('Referrer-Policy: strict-origin-when-cross-origin');
 ```
-
-
+<br>
 
 ### 5. Content-Security-Policy (CSP)
 
@@ -111,7 +110,6 @@ A full CSP implementation requires careful auditing of all assets loaded on your
 // This policy only allows scripts to be loaded from our own domain.
 header("Content-Security-Policy: script-src 'self'");
 ```
-
 
 
 
