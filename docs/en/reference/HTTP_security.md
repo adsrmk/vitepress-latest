@@ -3,8 +3,6 @@
 Beyond firewalls and application-level security, we can give the browser specific instructions on how to behave when handling our site's content. We do this by sending HTTP Security Headers. These headers are sent from the server with every response and act as a set of security policies that the browser agrees to enforce.
 Implementing these is a fast, high-impact way to protect your site and its users from common attacks like clickjacking, cross-site scripting (XSS), and protocol downgrade attacks.
 
-# How to Implement Headers in WordPress
-
 You can implement these headers in two primary ways:
 
 ### Web Server Configuration
