@@ -111,7 +111,11 @@ A full CSP implementation requires careful auditing of all assets loaded on your
 header("Content-Security-Policy: script-src 'self'");
 ```
 
+<br>
 
+
+
+There are many more security header options available, but these are the most commonly used and provide the biggest security gains with minimal configuration.
 
 
 
