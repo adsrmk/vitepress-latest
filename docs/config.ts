@@ -271,11 +271,15 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
         { text: 'Obfuscate Version(s)', link: 'hide_wp.md' },
         { text: 'Disable WP-Login', link: 'backend.md' },
         { text: 'Disable REST-API', link: 'rest_api.md' },
+        { text: 'HTTP Headers', link: 'HTTP_security.md' },
         { text: 'Disable File Editing', link: 'disable_file.md' },
         { text: 'Block User Enumeration', link: 'block_user_enum.md' },
         { text: 'File Permissions', link: 'chmod.md' }
       ]
     },
+
+
+   
 
 
 
