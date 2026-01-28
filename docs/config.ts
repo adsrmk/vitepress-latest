@@ -273,7 +273,7 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
         { text: 'Disable REST-API', link: 'rest_api.md' },
         { text: 'HTTP Headers', link: 'HTTP_security.md' },
         { text: 'Change Database Prefix', link: 'db_prefix.md' },
-        { text: 'Idle session timeout', link: 'session_timeout.md' },
+        { text: 'Idle Session Timeout', link: 'session_timeout.md' },
         { text: 'Disable File Editing', link: 'disable_file.md' },
         { text: 'Block User Enumeration', link: 'block_user_enum.md' },
         { text: 'File Permissions', link: 'chmod.md' }
