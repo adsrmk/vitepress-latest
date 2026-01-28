@@ -92,8 +92,9 @@ Create a new JavaScript file, for example:
 
 <br>
 
-Now, we need to load this script on admin pages and give it the correct logout URL.
-**Add this code to your functions.php**
+Next, we need to load this script on admin pages and set the correct logout URL.  
+> **Note:** Update the **$script_path** if your script isn’t located under `public_html/js/`.
+Add the following to your `functions.php`:
 
 ```php
 /**
