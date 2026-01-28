@@ -100,16 +100,22 @@ Now, we need to load this script on admin pages and give it the correct logout U
  */
 add_action( 'admin_enqueue_scripts', 'enqueue_idle_logout_script' );
 
-function enqueue_idle_logout_script() {
-    // Get the path to the script.
-    $script_path = get_template_directory_uri() . '/js/idle-logout.js';
+function enqueue_idle_logout_script( $hook ) {
+    // Do not load on login page
+    if ( $hook === 'wp-login.php' ) {
+        return;
+    }
+$script_path = site_url('/js/idle-logout.js');
 
-    // Enqueue the script.
-    wp_enqueue_script( 'idle-logout', $script_path, [], '1.0', true );
-
-    // Pass the logout URL to the script using wp_localize_script.
+    wp_enqueue_script(
+        'idle-logout',
+        $script_path,
+        [ 'jquery' ], // ensures proper load order
+        '1.0',
+        true
+    );
     wp_localize_script( 'idle-logout', 'idle_logout_vars', [
-        'logout_url' => wp_logout_url( home_url() ) // Redirect to homepage after logout
+        'logout_url' => wp_logout_url( home_url() )
     ]);
 }
 ```
