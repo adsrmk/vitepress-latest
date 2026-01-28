@@ -16,10 +16,12 @@ Without CAPTCHA, bots can attack your website by:
 
 These attacks can slow down your site, fill your database with junk, and create security risks.
 
+<br>
+
+
 ## Types of CAPTCHA
 
 Below is a quick comparison of common CAPTCHA types, highlighting how they work, what the user experience is like, and their level of security
-
 
 | Type           | How it Works                               | User Experience                                                  | Security                                                       |
 | :------------- | :----------------------------------------- | :--------------------------------------------------------------- | :------------------------------------------------------------- |
@@ -28,7 +30,6 @@ Below is a quick comparison of common CAPTCHA types, highlighting how they work,
 | **Invisible**  | Works in the background, no clicks needed. | **Excellent.** Completely frictionless for users.                | **Very High.** The modern standard for security and usability. |
 
 
-## H
 
 
 
