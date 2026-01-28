@@ -5,7 +5,7 @@ By default, a WordPress user session can last for a very long time (up to **14 d
 Implementing an **automatic idle session timeout** is a security best practice that mitigates this risk. We can achieve this with a combination of **PHP** for setting the session duration and **JavaScript** for monitoring user activity.
 
 
-##  The Interactive Idle Timeout (JavaScript + PHP)
+##  Setup Interactive Idle Timeout 
 
 This script is loaded on all admin pages and monitors user activity (mouse movement and key presses).
 
