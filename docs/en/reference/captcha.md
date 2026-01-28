@@ -1,6 +1,7 @@
 # CAPTCHA
 
 CAPTCHA is a security tool used on websites to tell the difference between humans and automated bots. Its goal is to block spam and malicious bots from using your forms while letting real people through easily.
+
 It challenges users with tasks that are easy for humans but hard for bots, such as recognizing distorted text or selecting certain images. Bots typically cannot process these tasks effectively.
 
 
@@ -30,23 +31,4 @@ These attacks can slow down your site, fill your database with junk, and create 
 - Avoid making it too difficult; it should block bots without annoying humans.  
 
 
-## Pros & Cons
 
-**Pros:**  
-- Blocks spam and malicious bots.  
-- Protects user accounts and forms.  
-
-**Cons:**  
-- Can frustrate users if too difficult.  
-- Accessibility issues if alternatives aren’t provided.  
-
-
-## Example Implementation
-
-```html
-<form action="/submit" method="post">
-  <label for="captcha">Enter the text you see:</label>
-  <input type="text" id="captcha" name="captcha">
-  <img src="/captcha_image" alt="CAPTCHA">
-  <button type="submit">Submit</button>
-</form>
