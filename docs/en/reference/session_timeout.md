@@ -89,6 +89,8 @@ Create a new JavaScript file, for example:
 })();
 ```
 
+<br>
+
 Now, we need to load this script on admin pages and give it the correct logout URL.
 **Add this code to your functions.php**
 
