@@ -4,6 +4,7 @@ CAPTCHA is a security tool used on websites to tell the difference between human
 
 It challenges users with tasks that are easy for humans but hard for bots, such as recognizing distorted text or selecting certain images. Bots typically cannot process these tasks effectively.
 
+<br>
 
 ## Risks Without CAPTCHA
 
