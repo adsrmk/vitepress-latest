@@ -124,14 +124,12 @@ $script_path = site_url('/js/idle-logout.js');
 
 ## End result
 
-1. A user logs into the WordPress admin. The PHP filter ensures their session cookie is set to expire in 12 hours, no matter what.
-2. The idle-logout.js script is loaded on the admin page.
-3. The script listens for any user activity. Every time the user moves the mouse, clicks, or types, a 15-minute timer is reset.
-4. If 14 minutes pass with no activity (IDLE_TIMEOUT - WARNING_TIME), the warning dialog appears, and a 60-second countdown begins.
-5. If the user clicks "Stay Logged In," the dialog disappears, and the main 15-minute timer restarts.
-6. If the user does nothing for 60 seconds, the script redirects them to the WordPress logout URL, effectively ending their session.
+1. The idle-logout.js script is loaded on the admin page.
+2. If X minutes pass with no activity (IDLE_TIMEOUT - WARNING_TIME), the warning dialog appears, and a countdown begins.
+3. If the user clicks "Stay Logged In," the dialog disappears, and the main timer restarts.
+4. If the user does nothing for several seconds, the script redirects them to the WordPress logout URL, effectively ending their session.
 
-This two-part system provides a robust and user-friendly way to enforce session timeouts, improving the security posture of your site.
+This system provides a robust and user-friendly way to enforce session timeouts, improving the security posture of your site.
 
 
 
