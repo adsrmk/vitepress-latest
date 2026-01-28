@@ -3,6 +3,8 @@
 Keeping WordPress core, themes, and plugins up-to-date is the most critical security practice for any website. The majority of successful attacks exploit known vulnerabilities in outdated software for which a patch is already available. 
 Relying on a human to log in and click "update" is unreliable. Automation is key to enforcement.
 
+<br>
+
 ### Automatic Updates via wp-config
 
 We can enable automatic updates by adding the appropriate settings to the `wp-config.php` file. This ensures that WordPress core, themes, or plugins are updated automatically without manual intervention.
@@ -25,6 +27,7 @@ add_filter( 'auto_update_plugin', '__return_true' );
 add_filter( 'auto_update_theme', '__return_true' );
 ```
 
+<br>
 
 ### Automatic Updates via Cloud Panel
 
