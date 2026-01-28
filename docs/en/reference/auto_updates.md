@@ -6,12 +6,14 @@ Keeping WordPress core, themes, and plugins up-to-date is one of the most import
 
 ### Automatic Updates via wp-config
 
-We can enable automatic updates by adding the appropriate settings to the `wp-config.php` file. This ensures that WordPress core, themes, or plugins are updated automatically without manual intervention.
-
 ::: warning 
 Updating **theme files** also includes the `functions.php` file. If you have added custom features or modifications, make sure to **save a backup** or copy its contents before updating.  
 Failing to do so will overwrite the file, and all custom code will be lost!
 :::
+
+<br>
+
+We can enable automatic updates by adding the appropriate settings to the `wp-config.php` file. This ensures that WordPress core, themes, or plugins are updated automatically without manual intervention.
 
 ```php
 /**
