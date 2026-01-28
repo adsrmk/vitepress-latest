@@ -35,7 +35,7 @@ Below is a quick comparison of common CAPTCHA types, highlighting how they work,
 
 <br>
 
-## 4. Install
+## Install
 
 The best method for most websites is using a service like Google reCAPTCHA (v3, Invisible).
 
