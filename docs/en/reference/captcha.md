@@ -18,17 +18,18 @@ These attacks can slow down your site, fill your database with junk, and create 
 
 ## Types of CAPTCHA
 
-- **Text-based CAPTCHA**: Users type distorted letters/numbers.  
-- **Image-based CAPTCHA**: Users identify objects in images.  
-- **reCAPTCHA**: Google's system, often invisible, that analyzes behavior.  
-- **Audio CAPTCHA**: For visually impaired users.  
+Below is a quick comparison of common CAPTCHA types, highlighting how they work, what the user experience is like, and their level of security
 
 
-## Best Practices
+| Type           | How it Works                               | User Experience                                                  | Security                                                       |
+| :------------- | :----------------------------------------- | :--------------------------------------------------------------- | :------------------------------------------------------------- |
+| **Text/Image** | You type distorted letters/numbers.        | **Bad.** Annoying and often hard to read.                        | **Low.** Modern bots can easily solve these.                   |
+| **Checkbox**   | You click an "I'm not a robot" box.        | **Good.** Simple for humans, but may ask for an image challenge. | **High.** Very effective at stopping most bots.                |
+| **Invisible**  | Works in the background, no clicks needed. | **Excellent.** Completely frictionless for users.                | **Very High.** The modern standard for security and usability. |
 
-- Use accessible CAPTCHA options for all users.  
-- Place CAPTCHA only where needed (e.g., forms, login pages).  
-- Avoid making it too difficult; it should block bots without annoying humans.  
+
+## H
+
 
 
 
