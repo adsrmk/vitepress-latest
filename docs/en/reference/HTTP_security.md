@@ -8,7 +8,9 @@ You can implement these headers in two primary ways:
 ### Web Server Configuration
 Configure headers directly in your web server configuration files, such as httpd.conf (Apache) or nginx.conf (Nginx).
 
+::: tip
 If you host your website with us, most of these headers are already configured at the Nginx level. However, some security scanning tools may not detect them correctly. In that case, you can optionally apply the headers using option 2 to ensure they are visible and detected.
+:::
 
 ### WordPress (PHP-Based)
 Add headers via your theme’s `functions.php` file or a custom plugin using PHP’s `header()` function.
