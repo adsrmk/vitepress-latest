@@ -9,7 +9,7 @@ You can implement these headers in two primary ways:
 Configure headers directly in your web server configuration files, such as httpd.conf (Apache) or nginx.conf (Nginx).
 
 ::: tip
-If you host your website with us, most of these headers are already configured at the Nginx level. However, some security scanning tools may not detect them correctly. In that case, you can optionally apply the headers using option 2 to ensure they are visible and detected.
+If you host your website with us, most of these headers are already configured at the Nginx level. However, some security scanning tools may not detect them correctly. In that case, you can optionally apply the headers using **option 2 (php-based)** to ensure they are visible and detected.
 :::
 
 ### WordPress (PHP-Based)
