@@ -68,7 +68,8 @@ add_filter('theme_root_uri', function(){
 
 
 ## NGINX security and performance
-For best security practices, block all access to the mu-plugins directory, only the server needs to read this, the rest should be blocked.
+For best security practices, block all access to the mu-plugins directory, only the server needs to read this, the rest should be blocked. 
+At the same time, we can add a cache header for all static content such as images, css and js files under /assets/
 
 ```vhost.conf
 location ~* /mu-plugins/.*\.php$ {
