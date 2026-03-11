@@ -14,6 +14,7 @@ define('WP_CONTENT_URL', '/assets');
 ```
 <br>
 
+
 ### Plugins
 This can also be done for the /plugins directory. Make sure that the first value equals as the one set above, in this case **assets/...**
 
@@ -28,3 +29,18 @@ define('WP_PLUGIN_URL', '/assets/lib');
 ```php /wp-config.php
 define('UPLOADS', 'assets/img');
 ```
+
+If you change the directories, make sure you also rename the folder, or else wordpress cannot find the destined URL
+<img width="1187" height="357" alt="image" src="https://github.com/user-attachments/assets/13c075ec-0f5c-4de4-b621-899b19ced371" />
+
+(optionally) You can also disable uploads into month- and year-based folders. 
+1, Login to Wordpress back-end
+2. Go to **settings** -> **Media**
+3. Untik the selected chechbox and hit save.
+
+<img width="552" height="130" alt="image" src="https://github.com/user-attachments/assets/7f4105aa-ab8a-4d8f-88d8-4e9ac4376e0a" />
+
+
+
+## Rename theme
+
