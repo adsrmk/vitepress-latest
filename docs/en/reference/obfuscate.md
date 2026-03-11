@@ -67,11 +67,16 @@ add_filter('theme_root_uri', function(){
 
 
 
-## block access in NginX
+## NGINX security and performance
 For best security practices, block all access to the mu-plugins directory, only the server needs to read this, the rest should be blocked.
 
 ```vhost.conf
 location ~* /mu-plugins/.*\.php$ {
     deny all;
 }
+location /assets/ {
+    expires 30d;
+    access_log off;
+}
+
 ```
