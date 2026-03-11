@@ -31,7 +31,11 @@ define('UPLOADS', 'assets/img');
 ```
 
 If you change the directories, make sure you also rename the folder, or else wordpress cannot find the destined URL
+In this particulare exmaple:
+- wp-content becomes /assets/
+- plugins becomes /lib/
 <img width="1187" height="357" alt="image" src="https://github.com/user-attachments/assets/13c075ec-0f5c-4de4-b621-899b19ced371" />
+
 
 (optionally) You can also disable uploads into month- and year-based folders. 
 1, Login to Wordpress back-end
@@ -43,4 +47,31 @@ If you change the directories, make sure you also rename the folder, or else wor
 
 
 ## Rename theme
+Unfortunately. wordpress does not have a constant for changing the theme directory, so we must create one under the mu (must use) plugins directory.
 
+1. create a new map under the wp-content directory and name it **mu-plugins**
+2. create a new file and name it theme-core.php
+3. paste the following code and edit your desired theme folder by replacing **core**
+
+```php /wp-content/plugins/mu-plugins
+<?php
+add_filter('theme_root', function(){
+    return WP_CONTENT_DIR . '/core';
+});
+
+add_filter('theme_root_uri', function(){
+    return WP_CONTENT_URL . '/core';
+});
+```
+
+
+
+
+## block access in NginX
+For best security practices, block all access to the mu-plugins directory, only the server needs to read this, the rest should be blocked.
+
+```vhost.conf
+location ~* /mu-plugins/.*\.php$ {
+    deny all;
+}
+```
