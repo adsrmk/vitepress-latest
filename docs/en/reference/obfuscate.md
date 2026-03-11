@@ -78,6 +78,7 @@ location ~* /mu-plugins/.*\.php$ {
 location /assets/ {
     expires 30d;
     access_log off;
+    log_not_found off;
 }
 
 ```
