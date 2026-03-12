@@ -23,6 +23,7 @@ function dequeue_gutenberg_assets() {
 add_action('wp_enqueue_scripts', 'dequeue_gutenberg_assets', 100);
 add_filter('use_block_editor_for_post', '__return_false');
 ```
+<br>
 
 
 ### How it works
