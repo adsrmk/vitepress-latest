@@ -1,7 +1,7 @@
 # Obfuscate WordPress Structure
 
-You can hide the WordPress structure for additional protection against automated scanners and basic attacks.  
-This changes the directories and structural paths used by WordPress.
+You can hide the WordPress structure for additional protection against automated scanners and basic attacks. This changes the directories and structural paths used by WordPress.
+
 > **Note:** This is **not a security feature**. It only obscures WordPress-specific paths and fingerprints.  
 > Proper security measures (updates, firewalls, authentication hardening, etc.) are still required.
 
@@ -9,8 +9,7 @@ This changes the directories and structural paths used by WordPress.
 
 # Rewrites
 
-You can rewrite the `wp-content` directory to any path you prefer.
-Add the following to **wp-config.php** and replace `/assets` with your preferred directory.
+You can rewrite the `wp-content` directory to any path you prefer. Add the following to **wp-config.php** and replace `/assets` with your preferred directory.
 
 ```php
 // wp-config.php
@@ -20,8 +19,7 @@ define('WP_CONTENT_URL', '/assets');
 
 
 ### Plugins
-You can also rewrite the `/plugins` directory.
-Make sure the path matches the directory defined above (`assets/...`).
+You can also rewrite the `/plugins` directory. Make sure the path matches the directory defined above (`assets/...`).
 
 ```php /wp-config.php
 define('WP_PLUGIN_DIR', dirname(__FILE__) . '/assets/lib');
