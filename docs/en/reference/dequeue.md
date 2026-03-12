@@ -3,10 +3,10 @@
 By default, WordPress loads several styles and scripts, even if your site doesn't use them. This can **increase page load time** due to unnecessary assets being loaded.  
 We can prevent WordPress from loading these files by **dequeuing** them.
 
+<br>
 
-## Example: Dequeue Gutenberg 
-
-gutenburg is a built-in block editor that some may not use. For example if your are usting a sitebuilder. 
+**Dequeue Gutenberg**
+Gutenberg is WordPress’s built-in block editor, which some users may not use—especially if they rely on a page builder instead.
 
 
 ```php
