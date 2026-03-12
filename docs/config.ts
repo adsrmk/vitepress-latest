@@ -268,7 +268,7 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: 'Reinstall WP core using CLI', link: 'wp_cli.md' },
-        { text: 'Obfuscate Version(s)', link: 'hide_wp.md' },
+        { text: 'Obfuscate Wordpress', link: 'hide_wp.md' },
         { text: 'Disable WP-Login', link: 'backend.md' },
         { text: 'Disable REST-API', link: 'rest_api.md' },
         { text: 'HTTP Headers', link: 'HTTP_security.md' },
