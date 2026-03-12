@@ -54,6 +54,7 @@ Example mapping:
 | `themes`     | /assets/core |
 | `uploads`    | /assets/img  |
 
+<br>
 
 
 ### Disable Month/Year Upload Folders (Optional)
@@ -67,13 +68,13 @@ To prevent WordPress from creating folders like /2026/03/ inside uploads:
 
 <img width="552" height="130" alt="image" src="https://github.com/user-attachments/assets/7f4105aa-ab8a-4d8f-88d8-4e9ac4376e0a" />
 
-
+<br>
 
 ## Rename Theme Directory
 WordPress does not provide a constant for modifying the theme directory.
 Instead, this can be achieved using a MU (Must Use) plugin.
 
-1. Under the `wp-content` directory, create a new folder and name it **mu-plugins**.  
+1. Under the `wp-content` (or newly named) directory, create a new folder and name it **mu-plugins**.  
 2. Inside this folder, create a new file called `theme-core.php`.  
 3. Open the file and paste the following code, updating the theme folder name by replacing **core** with your desired theme folder.
 
@@ -87,8 +88,7 @@ add_filter('theme_root_uri', function(){
     return WP_CONTENT_URL . '/core';
 });
 ```
-
-
+<br>
 
 
 ## NGINX security and performance
