@@ -22,7 +22,6 @@ define('WP_CONTENT_URL', '/assets');
 
 ### Plugins
 You can also rewrite the `/plugins` directory.
-
 Make sure the path matches the directory defined above (`assets/...`).
 
 ```php /wp-config.php
