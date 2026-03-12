@@ -21,7 +21,6 @@ function dequeue_gutenberg_assets() {
     wp_dequeue_script('wp-editor');                // Editor scripts
 }
 add_action('wp_enqueue_scripts', 'dequeue_gutenberg_assets', 100);
-add_filter('use_block_editor_for_post', '__return_false');
 ```
 <br>
 
