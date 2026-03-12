@@ -1,8 +1,7 @@
 # Obfuscate WordPress Structure
 
 You can hide the WordPress structure for additional protection against automated scanners and basic attacks.  
-This changes the directories and structural paths used by WordPress. You can also rename certain plugin paths.
-
+This changes the directories and structural paths used by WordPress.
 > **Note:** This is **not a security feature**. It only obscures WordPress-specific paths and fingerprints.  
 > Proper security measures (updates, firewalls, authentication hardening, etc.) are still required.
 
