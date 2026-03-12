@@ -1,7 +1,6 @@
 # Dequeue Scripts and Styles
 
-By default, WordPress loads several styles and scripts, even if your site doesn't use them. This can **increase page load time** due to unnecessary assets being loaded.  
-We can prevent WordPress from loading these files by **dequeuing** them.
+By default, WordPress loads several styles and scripts, even if your site doesn't use them. This can **increase page load time** due to unnecessary assets being loaded. We can prevent WordPress from loading these files by **dequeuing** them.
 
 <br>
 
