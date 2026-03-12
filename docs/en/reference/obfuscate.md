@@ -44,6 +44,10 @@ define('UPLOADS', 'assets/img');
 
 <br>
 
+<br>
+
+
+
 Example mapping:
 
 | Default      | New Path       |
