@@ -6,7 +6,7 @@ This changes the directories and structural paths used by WordPress. You can als
 > **Note:** This is **not a security feature**. It only obscures WordPress-specific paths and fingerprints.  
 > Proper security measures (updates, firewalls, authentication hardening, etc.) are still required.
 
----
+
 
 # Rewrites
 
@@ -38,8 +38,12 @@ You can move the uploads directory to a custom path:
 ```php /wp-config.php
 define('UPLOADS', 'assets/img');
 ```
+<br>
 
-If you change these directories, make sure the actual folders on disk are also renamed, otherwise WordPress will not be able to locate them.
+
+> **Note:** If you change these directories, make sure the actual folders on disk are also renamed, otherwise WordPress will not be able to locate them.
+
+<br>
 
 <img width="1187" height="357" alt="image" src="https://github.com/user-attachments/assets/13c075ec-0f5c-4de4-b621-899b19ced371" />
 
