@@ -1,24 +1,26 @@
 import Theme from 'vitepress/theme'
+import { h } from 'vue'
 import 'virtual:group-icons.css'
 import './styles.css'
 
-
-
-
-import DefaultTheme from 'vitepress/theme'
-import { h } from 'vue'
-import CustomSidebar from './CustomSidebar.vue'
-
 export default {
-  ...DefaultTheme,
-  Layout() {
-    return h(DefaultTheme.Layout, null, {
-      'sidebar-nav-before': () => h(CustomSidebar)
-    })
+  ...Theme,
+  enhanceApp({ app }) {
+    if (Theme.enhanceApp) Theme.enhanceApp({ app })
+
+    if (typeof window !== 'undefined') {
+      window.addEventListener('click', (e) => {
+        const clicked = e.target.closest('.VPDocSidebarItem')
+
+        if (!clicked) return
+
+        // close all others
+        document.querySelectorAll('.VPDocSidebarItem.open').forEach(el => {
+          if (el !== clicked) {
+            el.classList.remove('open')
+          }
+        })
+      })
+    }
   }
 }
-
-
-
-
-export default Theme
