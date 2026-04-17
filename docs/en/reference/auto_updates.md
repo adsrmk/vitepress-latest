@@ -23,7 +23,11 @@ We can enable automatic updates by adding the appropriate settings to the `wp-co
 // 1. Enable automatic updates for the Core.
 // This is the default, but it's good to be explicit.
 define( 'WP_AUTO_UPDATE_CORE', true );
+```
+<br>
 
+add these in your functions.php
+```php
 // 2. Enable automatic updates for plugins.
 // This will apply all minor and security updates for plugins.
 add_filter( 'auto_update_plugin', '__return_true' );
