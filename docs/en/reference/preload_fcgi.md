@@ -33,7 +33,7 @@ function fetchUrl($url) {
     $data = curl_exec($ch);
 
     if (curl_error($ch)) {
-        die("❌ CURL ERROR: " . curl_error($ch) . "\n");
+        die("CURL ERROR: " . curl_error($ch) . "\n");
     }
 
 
@@ -46,7 +46,7 @@ function getUrlsFromSitemap($sitemapUrl) {
     $xml = simplexml_load_string($xmlString);
 
     if ($xml === false) {
-        die("❌ XML parsing failed\n");
+        die("XML parsing failed\n");
     }
 
     $urls = [];
@@ -86,7 +86,7 @@ function warmUrl($url) {
 $urls = getUrlsFromSitemap($sitemap);
 
 if (empty($urls)) {
-    die("❌ Geen URLs gevonden\n");
+    die("Geen URLs gevonden\n");
 }
 
 foreach ($urls as $url) {
