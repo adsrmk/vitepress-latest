@@ -13,59 +13,86 @@ To mitigate this, a cache warm-up process can be implemented. This process perio
 3. Update the sitemap URL to match your website configuration.
    
 ```php
-$sitemapUrl = 'https://yourdomain.com/sitemap.xml';
+<?php
 
-// 2. Fetch with cURL (Bypasses allow_url_fopen restrictions)
-$ch = curl_init($sitemapUrl);
-curl_setopt_array($ch, [
-    CURLOPT_RETURNTRANSFER => true,
-    CURLOPT_FOLLOWLOCATION => true,
-    CURLOPT_USERAGENT      => 'Sitemap-Warmer-Bot'
-]);
-$xmlContent = curl_exec($ch);
-$httpCode   = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
-if ($httpCode !== 200) {
-    die("Error: Could not fetch sitemap. HTTP Code: $httpCode");
-}
+$sitemap = 'https://yoursite.com/sitemap.xml';
 
-// 3. Parse XML
-$xml = simplexml_load_string($xmlContent);
-if (!$xml) {
-    die("Error: Failed to parse XML. Is the sitemap valid XML?");
-}
+function fetchUrl($url) {
+    $ch = curl_init($url);
 
-// 4. Handle Namespaces (The "White Screen" Fix)
-$ns = $xml->getDocNamespaces();
-$xml->registerXPathNamespace('s', $ns[''] ?? 'http://www.sitemaps.org/schemas/sitemap/0.9');
-$urls = $xml->xpath('//s:url');
-
-if (empty($urls)) {
-    die("Error: No URLs found in sitemap. Check the XML structure.");
-}
-
-// 5. Warm the Cache
-foreach ($urls as $url) {
-    $loc = (string) $url->loc;
-
-    $chWarmer = curl_init($loc);
-    curl_setopt_array($chWarmer, [
+    curl_setopt_array($ch, [
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_FOLLOWLOCATION => true,
-        CURLOPT_TIMEOUT        => 10,
-        CURLOPT_USERAGENT      => 'Nginx-FastCGI-Cache-Warmer',
+        CURLOPT_TIMEOUT => 15,
+        CURLOPT_USERAGENT => 'Mozilla/5.0',
     ]);
 
-    curl_exec($chWarmer);
-    $status = curl_getinfo($chWarmer, CURLINFO_HTTP_CODE);
+    $data = curl_exec($ch);
 
-    echo date('H:i:s') . " [$status] Processing: $loc<br>";
-    
-    // PHP 8.5: No curl_close needed
-    usleep(100000); 
+    if (curl_error($ch)) {
+        die("❌ CURL ERROR: " . curl_error($ch) . "\n");
+    }
+
+
+    return $data;
 }
 
-echo "Done!";
+function getUrlsFromSitemap($sitemapUrl) {
+    $xmlString = fetchUrl($sitemapUrl);
+
+    $xml = simplexml_load_string($xmlString);
+
+    if ($xml === false) {
+        die("❌ XML parsing failed\n");
+    }
+
+    $urls = [];
+
+    foreach ($xml->url as $url) {
+        $urls[] = (string)$url->loc;
+    }
+
+    return $urls;
+}
+
+function warmUrl($url) {
+    $ch = curl_init($url);
+
+    curl_setopt_array($ch, [
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_TIMEOUT => 10,
+
+        CURLOPT_USERAGENT => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+
+        CURLOPT_HTTPHEADER => [
+            'Accept: text/html',
+            'Accept-Language: nl-NL,nl;q=0.9',
+        ],
+    ]);
+
+    $start = microtime(true);
+    curl_exec($ch);
+
+    $code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    $time = round(microtime(true) - $start, 2);
+
+    echo date('H:i:s') . " [$code] ($time s) $url\n";
+}
+
+$urls = getUrlsFromSitemap($sitemap);
+
+if (empty($urls)) {
+    die("❌ Geen URLs gevonden\n");
+}
+
+foreach ($urls as $url) {
+    warmUrl($url);
+    usleep(200000);
+}
 ```
 3. In the Developer Tools, create a new cron job using an execution command. Replace the UUID (Universally Unique Identifier) with your website’s directory name — in this example: `5e43c690-1937-47aa-9ff5-e1c2d7daebb7`.
    
